@@ -13,6 +13,16 @@
 
       gtag('config', 'UA-109341810-3');
     </script>
+    <!-- Note: plugin scripts must be included after the tracking snippet. -->
+    <script src="https://ipmeta.io/plugin.js"></script>
+
+    <script>
+      provideGtagPlugin({
+	  serviceProvider: 'dimension1',
+	  networkDomain: 'dimension2',
+	  networkType: 'dimension3',
+      });
+    </script>
   </head>
   <body class="subpage">
 
