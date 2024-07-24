@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://farmanb.github.io/sitemap.xml
