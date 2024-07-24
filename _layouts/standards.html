@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% assign course = site.data.standards | where: "course_name", page.course_name | first%}
+<h1>{{ course.course_name }}</h1>
+<ol>
+  {% for standard in course.standards %}
+  <li><strong>{{ standard.name }}:</strong> I can
+    <ul>
+      {% for skill in standard.skills %}
+      <li>{{skill}}</li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% endfor %}
+</ol>

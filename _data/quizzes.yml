@@ -1,0 +1,91 @@
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 1
+  name: "Inverse Trigonometric Functions"
+  solutions: "/assets/quizzes/inverse.trig-162-Fall-2019.pdf"
+  date: '9/6/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 2
+  name: "L'Hôpital's Rule"
+  solutions: "/assets/quizzes/lhospital-162-Fall-2019.pdf"
+  date: '9/9/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 3  
+  name: "Area and Volume"
+  solutions: "/assets/quizzes/area.and.volume-162-Fall-2019.pdf"
+  date: '9/20/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 4  
+  name: "Integration by Parts"
+  solutions: "/assets/quizzes/parts-162-Fall-2019.pdf"
+  date: '9/23/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 5  
+  name: "Differential Equations"
+  solutions: "/assets/quizzes/diff.eq-162-Fall-2019.pdf"
+  date: '10/4/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 6  
+  name: "Parametric Curves"
+  solutions: "/assets/quizzes/parametric-162-Fall-2019.pdf"
+  date: '10/9/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 7  
+  name: "Sequences"
+  solutions: "/assets/quizzes/sequences-162-Fall-2019.pdf"
+  date: '10/28/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 8  
+  name: "Geometric Series"
+  solutions: "/assets/quizzes/geometric.series-162-Fall-2019.pdf"
+  date: '11/1/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 9  
+  name: "The Integral Test"
+  solutions: "/assets/quizzes/integral.test-162-Fall-2019.pdf"
+  date: '11/8/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 10  
+  name: "The Comparison Tests"
+  solutions: "/assets/quizzes/comparison.tests-162-Fall-2019.pdf"
+  date: '11/11/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 11  
+  name: "Alternating Series"
+  solutions: "/assets/quizzes/alternating.series-162-Fall-2019.pdf"
+  date: '11/13/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 12  
+  name: "The Ratio and Root Tests"
+  solutions: "/assets/quizzes/ratio.and.root-162-Fall-2019.pdf"
+  date: '11/15/19'
+- semester: Fall
+  year: 2019
+  course_number: 162
+  number: 13  
+  name: "Power Series"
+  solutions: "/assets/quizzes/power.series-162-Fall-2019.pdf"
+  date: '11/20/19'

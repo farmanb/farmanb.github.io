@@ -1,0 +1,524 @@
+- course_name: "Calculus I"
+  standards:
+   - name: "Functions"
+     skills:
+       - "evaluate limits using the Limit Laws,"
+       - "determine whether a function is continuous,"
+       - "use the Intermediate Value Theorem to solve problems."
+   - name: "Derivatives"
+     skills:
+      - "compute the derivative from the Limit Definition,"
+      - "find the line tangent to a function at a point,"
+      - "find the instantaneous rate of change of a function at a point,"
+      - "find the average rate of change of a function on an interval."
+   - name: "Derivative Rules"
+     skills:
+     - "use the power rule to find the derivative of a monomial,"
+     - "use the sum/difference rule to find the derivative of a sum/difference of functions,"
+     - "use the constant multiple rule to find the derivative a constant multiple of a function."
+   - name: "Product and Quotient Rules"
+     skills:
+     - "use the product rule to find the derivative of a product of functions,"
+     - "use the quotient rule to find the derivative of a rational function."
+   - name: "Implicit Differentiation and Related Rates"
+     skills:
+       - "use the method of Implicit Differentiation to solve Related Rates problems."
+   - name: "Chain Rule"
+     skills:
+      - "use the Chain Rule to find the derivative of a composition of functions."
+   - name: "Derivatives and Shape"
+     skills:
+      - "find critical numbers of a function,"
+      - "perform the First Derivative Test,"
+      - "perform the Increasing/Decreasing Test,"
+      - "perform the Second Derivative Test,"
+      - "determine the concavity of a function and find its inflection points."
+   - name: "Asymptotes"
+     skills:
+      - "determine the horizontal asymptotes of a function,"
+      - "determine the vertical asymptotes of a function,"
+      - "determine the slant/oblique asymptotes of a function."
+   - name: "Curve Sketching"
+     skills:
+      - "use the skills from the Derivatives and Shape and Asymptotes standards to sketch a graph of a function."
+   - name: "Closed Interval Method and Optimization"
+     skills:
+      - "find the maximum of a function on a closed interval,"
+      - "find the minimum of a function on a closed interval."
+   - name: "Integrals"
+     skills:
+      - "approximate the area under a curve using Riemann sums,"
+      - "evaluate definite integrals using the limit definition."
+   - name: "Fundamental Theorem of Calculus"
+     skills:
+      - "find the anti-derivative of a given function and evaluate indefinite integrals,"
+      - "use the anti-derivative to evaluate a definite integral."
+   - name: "Substitution"
+     skills:
+     - "use substitution to evaluate indefinite integrals,"
+     - "use substitution to evaluate definite integrals."
+   - name: "Inverse Functions"
+     skills:
+      - "use the properties of the exponential to solve problems,"
+      - "use the properties of the logarithm to solve problems."
+   - name: "Calculus of Inverse Functions"
+     skills:
+      - "evaluate derivatives and integrals involving exponentials,"
+      - "evaluate derivatives and integrals involving logarithms."
+- course_name: "Calculus II"
+  standards:
+  - name: "Inverse Trigonometric Functions"
+    skills:
+     - "differentiate the inverse trigonometric functions,"
+     - "use inverse trigonometric functions to evaluate integrals."
+  - name: "L'H&ocirc;pital's Rule"
+    skills:
+     - "identify the indeterminate forms,"
+     - "evaluate limits involving indeterminate forms."
+  - name: "Area and Volumes"
+    skills:
+     - "compute the area bounded by two curves,"
+     - "find the volume of a solid obtained by revolving a region around an axis."
+  - name: "Integration by Parts"
+    skills:
+    - "identify when it is appropriate to use the method of integration by parts to evaluate an integral,"
+    - "evaluate integrals using the method of integration by parts."
+  - name: "Partial Fraction Decomposition"
+    skills:
+    - "identify the types of partial fraction decompositions,"
+    - "decompose a rational function,"
+    - "integrate rational functions."
+  - name: "Approximate Integration"
+    skills:
+     - "approximate the value of a definite integral using the Trapezoidal Rule,"
+     - "approximate the value of a definite integral using Simpson's Rule,"
+     - "approximate the value of a definite integral using the Midpoint rule,"
+     - "estimate the error associated with each rule."
+  - name: "Improper Integrals"
+    skills:
+     - "evaluate improper integrals of Type 1,"
+     - "evaluate improper integrals of Type 2,"
+     - "use the Comparison Test to decide whether an improper integral converges."
+  - name: "Differential Equations"
+    skills:
+     - "identify whether a given function is a solution to a differential equation,"
+     - "solve initial value problems by the method of Separation of Variables."
+  - name: "Parametric Equations"
+    skills:
+     - "parameterize a curve in the plane,"
+     - "find the line tangent to a point on a parametric curve."
+  - name: "Polar Coordinates"
+    skills:
+     - "sketch polar curves,"
+     - "find the line tangent to a polar curve at a given point."
+  - name: "Sequences"
+    skills:
+     - "find the general term of a sequence from a given pattern,"
+     - "determine whether a sequence is increasing or decreasing,"
+     - "determine whether a function is bounded above or below,"
+     - "use the Monotonic Sequence Theorem to determine if a given sequence converges,"
+     - "find the limit of a sequence."
+  - name: "Geometric Series"
+    skills:
+    - "find the general term of a geometric series,"
+    - "determine whether a geometric series is convergent and, if so, find its sum."
+  - name: "The Integral Test"
+    skills:
+     - "find a function that agrees with the terms of a series on the positive integers,"
+     - "use an improper integral to determine whether a series converges,"
+     - "use the Remainder Estimate to bound the sum of a series."
+  - name: "Comparison Tests"
+    skills:
+     - "use the Comparison Test to determine whether a series converges,"
+     - "use the Limit Comparison Test to determine whether a series converges."
+  - name: "Alternating Series"
+    skills:
+     - "determine whether an alternating series converges,"
+     - "estimate the sum of an alternating series."
+  - name: "Ratio and Root Tests"
+    skills:
+     - "use the ratio test to determine whether a series is absolutely convergent,"
+     - "use the root test to determine whether a series is absolutely convergent,"
+     - "determine whether a series is conditionally convergent."
+  - name: "Power Series"
+    skills:
+     - "determine the radius of convergence for a power series,"
+     - "determine the interval of convergence for a power series." 
+  - name: "Taylor Series"
+    skills:
+     - "compute the Taylor expansion for a function,"
+     - "use Taylor's Inequality to estimate the remainder of a Taylor series,"
+     - "show that a function is equal to its Taylor expansion on its interval of convergence."
+- course_name: "Calculus III"
+  standards:
+   - name: "Vectors and the Geometry of Space 1"
+     skills:
+      - "express vectors with appropriate notation,"
+      - "add vectors,"
+      - "subtract vectors,"
+      - "scale vectors,"
+      - "find the magnitude of a vector,"
+      - "find the direction of a vector."
+   - name: "Vectors and the Geometry of Space 2"
+     skills:
+     - "compute the dot product of two vectors,"
+     - "find the angle between two vectors,"
+     - "determine whether two vectors are orthogonal,"
+     - "compute the orthogonal projection of one vector onto another."
+   - name: "Vectors and the Geometry of Space 3"
+     skills:
+     - "compute the cross product of two given vectors to find a third vector orthogonal to each of the given vectors."
+   - name: "Vectors and the Geometry of Space 4"
+     skills:
+      - "find the equation of a line in space given a point and a vector in space,"
+      - "find the equation of a line in space given two points in space,"
+      - "express a line in space as a vector equation,"
+      - "express a line in space as using parametric equations."
+   - name: "Vectors and the Geometry of Space 5"
+     skills:
+      - "find the equation of a plane given a point and a normal vector in space,"
+      - "find the equation of a plane given three points in space."
+   - name: "Vectors and the Geometry of Space 6"
+     skills:
+      - "match standard quadric surfaces and their standard equations,"
+      - "place the equation of a quadratic surface into standard form."
+   - name: "Vector-Valued Functions 1"
+     skills:
+       - "sketch the graph of a vector-valued function of a single variable,"
+       - "compute limits involving vector-valued functions,"
+       - "determine whether a vector-valued function is continuous at a point."
+   - name: "Vector-Valued Functions 2"
+     skills:
+      - "use the derivative rules to compute the derivative of a vector-valued function,"
+      - "use the derivative rules to find the vector tangent to a point on a space curve,"
+      - "compute the unit tangent vector at a point on a space curve,"
+      - "compute definite and indefinite integrals involving vector-valued functions."
+   - name: "Vector-Valued Functions 3"
+     skills:
+      - "represent the path of an object moving in space using a vector-valued function,"
+      - "compute the velocity, speed, and acceleration of an object moving in space,"
+      - "find the vector-valued function representing the path of an object moving in space given either the acceleration or velocity vector and appropriate initial conditions,"
+      - "recognize straight-line and circular motion."
+   - name: "Vector-Valued Functions 4"
+     skills:
+      - "compute the length of a space curve on a closed interval,"
+      - "parameterize a curve by arc length under appropriate conditions."
+   - name: "Vector-Valued Functions 5"
+     skills:
+      - "compute the curvature of a smooth space curve,"
+      - "compute the principal unit normal vector for a smooth space curve,"
+      - "compute the tangential and normal components of the acceleration,"
+      - "compute the binormal vector for a smooth space curve and interpret the TNB frame,"
+      - "compute the torsion for a smooth space curve."
+   - name: "Functions of Several Variables 1"
+     skills:
+      - "find the domain and range of a function of two real variables,"
+      - "sketch the level curves of a function of two real variables,"
+      - "sketch the level surfaces of a function of three real variables."
+   - name: "Functions of Several Variables 2"
+     skills:
+      - "use the limit laws for functions of two real variables to compute limits,"
+      - "determine whether a function of two real variables is continuous at a point in the domain,"
+      - "define interior point, boundary point, open set, and closed set."
+   - name: "Functions of Several Variables 3"
+     skills:
+      - "compute the partial derivatives for functions of two or more variables,"
+      - "determine whether a function of two variables is differentiable."
+   - name: "Functions of Several Variables 4"
+     skills:
+      - "use the chain rule on functions with one or more independent variables,"
+      - "use implicit differentiation on a function of two variables."
+   - name: "Functions of Several Variables 5"
+     skills:
+      - "compute the directional derivatives of a function of two or more variables,"
+      - "compute the gradient of a function of two or more variables."
+   - name: "Functions of Several Variables 6"
+     skills:
+      - "compute the plane tangent to a surface at a point,"
+      - "approximate a surface near a point using the tangent plane."
+   - name: "Functions of Several Variables 7"
+     skills:
+      - "identify critical points of functions of two variables,"
+      - "use the second derivative test to classify critical points,"
+      - "find maximum/minimum values on closed and bounded sets."
+   - name: "Functions of Several Variables 8"
+     skills:
+      - "use Lagrange Multipliers to find absolute extrema on closed and bounded constraint curves."
+   - name: "Multiple Integration 1"
+     skills:
+      - "use iterated integrals to compute double integrals over a region in the plane,"
+      - "identify when to use polar coordinates to simplify iterated integrals."
+   - name: "Multiple Integration 2"
+     skills:
+      - "use iterated integrals to compute triple integrals over a region in space,"
+      - "identify when to use cylindrical  to simplify iterated integrals,"
+      - "identify when to use spherical coordinates to simplify iterated integrals."
+   - name: "Multiple Integration 3"
+     skills:
+      - "compute the center of mass of an object."
+   - name: "Multiple Integration 4"
+     skills:
+      - "use a change of variables in two and three dimensions to simplify an integral."
+   - name: "Vector Calculus 1"
+     skills:
+     - "match vector fields with their graphs,"
+     - "parameterize curves,"
+     - "evaluate line integrals,"
+     - "interpret line integrals as mass, work, flux, and circulation."
+   - name: "Vector Calculus 2"
+     skills:
+     - "determine whether a vector field is conservative,"
+     - "find the potential function of a conservative vector field,"
+     - "use the Fundamental Theorem for Line Integrals to evaluate line integrals of conservative vector fields."
+   - name: "Vector Calculus 3"
+     skills:
+      - "use Green's Theorem to evaluate line integrals of vector fields."
+   - name: "Vector Calculus 4"
+     skills:
+      - "compute the divergence and curl of a vector field."
+   - name: "Vector Calculus 5"
+     skills:
+     - "parameterize a given surface,"
+     - "compute surface integrals."
+   - name: "Vector Calculus 6"
+     skills:
+      - "use Stoke's Theorem to evaluate integrals."
+   - name: "Vector Calculus 7"
+     skills:
+     - "use the Divergence Theorem to evaluate integrals."
+- course_name: "Applied Linear Algebra"
+  standards:
+   - name: "Systems of Equations 1"
+     skills:
+     - "identify whether or not a matrix is in Reduced Row Echelon Form,"
+     - "use Gaussian Elimination to put a matrix into Reduced Row Echelon Form,"
+     - "use the Reduced Row Echelon Form of an augmented matrix to describe the solution space to a system of linear equations using appropriate notation."
+   - name: "Systems of Equations 2"
+     skills:
+      - "use Pivot Positions to determine whether a linear system is consistent,"
+      - "determine whether the solution to a consistent linear system is unique."
+   - name: "Vectors and Matrices 1"
+     skills:
+      - "add vectors,"
+      - "scale vectors by a real number,"
+      - "determine whether a vector can be expressed as a linear combination of a set of given vectors. "
+   - name: "Vectors and Matrices 2"
+     skills:
+      - "add matrices,"
+      - "scale matrices by a real number,"
+      - "perform matrix-vector multiplication,"
+      - "perform matrix-matrix multiplication,"
+      - "translate a system of equations into a matrix equation of the form Ax = b."
+   - name: "Vectors and Matrices 3"
+     skills:
+       - "determine whether a vector is in the span of a given set of vectors,"
+       - "describe the span of a set of vectors as a set,"
+       - "use the span to determine whether a linear system is consistent."
+   - name: "Vectors and Matrices 4"
+     skills:
+       - "determine whether a given set of vectors is linearly independent."
+   - name: "Vectors and Matrices 5"    
+     skills: 
+      - "define a matrix transformation,"
+      - "find the domain and range of a matrix transformation,"
+      - "compose matrix transformations,"
+      - "determine whether a given function is a matrix transformation. "
+   - name: "Invertibility and Bases 1"
+     skills:
+     - "use Gaussian Elimination to determine whether a matrix is invertible,"
+     - "find the inverse of an invertible matrix."
+   - name: "Invertibility and Bases 2"
+     skills:
+     - "find a basis for a space,"
+     - "translate between the coordinate systems for different bases."
+   - name: "Invertibility and Bases 3"
+     skills:
+     - "compute the determinant of a given matrix,"
+     - "use the determinant to determine whether a matrix is invertible."
+   - name: "Invertibility and Bases 4"
+     skills:
+     - "find a basis for the null space of a given matrix,"
+     - "find a basis for the column space of a given matrix,"
+     - "determine whether a given set satisfies the definition of a vector space."
+   - name: "Eigentheory 1"
+     skills:
+     - "determine whether a vector is an eigenvector of a given matrix,"
+     - "find the eigenvalue associated to an eigenvector."
+   - name: "Eigentheory 2"
+     skills:
+     - "use the characteristic polynomial to find the eigenvalues of a given matrix,"
+     - "find the algebraic and geometric multiplicities of eigenvalues,"
+     - "find a basis for the eigenspace associated to an eigenvalue."
+   - name: "Eigentheory 3"
+     skills:
+      - "determine whether a given matrix is diagonalizable,"
+      - "diagonalize a diagonalizable matrix."
+   - name: "Orthogonality 1"
+     skills:
+     - "compute the dot product of two vectors,"
+     - "use the dot product to find the angle between two vectors,"
+     - "determine whether two vectors are orthogonal."
+   - name: "Orthogonality 2"
+     skills:
+     - "compute the transpose of a matrix,"
+     - "use the transpose to find a basis for the orthogonal complement of a given vector space."
+   - name: "Orthogonality 3"
+     skills:
+     - "perform Orthogonal Decomposition."
+   - name: "Orthogonality 4" 
+     skills:
+     - "use Gram-Schmidt Orthogonalization to find an orthogonal basis for a given vector space,"
+     - "find an orthonormal basis from an orthogonal basis for a given vector space."
+- course_name: "College Algebra"
+  standards:
+  - name: "Linear Functions 1"
+    skills:
+    - "solve linear and absolute value equations in one variable."
+  - name: "Linear Functions 2"
+    skills:
+    - "solve linear and absolute value inequalities in one variable,"
+    - "express the solutions to inequalities graphically,"
+    - "express the solutions to inequalities using interval notation."
+  - name: "Linear Functions 3"
+    skills:
+    - "graph a line by plotting any two points on the line,"
+    - "determine the slope of the line passing through two points in the plane,"
+    - "write the equation of a line using Point-Slope Form,"
+    - "write the equation of a line using Slope-Intercept Form."
+  - name: "Linear Functions 4"
+    skills:
+    - "determine whether two lines are parallel,"
+    - "determine whether two lines are perpendicular,"
+    - "find the equation of a line parallel to a given line,"
+    - "find the equation of a line perpendicular to a given line."
+  - name: "Linear Functions 5"
+    skills:
+    - "determine whether a system of linear equations in two unknowns is consistent using either elimination or substitution."
+    - "determine whether a system of linear equations in three unknowns is consistent using either elimination or substitution."
+    - "determine whether a consistent linear system has a unique solution,"
+    - "express the solutions to a dependent linear system as a set."
+  - name: "Quadratic Functions 1"
+    skills:
+    - "simplify square roots of negative numbers,"
+    - "add complex numbers,"
+    - "subtract complex numbers,"
+    - "multiply complex numbers,"
+    - "divide complex numbers."
+  - name: "Quadratic Functions 2"
+    skills:
+    - "solve quadratic equations by Completing the Square,"
+    - "solve quadratic equations by Factoring,"
+    - "solve quadratic equations using the Quadratic Formula,"
+    - "solve quadratic equations using the Square Root Method."
+  - name: "Quadratic Functions 3"
+    skills:    
+    - "find the vertex of a quadratic function,"
+    - "find the x-intercepts of a quadratic function,"
+    - "find the y-intercept of a quadratic function,"
+    - "find the line of symmetry of a quadratic function,"
+    - "graph a quadratic function."
+  - name: "Quadratic Functions 4"
+    skills:
+    - "use quadratic functions to solve minimization and maximization problems."
+  - name: "Rational Functions 1"
+    skills:
+    - "determine where a rational expression is undefined,"
+  - name: "Rational Functions 2"
+    skills:    
+    - "combine rational expressions using addition,"
+    - "combine rational expressions using subtraction,"
+    - "combine rational expressions using multiplication,"
+    - "combine rational expressions using division,"
+    - "simplify the rational expressions."
+  - name: "Rational Functions 3"
+    skills:    
+    - "solve an equation involving rational expressions."
+  - name: "Rational Functions 4"
+    skills:    
+    - "determine the asymptotes of a rational function and use this information to graph the function."
+  - name: "Rational Functions 5"
+    skills:    
+    - "solve inequalities involving rational expressions."
+  - name: "Polynomial Functions 1"
+    skills:
+    - "solve general polynomial, polynomial-like, and quadratic-like equations."
+  - name: "Polynomial Functions 2"
+    skills:
+    - "understand the behavior of a polynomial function as the input values become large or large and negative,"
+    - "graph a polynomial function from its factored form."
+  - name: "Polynomial Functions 3"
+    skills:    
+    - "solve polynomial inequalities"
+  - name: "The Cartesian Plane 1"
+    skills:    
+    - "find the distance between two points in the plane,"
+    - "find the midpoint between two points in the plane,"    
+    - "complete the square to put the equation of a circle into standard form,"
+    - "translate between the standard form and the graph of the circle."
+  - name: "General Functions 1"
+    skills:
+    - "find the domain of a given relation,"
+    - "find the codomain of a given relation,"
+    - "find the range of a given relation,"
+    - "determine whether the relation is a function."
+  - name: "General Functions 2"
+    skills:
+    - "evaluate a function at a given algebraic expression."
+  - name: "General Functions 3"
+    skills:
+    - "use transformations to graph a function."
+  - name: "General Functions 4"
+    skills:
+    - "use the graph of a function to determine the intervals where the function is increasing,"
+    - "use the graph of a function to determine the intervals where the function is decreasing,"
+    - "identify extreme values of a function."
+  - name: "General Functions 5"
+    skills:
+    - "determine whether a given function is odd,"
+    - "determine whether a given function is even."
+  - name: "General Functions 6"
+    skills:
+    - "compose functions,"
+    - "decompose functions,"
+    - "identify the domain of a composition."
+  - name: "General Functions 7"
+    skills:
+    - "determine whether a given pair of functions are inverses of one another,"
+    - "determine whether a function is one-to-one,"
+    - "find the inverse of a one-to-one function,"
+    - "use the graph of a one-to-one function to graph its inverse."
+  - name: "Other Functions 1"
+    skills:
+    - "solve equations involving rational exponents,"
+    - "solve equations involving radical equations"
+  - name: "Other Functions 2"
+    skills:
+    - "identify piecewise defined functions,"
+    - "evaluate piecewise defined functions at points in the domain,"
+    - "graph piecewise defined functions."
+  - name: "Exponential and Logarithmic Functions 1"
+    skills:
+    - "identify an exponential function,"
+    - "find the domain of an exponential function,"
+    - "find the range of an exponential function,"
+    - "determine whether an exponential function represents growth or decay,"
+    - "sketch a graph of an exponential function."
+  - name: "Exponential and Logarithmic Functions 2"
+    skills:
+    - "solve applications problems involving exponential functions."
+  - name: "Exponential and Logarithmic Functions 3"
+    skills:
+    - "identify a logarithmic function,"
+    - "find the domain of a logarithmic function,"
+    - "find the range of a logarithmic function,"
+    - "sketch a graph of a logarithmic function"
+  - name: "Exponential and Logarithmic Functions 4"
+    skills:
+    - "evaluate logarithmic functions at points in the domain,"
+    - "use the change-of-base formula as necessary,"
+    - "use the properties of logarithms to combine logarithmic expressions."
+    - "use the properties of logarithms to expand logarithmic expressions."    
+  - name: "Exponential and Logarithmic Functions 5"
+    skills:
+    - "use the properties of exponentials to solve equations,"
+    - "use the properties of logarithms to solve equations."

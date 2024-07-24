@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+{% assign course = site.courses | where: 'course_number', page.course_number | first %}
+<h1> {{course.name}} </h1>
+<h2>{{ page.semester }} {{ page.year}}</h2>
+
+<h2>Course Information</h2>
+{% assign info = site.data.course_info | where_exp: "item", "item.course_number == page.course_number and item.crn == page.crn and item.year == page.year and item.semester == page.semester" | first %}
+<div style="padding-left: 30px">
+  <h3>Lectures</h3>
+  <div style="padding-left: 30px">
+    {% for meeting in info.meetings %}
+    {{ meeting.day }}
+    {% if meeting.time %}
+    : {{ meeting.time }}
+    {% unless meeting == info.meetings.last %}
+    <br/>
+    {% endunless %}
+    {% endif %}
+    {% endfor %}
+    <br/>
+    {{ info.location}}
+  </div>
+  {% assign office_hours = site.data.office_hours | where_exp: "item", "item.year == page.year and item.semester == page.semester" | first %}
+  {% if office_hours.times %}
+  <h3>Office Hours</h3>
+  <div style="padding-left: 30px">
+    <dl>
+      {% for time in office_hours.times %}
+      <dt>{{time.day}}:</dt>
+      {% for hour in time.hours %}
+      <dd>{{hour}}</dd>
+      {% endfor %}
+    {% endfor %}
+    </dl>
+    <p>{{office_hours.location}}</p>
+  </div>
+  {% endif %}
+  {% unless info.no_syllabus %}
+  <h3>Documents</h3>
+  <div style="padding-left: 30px">
+    <p>
+      {% if info.syllabus_override %}
+      <a href="{% link {{ info.syllabus_override }} %}">Syllabus</a>
+      {% else %}
+      <a href="{% link /assets/syllabi/syllabus-{{info.course_number}}-{{info.crn}}.pdf %}">Syllabus</a>
+      {% endif %}
+      {% if info.schedule %}
+    <p>
+      <a href="{% link {{ info.schedule }} %}">Schedule</a>
+    </p>
+    {% endif %}
+  </div>
+  {% endunless %}
+</div>
+{{ content }}

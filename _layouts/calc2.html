@@ -1,0 +1,99 @@
+---
+layout: section
+---
+
+<h2>Animations</h2>
+<div style="padding-left: 30px; width: 100%; overflow: hidden;">
+  <div style="float: left; width: 50%;">
+    <h2>Parametric Curves</h2>
+    <div style="padding-left: 30px;">
+      <ul>
+	{% for anim in site.data.parametric_animations %}
+	<li><a href="{{anim.link}}">{{anim.name}}</a></li>
+	{% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div style="float: left; width: 50%;">
+    <h2>Polar Curves</h2>
+    <div style="padding-left: 30px;">
+      <ul>
+	{% for anim in site.data.polar_animations %}
+	<li><a href="{{anim.link}}">{{anim.name}}</a></li>
+	{% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<h2>Exams</h2>
+<div style="padding-left: 30px">
+
+  <p>
+    In class exams will be held during the usual lecture time.
+    The dates and material covered for the in class exams are listed below.
+  </p>
+
+  <table>
+    <caption>Exam Schedule</caption>
+    <tr>
+      <th>Exam</th>
+      <th>Material Covered</th>
+      <th>Date</th>
+      <th>Solutions</th>
+    </tr>
+    {% assign exams = site.data.exams | where_exp: "item", "item.course_number == page.course_number and item.year == page.year and item.semester == page.semester" | sort: "number" %}
+    {% for exam in exams %}
+    <tr>
+      <td>{{exam.number}}</td>
+      <td>{{ exam.material | join: ", " }}</td>
+      <td>{{ exam.date }}</td>
+      {% if exam.solutions %}
+      <td><a href="{% link {{exam.solutions}} %}">Solutions</a></td>
+      {% else %}
+      <td></td>
+      {% endif %}
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+
+{% assign homework_path = '/assets/calc2/homework' %}
+
+<h2>Homework</h2>
+<div style="padding-left: 30px">
+  <table><caption>Homework Assignments</caption>
+    <tr>
+      <th>Assignment</th>
+      <th>Problems</th>
+      <th>Solutions</th>
+    </tr>
+    {% for homework in site.data.calc2_homework %}
+    <tr>
+      <td> {{ homework.number }}</td>
+      <td> <a href="{% link {{ homework_path }}/{{ homework.file }} %}">{{homework.name}}</a></td>
+      <td> <a href = "{% link {{ homework_path}}/{{ homework.solutions }} %}">Solutions</a> </td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+
+{% assign quizzes = site.data.quizzes | where_exp: "item", "item.course_number == page.course_number and item.year == page.year and item.semester == page.semester" | sort: "number" %}
+{% if quizzes.size > 0 %}
+<h2>Quizzes</h2>
+<div style="padding-left: 30px">
+  <table><caption>Quiz Solutions</caption>
+    <tr>
+      <th>Standard</th>
+      <th>Date</th>
+    </tr>
+    {% for quiz in quizzes %}
+    <tr>
+      <td><a href="{% link {{quiz.solutions}} %}">{{quiz.name}}</a></td>
+      <td>{{quiz.date}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+{% endif %}
+{{ content }}
