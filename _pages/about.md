@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 <h2>About Me</h2>
 I am a Vermonter, born and raised.
 When I'm not doing mathematics, I tend to spend my time outdoors.
-Some of my favorite activities include hiking, backpacking, fly fishing cycling, and snowboarding.
+Some of my favorite activities include hiking, backpacking, fly fishing, cycling, and snowboarding.
 
 <h2>Appointments</h2>
 I am currently an Assistant Professor in the [Mathematics and Statistics Program](https://coes.latech.edu/undergraduate-programs/mathematics-statistics/) within the [College of Engineering and Sciences](https://coes.latech.edu) at [Louisiana Tech University](https://latech.edu).
