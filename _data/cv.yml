@@ -35,8 +35,11 @@
   type: time_table
   contents:
     - title: Assistant Professor
+      institution: Louisiana Tech University
+      year: 2024 - Present
+    - title: Assistant Professor
       institution: University of Louisiana At Monroe
-      year: 2020 - Present
+      year: 2020 - 2024
     - title: Capital One Endowed Professorship in Mathematics
       institution: University of Louisiana At Monroe
       year: 2020 - 2023  

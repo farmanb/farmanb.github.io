@@ -64,16 +64,6 @@
     - day: 'Monday/Tuesday/Thursday/Friday'
       time: '10:00 AM - 10:50 AM'
   location: 'George T. Walker Hall, Room 3 - 90'
-- course_number: 2032
-  crn: 44879
-  year: 2024
-  semester: Fall
-  meetings:
-    - day: 'Monday/Tuesday/Thursday/Friday'
-      time: '10:00 AM - 10:50 AM'
-  location: 'George T. Walker Hall, Room 3 - 95'
-  syllabus_override: 'syllabi/2032/F24/index.html'
-  schedule: 'schedules/2032/F24/schedule.html'    
 - course_number: 2002
   crn: 64042
   year: 2023
@@ -97,16 +87,6 @@
   semester: Spring
   meetings:
     - day: 'Online Only'
-- course_number: 1032
-  crn: 40999
-  year: 2024
-  semester: Fall
-  meetings:
-    - day: 'Monday/Tuesday/Thursday/Friday'
-      time: '11:00 AM - 11:50 AM'
-  location: 'George T. Walker Hall, Room 2 - 51'
-  syllabus_override: 'syllabi/1032/F24/index.html'
-  schedule: 'schedules/1032/F24/schedule.html'    
 - course_number: 1031
   crn: 63789
   year: 2024
@@ -117,16 +97,6 @@
   location: 'George T. Walker Hall, Room 3 - 84'
   syllabus_override: 'syllabi/1031/S24/index.html'
   schedule: 'schedules/1031/S24/schedule.html'
-- course_number: 1031
-  crn: 40997
-  year: 2024
-  semester: Fall
-  meetings:
-    - day: 'Monday/Tuesday/Thursday/Friday'
-      time: '8:00 AM - 8:50 AM'
-  location: 'George T. Walker Hall, Room 3 - 84'
-  syllabus_override: 'syllabi/1031/F24/index.html'
-  schedule: 'schedules/1031/F24/schedule.html'      
 - course_number: 1011
   crn: 63057
   year: 2024

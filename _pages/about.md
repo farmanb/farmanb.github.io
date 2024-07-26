@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Assistant Professor, <a href='https://www.ulm.edu'>University of Louisiana at Monroe</a>.
+subtitle: Assistant Professor, <a href='https://www.latech.edu'>Louisiana Tech University</a>.
 
 profile:
   align: right
@@ -24,9 +24,11 @@ When I'm not doing mathematics, I tend to spend my time outdoors.
 I enjoy hiking, backpacking, cycling, gardening during the summers and snowboarding in the winter.
 
 <h2>Appointments</h2>
-I am currently an Assistant Professor <!-- and the Capital One Endowed Professor of Mathematics --> in the [Mathematics Program](https://ulm.edu/math) within the [School of Sciences](https://www.ulm.edu/sciences/) at the [University of Louisiana at Monroe](https://ulm.edu).
+I am currently an Assistant Professor in the [Mathematics and Statistics Program](https://coes.latech.edu/undergraduate-programs/mathematics-statistics/) within the [College of Engineering and Sciences](https://coes.latech.edu) at [Louisiana Tech University](https://latech.edu).
 I am a recent [Project NExT (New Experiences in Teaching)](https://www.maa.org/programs-and-communities/professional-development/project-next) fellow in the Red '22 cohort.
-I was previously a Visiting Assistant Professor in the [Department of Mathematics](http://math.lafayette.edu) at [Lafayette College](http://lafayette.edu).
+
+I was most recently an Assistant Professor and the Capital One Endowed Professor of Mathematics in the [Mathematics Program](https://ulm.edu/math) within the [School of Sciences](https://www.ulm.edu/sciences/) at the [University of Louisiana at Monroe](https://ulm.edu).
+Before that, I was a Visiting Assistant Professor in the [Department of Mathematics](http://math.lafayette.edu) at [Lafayette College](http://lafayette.edu).
 
 <h2>Education</h2>
 I received my Ph.D. on May 12, 2018 from the [Department of Mathematics](https://sc.edu/study/colleges_schools/artsandsciences/mathematics/index.php) at the [University of South Carolina](https://sc.edu) under the direction of [Matthew Ballard](https://www.matthewrobertballard.com). My dissertation is titled [Geometry of Derived Categories on Noncommutative Projective Schemes](https://scholarcommons.sc.edu/cgi/viewcontent.cgi?article=5742&context=etd).
