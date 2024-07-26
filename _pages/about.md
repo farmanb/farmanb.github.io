@@ -9,10 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>George T. Walker Hall</p>
-    <p>Room 3-34</p>
-    <p>700 University Ave</p>
-    <p>Monroe, LA 71201</p>
+    <p>Louisiana Tech University</p>
+    <p>Ruston, LA 71272</p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -21,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 <h2>About Me</h2>
 I am a Vermonter, born and raised.
 When I'm not doing mathematics, I tend to spend my time outdoors.
-I enjoy hiking, backpacking, cycling, gardening during the summers and snowboarding in the winter.
+Some of my favorite activities include hiking, backpacking, fly fishing cycling, and snowboarding.
 
 <h2>Appointments</h2>
 I am currently an Assistant Professor in the [Mathematics and Statistics Program](https://coes.latech.edu/undergraduate-programs/mathematics-statistics/) within the [College of Engineering and Sciences](https://coes.latech.edu) at [Louisiana Tech University](https://latech.edu).
