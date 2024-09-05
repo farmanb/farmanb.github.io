@@ -1,34 +1,12 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
-
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
-
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
-
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
-
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Ballard":
+  - firstname: ["Ballard", "M.", "M. B.", "Matthew Ballard"]
+    url: https://www.matthewrobertballard.com
+"Clifton":
+  - firstname: ["Clifton", "A.", "A. C.", "Ann Clifton"]
+    url: https://coes.latech.edu/facultystaff-directory/single-entry/name/ann-clifton-1/
+"Long":
+  - firstname: ["Long", "W.", "W. L.", "William Long"]
+    url: https://education.latech.edu/about/faculty-staff/faculty-directory/single-entry/name/william-long/
+"Corbett Cruse":
+  - firstname: ["Corbett Cruse", "K.", "K. C.", "Krystal Corbett Cruse"]
+    url: https://www.latech.edu/faculty-staff/single-entry/name/krystal-corbett/

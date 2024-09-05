@@ -25,7 +25,7 @@ Some of my favorite activities include hiking, backpacking, fly fishing, cycling
 
 <h2>Appointments</h2>
 I am currently an Assistant Professor in the [Mathematics and Statistics Program](https://coes.latech.edu/undergraduate-programs/mathematics-statistics/) within the [College of Engineering and Sciences](https://coes.latech.edu) at [Louisiana Tech University](https://latech.edu).
-I am a recent [Project NExT (New Experiences in Teaching)](https://maa.org/maa-project-next/) fellow in the Red '22 cohort.
+I am a recent [Project NExT (New Experiences in Teaching)](https://www.maa.org/programs-and-communities/professional-development/project-next) fellow in the Red '22 cohort.
 
 I was most recently an Assistant Professor and the Capital One Endowed Professor of Mathematics in the [Mathematics Program](https://ulm.edu/math) within the [School of Sciences](https://www.ulm.edu/sciences/) at the [University of Louisiana at Monroe](https://ulm.edu).
 Before that, I was a Visiting Assistant Professor in the [Department of Mathematics](http://math.lafayette.edu) at [Lafayette College](http://lafayette.edu).
@@ -35,7 +35,7 @@ I received my Ph.D. on May 12, 2018 from the [Department of Mathematics](https:/
 
 Before that I completed an M.S. in Mathematics at the [University of Vermont](https://uvm.edu) and a B.S. in Computer Science at [Rensselaer Polytechnic Institute](https://rpi.edu).
 
-Thanks to the [Mathematics Genealogy Project](https://www.genealogy.math.ndsu.nodak.edu/) at [North Dakota State University](https://www.ndsu.edu/math/), you can view my [Academic Genealogy]({% link assets/pdf/genealogy-farman.pdf %}).
+Thanks to the [Mathematics Genealogy Project](https://www.genealogy.math.ndsu.nodak.edu/) at [North Dakota State University](https://www.ndsu.edu/math/), you can view my [Academic Genealogy]({% link /assets/pdf/genealogy-farman.pdf %}).
 More general information about me can be found on my [Curriculum Vitae]({% link _pages/cv.md %}).
 
 <h2>Research</h2>

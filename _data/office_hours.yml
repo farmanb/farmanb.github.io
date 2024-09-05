@@ -1,0 +1,234 @@
+- year: 2024
+  semester: 'Spring'
+  times:
+   - day: 'Monday'
+     hours:
+      - '8:00 AM - 9:00 AM (Virtual)'
+      - '9:00 AM - 11:00 AM'
+   - day: 'Tuesday'
+     hours:
+      - '8:30 AM - 9:30 AM'
+   - day: 'Wednesday'
+     hours:
+      - '8:00 AM - 9:00 AM (Virtual)'
+      - '9:00 AM - 11:00 AM'
+   - day: 'Thursday'
+     hours:
+      - '8:30 AM - 9:30 AM'
+   - day: 'Friday'
+     hours:
+      - '9:00 AM - 11:00 AM'
+  location: 'George T. Walker Hall, Room 3 - 34'  
+- year: 2023
+  semester: 'Fall'
+  times:
+  - day: 'Monday/Wednesday'
+    hours:
+     - '8:00 AM - 9:00 AM (Virtual)'
+     - '9:00 AM - 12:00 PM'
+     - '12:15 PM - 12:30 PM'
+     - '1:45 PM - 3:30 PM'
+  location: 'George T. Walker Hall, Room 3 - 34'
+- year: 2023
+  semester: 'Spring'
+  times:
+  - day: 'Monday/Wednesday'
+    hours:
+     - '8:00 AM - 11:00 AM'
+     - '12:15 PM - 12:30 PM'
+     - '1:45 PM - 3:30 PM'
+  location: 'George T. Walker Hall, Room 3 - 34'
+- year: 2022
+  semester: 'Fall'
+  times:
+   - day: 'Monday'
+     hours:
+       - '8:00 AM - 10:00 AM'
+       - '12:15 PM - 12:30 PM'
+       - '1:45 PM - 4:00 PM'
+   - day: Wednesday
+     hours:
+      - '8:00 AM - 11:00 AM'
+      - '12:15 PM - 12:30 PM'
+      - '1:45 PM - 4:00 PM'
+  location: 'George T. Walker Hall, Room 3 - 34'
+- year: 2022
+  semester: 'Spring'
+  times:
+  - day: 'Monday/Wednesday'
+    hours:
+      - '8:00 AM - 9:30 AM'
+      - '10:45 AM - 12:30 PM'
+      - '1:45 PM - 2:00 PM'
+      - '3:15 PM - 4:45 PM'
+  location: 'George T. Walker Hall, Room 3 - 34'      
+- year: 2021
+  semester: 'Fall'
+  times:
+  - day: 'Monday/Wednesday'
+    hours:
+      - '9:00 AM - 12:00 PM'
+  - day: 'Tuesday/Thursday'
+    hours:
+      - '2:00 PM - 4:00 PM'
+  location: 'George T. Walker Hall, Room 3 - 34'      
+- year: 2021
+  semester: 'Spring'
+  times:
+  - day: 'Monday - Thursday'
+    hours:
+      - '2:00 PM - 4:30 PM'
+  location: 'George T. Walker Hall, Room 3 - 34'      
+- year: 2020
+  semester: 'Fall'
+  times:
+  - day: 'Monday - Thursday'
+    hours:
+      - '2:00 PM - 4:30 PM'
+  location: 'George T. Walker Hall, Room 3 - 34'      
+- year: 2020
+  semester: 'Spring'
+  times:
+  - day: 'Monday/Wednesday'
+    hours:
+      - '3:00 PM - 4:30 PM'
+  location: 'George T. Walker Hall, Room 3 - 34'      
+- year: 2020
+  semester: 'Spring'
+  times:
+  - day: 'Monday/Wednesday'
+    hours:
+      - '3:00 PM - 4:30 PM'
+  location: 'Pardee Hall, Room 225A'
+- year: 2019
+  semester: 'Fall'
+  times:
+  - day: 'Monday/Wednesday'
+    hours:
+      - '1:30 PM - 3:00 PM'
+  location: 'Pardee Hall, Room 225A'
+- year: 2019
+  semester: 'Spring'
+  times:
+  - day: 'Monday/Wednesday'
+    hours:
+      - '12:30 PM - 2:00 PM'
+  location: 'Pardee Hall, Room 225A'
+- year: 2018
+  semester: 'Fall'
+  times:
+  - day: 'Tuesday/Thursday'
+    hours:
+      - '9:00 AM - 10:30 AM'
+  location: 'Pardee Hall, Room 203'
+- year: 2018
+  semester: 'Spring'
+  times:
+  - day: 'Monday/Wednesday'
+    hours:
+      - '10:30 AM - 12:00 PM'
+  location: 'LeConte College, Room 317N'
+- year: 2017
+  semester: 'Fall'
+  times:
+  - day: 'Tuesday/Thursday'
+    hours:
+      - '4:00 PM - 5:30 PM'
+  location: 'LeConte College, Room 317N'
+- year: 2017
+  semester: 'Spring'
+  times:
+  - day: 'Tuesday/Thursday'
+    hours:
+      - '4:30 PM - 5:30 PM'
+  location: 'LeConte College, Room 317N'
+- year: 2016
+  semester: 'Fall'
+  times:
+  - day: 'Tuesday/Thursday'
+    hours:
+      - '4:00 PM - 5:00 PM'
+  location: 'LeConte College, Room 317N'
+- year: 2016
+  semester: 'Spring'
+  times:
+  - day: 'Monday/Wednesday'
+    hours:
+      - '3:00 PM - 4:30 PM'
+  location: 'LeConte College, Room 317N'
+- year: 2015
+  semester: 'Fall'
+  times:
+  - day: 'Wednesday'
+    hours:
+      - '4:00 PM - 5:00 PM'
+  - day: 'Thursday'
+    hours:
+      - '4:00 PM - 5:00 PM'      
+  location: 'LeConte College, Room 317N'
+- year: 2015
+  semester: 'Spring'
+  times:
+  - day: 'Wednesday/Wednesday'
+    hours:
+      - '12:30 PM - 2:00 PM'
+  location: 'LeConte College, Room 317N'
+- year: 2014
+  semester: 'Fall'
+  times:
+  - day: 'Tuesday/Thursday'
+    hours:
+      - '2:50 PM - 4:20 PM'
+  location: 'LeConte College, Room 400A'
+- year: 2014
+  semester: 'Spring'
+  times:
+  - day: 'Monday/Wednesday'
+    hours:
+      - '4:00 PM - 5:00 PM'
+  location: 'LeConte College, Room 400A'
+- year: 2013
+  semester: 'Fall'
+  times:
+  - day: 'Monday/Thursday'
+    hours:
+      - '4:00 PM - 5:00 PM'
+  location: 'LeConte College, Room 400A'
+- year: 2013
+  semester: 'Summer'
+  times:
+  - day: 'Monday/Wednesday/Friday'
+    hours:
+      - '1:00 PM - 2:00 PM'
+  location: 'LeConte College, Room 107'
+- year: 2013
+  semester: 'Spring'
+  location: 'LeConte College 107'
+- year: 2012
+  semester: 'Fall'
+- year: 2010
+  semester: 'Fall'
+  times:
+  - day: 'Thursday'
+    hours:
+      - '10:00 AM - 12:00 PM'
+  location: 'Lord House, Room 102'
+- year: 2010
+  semester: 'Summer'
+  times:
+  - day: 'By appointment'
+  location: 'Lord House, Room 102'
+- year: 2010
+  semester: 'Spring'
+  times:
+  - day: 'Tuesday/Thursday'
+    hours:
+      - '1:00 PM - 2:00 PM'
+  location: 'Lord House, Room 102'
+- year: 2009
+  semester: 'Fall'
+  times:
+  - day: 'Monday/Wednesday'
+    hours:
+      - '1:00 PM - 3:00 PM'
+  location: 'Lord House, Room 102'      

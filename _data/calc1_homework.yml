@@ -1,0 +1,97 @@
+- name: "Algebra Review"
+  number: 1
+  file: "algebra.review.pdf"
+  date: 1/31/20
+  solutions: "algebra.review-solutions.pdf"
+- name: "Limits"
+  number: 2
+  file: "limits.pdf"
+  date: 2/3/20
+  solutions: "limits-solutions.pdf"
+- name: "Continuity"
+  number: 3
+  file: "continuity.pdf"
+  date: 2/7/20
+  solutions: "continuity-solutions.pdf"
+- name: "Derivatives"
+  number: 4
+  file: "derivatives.pdf"
+  date: 2/12/20
+  solutions: "derivatives-solutions.pdf"
+- name: "Derivative Rules"
+  number: 5
+  file: "derivative.rules.pdf"
+  date: 2/14/20
+  solutions: "derivative.rules-solutions.pdf"
+- name: "Product and Quotient Rules"
+  number: 6
+  file: "product.and.quotient.pdf"
+  date: 2/14/20
+  solutions: "product.and.quotient-solutions.pdf"
+- name: "The Chain Rule"
+  number: 7
+  file: "chain.rule.pdf"
+  date: 2/17/20
+  solutions: "chain.rule-solutions.pdf"
+- name: "Implicit Differentiation"
+  number: 8
+  file: "implicit.diff.pdf"
+  date: 2/24/20
+  solutions: "implicit.diff-solutions.pdf"
+- name: "Related Rates"
+  number: 9
+  file: "related.rates.pdf"
+  date: 2/28/20
+  solutions: "related.rates-solutions.pdf"
+- name: "Mean Value Theorem"
+  number: 10
+  file: "mean.value.theorem.pdf"
+  date: 3/6/20
+  solutions: "mvt-solutions.pdf"
+- name: "Derivatives and Shape of a Graph"
+  number: 11
+  file: "shape.pdf"
+  date: 3/11/20
+  solutions: "shape-solutions.pdf"
+- name: "Limits at Infinity"
+  number: 12
+  file: "limits.at.infinity.pdf"
+  date: 3/27/20
+  solutions: "limits.at.infinity-solutions.pdf"
+- name: "Curve Sketching"
+  number: 13
+  file: "curve.sketching.pdf"
+  date: 3/30/20
+  solutions: "curve.sketching-solutions.pdf"
+- name: "Closed Interval Method and Optimization"
+  number: 14
+  file: "optimization.pdf"
+  date: 4/3/20
+  solutions: "optimization-solutions.pdf"
+- name: "Integration"
+  number: 15
+  file: "integration.pdf"
+  date: 4/17/20
+  solutions: "integration-solutions.pdf"
+- name: "Fundamental Theorem of Calculus"
+  number: 16
+  file: "FTC.pdf"
+  date: 4/24/20
+  solutions: "FTC-solutions.pdf"
+- name: "Substitution"
+  number: 17
+  file: "substitution.pdf"
+  date: 4/24/20
+  solutions: "substitution-solutions.pdf"
+- name: "Inverse Functions"
+  number: 18
+  file: "inverse.functions.pdf"
+  date: 5/8/20
+  solutions: "inverse.functions-solutions.pdf"
+- name: "Calculus of Inverse Functions"
+  number: 19
+  file: "calculus.of.inverse.functions.pdf"
+  date: 5/8/20
+  solutions: "calculus.of.inverse.functions-solutions.pdf"
+
+  

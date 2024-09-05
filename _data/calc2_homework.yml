@@ -1,0 +1,76 @@
+- name: 'Review: Fundamental Theorem of Calculus Solutions'
+  number: 1
+  file: 'FTC.review.pdf'
+  solutions: 'FTC.review-solutions.pdf'
+- name: 'Inverse Trigonometric Functions'
+  number: 2
+  file: 'inverse.trig.pdf'
+  solutions: 'inverse.trig-solutions.pdf'
+- name: "L'Hôpital's Rule"
+  number: 3
+  file: 'lhospital.pdf'
+  solutions: 'lhospital-solutions.pdf'
+- name: 'Area and Volume'
+  number: 4
+  file: 'area.and.volumes.pdf'
+  solutions: 'area.and.volume-solutions.pdf'
+- name: 'Integration By Parts'
+  number: 5
+  file: 'parts.pdf'
+  solutions: 'integration.by.parts-solutions.pdf'
+- name:	'Partial Fraction Decomposition'
+  number: 6
+  file: 'partial.fractions.pdf'
+  solutions: 'partial.fractions-solutions.pdf'
+- name: 'Approximate Integration'
+  number: 7
+  file: 'approximate.integration.pdf'
+  solutions: 'approximate.integration-solutions.pdf'
+- name: 'Improper Integrals'
+  number: 8
+  file: 'improper.integrals.pdf'
+  solutions: 'improper.integrals-solutions.pdf'  
+- name: 'Differential Equations'
+  number: 9
+  file: 'diff.eq.pdf'
+  solutions: 'diff.eq-solutions.pdf'
+- name: 'Parametric Equations'
+  number: 10
+  file: 'parametric.pdf'
+  solutions: 'parametric-solutions.pdf'
+- name: 'Polar Coordinates'
+  number: 11
+  file: 'polar.pdf'
+  solutions: 'polar-solutions.pdf'
+- name: 'Sequences'
+  number: 12
+  file: 'sequences.pdf'
+  solutions: 'sequences-solutions.pdf'
+- name: 'Geometric Series'
+  number: 13
+  file: 'geometric.series.pdf'
+  solutions: 'geometric.series-solutions.pdf'
+- name: 'Integral Test and Estimates of Sums'
+  number: 14
+  file: 'integral.test.pdf'
+  solutions: 'integral.test-solutions.pdf'
+- name: 'Comparison Tests'
+  number: 15
+  file: 'comparison.tests.pdf'
+  solutions: 'comparison.tests-solutions.pdf'
+- name: 'Alternating Series'
+  number: 16
+  file: 'alternating.series.pdf'
+  solutions: 'alternating.series-solutions.pdf'
+- name: 'Ratio and Root Tests'
+  number: 17
+  file: 'ratio.and.root.pdf'
+  solutions: 'ratio.and.root-solutions.pdf'
+- name: 'Power Series'
+  number: 18
+  file: 'power.series.pdf'
+  solutions: 'power.series-solutions.pdf'
+- name: 'Taylor Series'
+  number: 19
+  file: 'taylor.series.pdf'
+  solutions: 'taylor.series-solutions.pdf'  

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<h1>{{ page.name }}</h1>
+<h2>Math {{ page.course_number }}
+  {% if page.former_number %}
+  (Formerly Math {{ page.former_number }})
+  {% endif %}
+</h2>
+
+{{ content }}
+
+<h2>Sections Taught</h2>
+<ul>
+  {% assign sections = site.sections | where: 'course_number', page.course_number | sort: "year" | reverse %}
+  {% for section in sections %}
+  <li><a href="{% link {{ section.path }} %}">{{ section.crn }} ({{section.semester}} {{section.year}})</a></li>
+  {% endfor %}
+</ul>

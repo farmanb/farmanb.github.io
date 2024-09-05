@@ -1,0 +1,543 @@
+- course_number: 243
+  crn: '004'
+  year: 2024
+  semester: Fall
+  meetings:
+    - day: 'Tuesday/Thursday'
+      time: '10:00 AM - 11:50 AM'
+  location: 'IESB, Room 220'
+  syllabus_override: 'assets/syllabi/243/F24/index.html'
+  schedule: 'assets/schedules/243/F24/schedule.html'  
+- course_number: 4007
+  crn: 44692
+  year: 2022
+  semester: Fall
+  meetings:
+    - day: 'Tuesday/Thurdsay'
+      time: '11:00 AM - 12:15 PM'
+  location: 'George T. Walker Hall, Room 3 - 84'
+- course_number: 3086
+  crn: 63395
+  year: 2023
+  semester: Spring
+  meetings:
+    - day: 'Tuesday/Thurdsay'
+      time: '9:30 AM - 10:45 AM'
+  location: 'George T. Walker Hall, Room 3-84'
+- course_number: 3086
+  crn: 44367
+  year: 2021
+  semester: Fall
+  meetings:
+    - day: 'Tuesday/Thurdsay'
+      time: '11:00 AM - 12:15 PM'
+  location: 'George T. Walker Hall, Room 3 - 90'
+- course_number: 3080
+  crn: 44174
+  year: 2023
+  semester: Fall
+  meetings:
+    - day: 'Tuesday/Thursday'
+      time: '11:00 AM - 12:15 PM'
+  location: 'George T. Walker Hall, Room 2 - 84'  
+- course_number: 3080
+  crn: 64863
+  year: 2022
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '9:30 AM - 10:45 AM'
+  location: 'George T. Walker Hall, Room 1 - 116'
+- course_number: 3040
+  crn: 64086
+  year: 2024
+  semester: Spring
+  meetings:
+    - day: 'Tuesday/Thursday'
+      time: '9:30 AM - 10:45 AM'
+  location: 'George T. Walker Hall, Room 2 - 50'
+  syllabus_override: 'assets/syllabi/3040/S24/index.html'
+  schedule: 'assets/schedules/3040/S24/schedule.html'  
+- course_number: 2040
+  crn: 65041
+  year: 2023
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '11:00 AM - 12:15 PM'
+  location: 'George T. Walker Hall, Room 3-84'
+- course_number: 2032
+  crn: 44879
+  year: 2022
+  semester: Fall
+  meetings:
+    - day: 'Monday/Tuesday/Thursday/Friday'
+      time: '10:00 AM - 10:50 AM'
+  location: 'George T. Walker Hall, Room 3 - 90'
+- course_number: 2002
+  crn: 64042
+  year: 2023
+  semester: Spring
+  meetings:
+    - day: 'Tuesday/Thursday'
+      time: '11:00 AM - 12:15 PM'
+  location: 'George T. Walker Hall, Room 3 - 84'
+  syllabus_override: '/assets/syllabi/syllabus-2002-64042-S23.pdf'
+- course_number: 2002
+  crn: 41001
+  year: 2021
+  semester: Fall
+  meetings:
+    - day: 'Tuesday/Thursday'
+      time: '12:30 PM - 1:45 PM'
+  location: 'George T. Walker Hall, Room 3 - 96'
+- course_number: 2002
+  crn: 64042
+  year: 2021
+  semester: Spring
+  meetings:
+    - day: 'Online Only'
+- course_number: 1031
+  crn: 63789
+  year: 2024
+  semester: Spring
+  meetings:
+    - day: 'Monday/Tuesday/Thursday/Friday'
+      time: '11:00 AM - 11:50 AM'
+  location: 'George T. Walker Hall, Room 3 - 84'
+  syllabus_override: 'assets/syllabi/1031/S24/index.html'
+  schedule: 'assets/schedules/1031/S24/schedule.html'
+- course_number: 1011
+  crn: 63057
+  year: 2024
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '11:00 AM - 12:15 PM'
+  location: 'George T. Walker Hall, Room 3 - 91'      
+  syllabus_override: 'assets/syllabi/1011/S24/63057/index.html'
+  schedule: 'assets/schedules/1011/S24/63057/schedule.html'
+- course_number: 1011
+  crn: 63167
+  year: 2024
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '2:00 PM - 3:15 PM'
+  location: 'George T. Walker Hall, Room 3 - 91'
+  syllabus_override: 'assets/syllabi/1011/S24/63167/index.html'
+  schedule: 'assets/schedules/1011/S24/63167/schedule.html'  
+- course_number: 1011
+  crn: 62691
+  year: 2021
+  semester: Spring
+  meetings:
+    - day: 'Online Only'
+- course_number: 1011
+  crn: 62690
+  year: 2021
+  semester: Spring
+  meetings:
+    - day: 'Online Only'
+- course_number: 1011
+  crn: 43013
+  year: 2020
+  semester: Fall
+  meetings:
+    - day: 'Online Only'
+- course_number: 1011
+  crn: 43002
+  year: 2020
+  semester: Fall
+  meetings:
+    - day: 'Online Only'
+- course_number: 1011
+  crn: 42181
+  year: 2020
+  semester: Fall
+  meetings:
+    - day: 'Online Only'
+- course_number: 1007
+  crn: 45282
+  year: 2023
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '12:30 PM - 1:45 PM'
+  location: 'George T. Walker Hall, Room 3 - 53'
+  syllabus_override: '/assets/syllabi/syllabus-1007-45282-F23.pdf'
+- course_number: 1007
+  crn: 45288
+  year: 2023
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '2:00 PM - 3:15 PM'
+  location: 'George T. Walker Hall, Room 3 - 53'
+  syllabus_override: '/assets/syllabi/syllabus-1007-45288-F23.pdf'  
+- course_number: 1007
+  crn: 64979
+  year: 2023
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '12:30 PM - 1:45 PM'
+  location: 'George T. Walker Hall, Room 3 - 90'
+- course_number: 1007
+  crn: 45282
+  year: 2022
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '11:00 AM - 12:15 PM'
+  location: 'George T. Walker Hall, Room 3 - 90'
+- course_number: 1007
+  crn: 45288
+  year: 2022
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '12:30 PM - 1:45 PM'
+  location: 'George T. Walker Hall, Room 3 - 90'
+- course_number: 1007
+  crn: 60847
+  year: 2022
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '12:30 PM - 1:45 PM'
+  location: 'George T. Walker Hall, Room 2 - 51'
+- course_number: 1007
+  crn: 62225
+  year: 2022
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '12:30 PM - 1:45 PM'
+  location: 'George T. Walker Hall, Room 2 - 51'
+- course_number: 1007
+  crn: 40992
+  year: 2021
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '12:30 PM - 1:45 PM'
+  location: 'George T. Walker Hall, Room 3 - 91'
+- course_number: 1007
+  crn: 40994
+  year: 2021
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '2:00 PM - 3:15 PM'
+  location: 'George T. Walker Hall, Room 3 - 91'
+- course_number: 17
+  crn: G
+  year: 2009
+  semester: Fall
+  meetings:
+    - day: 'Tuesday/Thursday'
+      time: '4:00 PM - 5:15 PM'
+  location: 'Lafayette Hall, Room L403'
+  syllabus_override: 'assets/syllabi/UVM/syllabus-17-Fall-2009.html'
+- course_number: 17
+  crn: A
+  year: 2010
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '8:30 AM - 9:20 AM'
+  location: 'Perkins Hall, Room 200'
+  syllabus_override: 'assets/syllabi/UVM/syllabus-17-Spring-2010.html'
+- course_number: 17
+  crn: Z2
+  year: 2010
+  semester: Summer
+  meetings:
+    - day: 'Monday - Thursday'
+      time: '8:30 AM - 11:00 AM'
+  location: 'Votey Hall, Room 209'
+  syllabus_override: 'assets/syllabi/UVM/syllabus-17-Summer-2010.html'
+- course_number: 19
+  crn: S
+  year: 2010
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '1:55 PM - 2:45 PM'
+  location: 'Lafayette Hall, Room L210'  
+  syllabus_override: 'assets/syllabi/UVM/syllabus-19-S.html'
+- course_number: 19
+  crn: W
+  year: 2010
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '3:00 PM - 3:50 PM'
+  location: 'Lafayette Hall, Room L210'    
+  syllabus_override: 'assets/syllabi/UVM/syllabus-19-S.html'
+- course_number: 272
+  crn: Section 01
+  year: 2020
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '3:00 PM - 4:30 PM'
+  location: 'Pardee Hall, Room 321'
+- course_number: 162
+  crn: Section 01
+  year: 2019
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '8:00 AM - 9:15 AM'
+  location: 'Pardee Hall, Room 227'
+- course_number: 162
+  crn: Section 03
+  year: 2019
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '11:00 AM - 12:15 PM'
+  location: 'Pardee Hall, Room 227'
+- course_number: 162
+  crn: Section 06
+  year: 2019
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '2:45 PM - 4:00 PM'
+  location: 'Pardee Hall, Room 201'
+- course_number: 162
+  crn: Section 07
+  year: 2019
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '11:00 AM - 12:15 PM'
+  location: 'Pardee Hall, Room 217'
+- course_number: 161
+  crn: Section 01
+  year: 2020
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '9:30 AM - 10:45 AM'
+  location: 'Pardee Hall, Room 201'
+  syllabus_override: '/assets/syllabi/syllabus-161-01-2020.pdf'
+- course_number: 161
+  crn: Section 02
+  year: 2020
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '11:00 AM - 12:15 PM'
+  location: 'Pardee Hall, Room 201'
+  syllabus_override: '/assets/syllabi/syllabus-161-02.pdf'
+- course_number: 161
+  crn: Section 04
+  year: 2019
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '9:30 AM - 10:45 AM'
+  location: 'Pardee Hall, Room 217'
+  syllabus_override: '/assets/syllabi/syllabus-161-04.pdf'
+- course_number: 161
+  crn: Summer Program for the Advancement of Leadership
+  year: 2019
+  semester: Summer
+  meetings:
+    - day: 'Monday - -Friday'
+      time: '9:00 AM - 11:00 AM'
+  location: 'Pardee Hall, Room 217'
+  syllabus_override: '/assets/syllabi/syllabus-SPAL.pdf'
+- course_number: 161
+  crn: Section 01
+  year: 2018
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '8:00 AM - 9:15 AM'
+  location: 'Pardee Hall, Room 201'
+  syllabus_override: '/assets/syllabi/syllabus-161-01-2018.pdf'
+- course_number: 161
+  crn: Section 04
+  year: 2018
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '11:00 AM - 12:15 PM'
+  location: 'Pardee Hall, Room 201'
+  syllabus_override: '/assets/syllabi/syllabus-161-04-2018.pdf'
+- course_number: 170
+  crn: '002'
+  year: 2016
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '12:00 PM - 12:50 PM'
+  location: 'Callcott Social Sciences Center, Room 101'
+- course_number: 170
+  crn: '007'
+  year: 2014
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '5:30 PM - 6:45 PM'
+  location: 'LeConte College, Room 115'
+- course_number: 142
+  crn: '020'
+  year: 2018
+  semester: Spring
+  meetings:
+    - day: 'Tuesday/Thursday'
+      time: '10:05 AM - 11:20 AM'
+  location: 'Gambrell Hall, Room 103'
+- course_number: 142
+  crn: '004'
+  year: 2014
+  semester: Summer
+  meetings:
+    - day: 'Monday - Friday'
+      time: '10:05 AM - 12:05 PM'
+  location: 'LeConte College, Room 121'
+- course_number: 142
+  crn: '010'
+  year: 2012
+  semester: Fall
+  meetings:
+    - day: 'Wednesday/Friday' 
+      time: '10:10 AM - 11:00 AM'
+  location: 'LeConte College'
+  no_syllabus: true
+- course_number: 142
+  crn: '009'
+  year: 2012
+  semester: Fall
+  meetings:
+    - day: 'Wednesday/Friday' 
+      time: '11:15 AM - 12:05 PM'
+  location: 'LeConte College'  
+  no_syllabus: true
+- course_number: 141
+  crn: '007'
+  year: 2013
+  semester: Spring
+  meetings:
+    - day: 'Wednesday/Friday' 
+      time: '8:00 AM - 8:50 AM'
+  location: 'LeConte College'  
+  no_syllabus: true
+- course_number: 141
+  crn: '008'
+  year: 2013
+  semester: Spring
+  meetings:
+    - day: 'Wednesday/Friday' 
+      time: '9:30 AM - 10:20 AM'
+  location: 'LeConte College'  
+  no_syllabus: true
+- course_number: 122
+  crn: 'E01'
+  year: 2017
+  semester: Spring
+  meetings:
+    - day: 'Tuesday/Thursday' 
+      time: '6:00 PM - 7:15 PM'
+  location: 'LeConte College, Room 101'
+- course_number: 116
+  crn: 'E1B'
+  year: 2016
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday' 
+      time: '5:50 PM - 6:40 PM'
+    - day: 'Tuesday/Thursday' 
+      time: '6:00 PM - 6:50 PM'
+  location: 'LeConte College, Room 121'
+- course_number: 116
+  crn: 'E1B'
+  year: 2015
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday' 
+      time: '5:50 PM - 6:40 PM'
+    - day: 'Tuesday/Thursday' 
+      time: '6:00 PM - 6:50 PM'
+  location: 'LeConte College, Room 121'
+- course_number: 116
+  crn: 'E1B'
+  year: 2013
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday' 
+      time: '7:00 PM - 7:50 PM'
+    - day: 'Tuesday/Thursday' 
+      time: '7:35 PM - 8:25 PM'
+  location: 'LeConte College, Room 121'
+- course_number: 116
+  crn: 'E2B'
+  year: 2016
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday' 
+      time: '7:00 PM - 7:50 PM'
+    - day: 'Tuesday/Thursday' 
+      time: '7:35 PM - 8:25 PM'
+  location: 'LeConte College, Room 121'
+- course_number: 116
+  crn: 'E2B'
+  year: 2015
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday' 
+      time: '7:00 PM - 7:50 PM'
+    - day: 'Tuesday/Thursday' 
+      time: '7:35 PM - 8:25 PM'
+  location: 'LeConte College, Room 121'
+- course_number: 116
+  crn: 'E2B'
+  year: 2013
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday' 
+      time: '7:00 PM - 7:50 PM'
+    - day: 'Tuesday/Thursday' 
+      time: '7:35 PM - 8:25 PM'
+  location: 'LeConte College, Room 121'
+- course_number: 115
+  crn: '011'
+  year: 2014
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday' 
+      time: '3:55 PM - 5:10 PM'
+    - day: 'Tuesday/Thursday' 
+      time: '4:25 PM - 5:15 PM'
+  location: 'LeConte College, Room 101'
+- course_number: 111
+  crn: '006'
+  year: 2017
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday' 
+      time: '6:00 PM - 7:15 PM'
+  location: 'Callcot Social Sciences Center, Room 003'
+  syllabus_override: '/assets/syllabi/syllabus-111-006-2017.pdf'
+- course_number: 111
+  crn: '006'
+  year: 2015
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday/Friday' 
+      time: '10:50 AM - 11:40 AM'
+  location: 'Gambrell Hall, Room 124'
+- course_number: 111
+  crn: 'M13'
+  year: 2013
+  semester: Summer
+  meetings:
+    - day: 'Monday/Wednesday/Friday' 
+      time: '1:00 PM - 2:00 PM'
+  location: 'Welsh Humanities, Room 317'
