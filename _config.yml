@@ -195,8 +195,11 @@ collections:
     output: false
     permalink: /:collection/:title/
   projects:
-    output: true
+    output: false
     permalink: /:collection/:title/
+  courses:
+    output: true
+    permalink: /:collection/:path:output_ext  
 
 announcements:
   enabled: false

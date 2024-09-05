@@ -2,96 +2,102 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Blake A. Farman
     - name: Date of Birth
-      value: 14th March 1879
+      value: 11 October 1987
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Doctor of Philosophy, Mathematics
+      institution: University of South Carolina, Columbia, South Carolina, USA
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Dissertation: Geometry of Derived Categories on Noncommutative Projective Schemes"
+        - "Advisor: Matthew Ballard"
+    - title: Master of Science, Mathematics
+      institution: University of Vermont, Burlington, Vermont, USA
+      year: 2011
       description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
+        - "Major Concentration: Abstract Algebra"
+        - "Minor Concentration: Algebraic Number Theory"
+    - title: Bachelor of Science, Computer Science
+      institution: Rensselaer Polytechnic Institute, Troy, New York, USA
+      year: 2009
+      description:
+      - title: Minors
+        contents:
+         - Applied Mathematics
+         - French
+- title: Appointments
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
+    - title: Assistant Professor
+      institution: Louisiana Tech University
+      year: 2024 - Present
+    - title: Assistant Professor
+      institution: University of Louisiana At Monroe
+      year: 2020 - 2024
+    - title: Capital One Endowed Professorship in Mathematics
+      institution: University of Louisiana At Monroe
+      year: 2020 - 2023  
+    - title: Visiting Assistant Professor
+      institution: Lafayette College, Easton, Pennsylvania, USA
+      year: 2018 - 2020
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
+    - year: 2022
+      items: 
+        - Project NExT Fellow (Red '22)
+- title: Funding
+  type: time_table
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
+    - title: Fourier-Mukai Partners in Noncommutative Algebraic Geometry (Not Funded)
+      institution: Louisiana Board of Regents Support Fund, Research Competitiveness Subprogram
+      year: 2023 - 2025
+      description:
+       - $142,041
+- title: Undergraduate Mentoring and Research Supervision
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Riya Shrestha
+      year: Spring 2024
+      description: Knot Theory research project focused on identifying a family of knots for which there is a winning strategy in the Region Unknot Game.
+    - title: The Entrepreneurship Pelican Cup
+      year: Spring 2023
+      description: Served as faculty advisor for one of the six finalists in the Entrepreneurship Pelican Cup business competition.
+    - title: Sagar Bhetuwal
+      year: Spring 2021
+      description: Number Theory research project focused on providing a formal verification of the proof of the Prime Number Theorem using the Lean proof assistant.
+- title: Conferences and Workshops
+  type: time_table
+  contents:
+    - title: "AMS Mathematics Research Community"
+      institution: "Beaver Hollow Conference Center, Java, NY"
+      year: 2023
+      description: "Derived Categories, Arithmetic and Geometry"
+    - title: "University of Louisiana System For our Future 2023"
+      institution: "Lake Charles, LA"
+      year: 2023
+    - title: "Mathematical Association of America MathFest"
+      institution: "Tampa, FL"
+      description: "Project NExT"
+      year: 2023
+      description: "Project NExT"
+    - title: "Joint Mathematics Meetings"
+      institution: "Boston, MA"
+      year: 2023
+      description: "Project NExT"
+    - title: "Mathematical Association of America MathFest"
+      institution: "Philadelphia, PA"
+      year: 2022
+      description: "Project NExT"
+    - title: "Derived, Birational, and Categorical Algebraic Geometry"
+      institution: "Banff International Research Station, Banff, CA"
+      year: 2021
+    - title: "Derived, Birational, and Categorical Algebraic Geometry (Online)"
+      institution: "Banff International Research Station, Banff, CA"
+      year: 2020

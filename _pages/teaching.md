@@ -1,12 +1,23 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: An overview of my teaching.
 nav: true
 nav_order: 6
+universities: [Louisiana Tech University, University of Louisiana at Monroe, Lafayette College, University of South Carolina, University of Vermont]
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+{% for university in page.universities %}
+<h1>{{ university }}</h1>
+<ul>
+  {% assign my_courses = site.courses | where: 'university', university | sort: "course_number" | reverse %}
+  {% for course in my_courses %}
+  <li>
+    <h2><a href="{% link {{course.path}} %}">{{ course.name }}</a></h2>
+    <!-- <h3>{{ course.position }}</h3> -->
+    <p>{{ course.content | markdownify }}</p>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}
