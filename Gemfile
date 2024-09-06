@@ -74,3 +74,5 @@ gem "jekyll-twitter-plugin", "~> 2.1"
 gem "jemoji", "~> 0.13.0"
 
 gem "css_parser", "~> 1.19"
+
+gem "uglifier", "~> 4.2"
