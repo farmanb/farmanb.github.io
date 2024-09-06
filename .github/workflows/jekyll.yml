@@ -31,9 +31,8 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
+      - name: Install Gems
         run: bundle install
-#      - name: Install Gems
-#        run: bundle install
 #      - name: Check Jekyll version
 #        run: jekyll --version
 #      - name: Setup jupiter
