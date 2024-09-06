@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'jekyll', "~> 4.3.3"
+gem 'observer'
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll-archives'
@@ -27,3 +28,5 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+
+gem "uglifier", "~> 4.2"
