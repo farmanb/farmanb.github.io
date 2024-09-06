@@ -43,6 +43,6 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: Build with Jekyll
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --trace
         env:
           JEKYLL_ENV: production
