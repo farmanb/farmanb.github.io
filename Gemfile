@@ -57,6 +57,5 @@ group :jekyll_plugins do
   gem "jemoji", "~> 0.13.0"
   gem "css_parser", "~> 1.19"
   gem "observer", "~> 0.1.2"
+  gem "ostruct", "~> 0.6.0"
 end
-
-
