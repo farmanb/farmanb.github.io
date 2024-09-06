@@ -30,3 +30,5 @@ gem 'css_parser'
 gem 'feedjira'
 gem 'httparty'
 # end
+
+gem "liquid", "~> 4.0"
