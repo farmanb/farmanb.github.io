@@ -32,6 +32,8 @@ jobs:
         with:
           ruby-version: '3.3'
           bundler-cache: true
+      - name: Bundle
+        run: bundle install
       - name: Check Jekyll version
         run: bundle exec jekyll --version
 #      - name: Setup jupiter
