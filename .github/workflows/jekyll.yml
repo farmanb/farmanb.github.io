@@ -34,5 +34,3 @@ jobs:
           bundler-cache: true
       - name: Setup jupiter
         run: pip3 install --upgrade jupyter
-        env:
-          JEKYLL_ENV: production
