@@ -24,9 +24,6 @@ GEM
     citeproc-ruby (1.1.14)
       citeproc (~> 1.0, >= 1.0.9)
       csl (~> 1.6)
-    classifier-reborn (2.3.0)
-      fast-stemmer (~> 1.0)
-      matrix (~> 0.4)
     colorator (1.1.0)
     concurrent-ruby (1.3.4)
     connection_pool (2.4.1)
@@ -47,7 +44,6 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     execjs (2.9.1)
-    fast-stemmer (1.0.2)
     feedjira (3.2.3)
       loofah (>= 2.3.1, < 3)
       sax-machine (>= 1.0, < 2)
@@ -159,13 +155,6 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     latex-decode (0.4.0)
-    libv8-node (18.19.0.0)
-    libv8-node (18.19.0.0-aarch64-linux)
-    libv8-node (18.19.0.0-aarch64-linux-musl)
-    libv8-node (18.19.0.0-arm64-darwin)
-    libv8-node (18.19.0.0-x86_64-darwin)
-    libv8-node (18.19.0.0-x86_64-linux)
-    libv8-node (18.19.0.0-x86_64-linux-musl)
     liquid (4.0.4)
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -174,11 +163,8 @@ GEM
     loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
-    matrix (0.4.2)
     mercenary (0.4.0)
     mini_mime (1.1.5)
-    mini_racer (0.16.0)
-      libv8-node (~> 18.19.0.0)
     minitest (5.25.1)
     multi_xml (0.7.1)
       bigdecimal (~> 3.1)
@@ -196,8 +182,6 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
-    observer (0.1.2)
-    ostruct (0.6.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.1)
@@ -238,7 +222,6 @@ GEM
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.5.0)
-    unicode_utils (1.4.0)
     webrick (1.8.1)
 
 PLATFORMS
@@ -260,34 +243,27 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  classifier-reborn
-  css_parser
-  feedjira
-  httparty
+  activesupport (~> 7.2)
+  css_parser (~> 1.19)
+  feedjira (~> 3.2)
+  httparty (~> 0.22.0)
   jekyll (~> 4.3.3)
-  jekyll-archives
-  jekyll-email-protect
-  jekyll-feed
-  jekyll-get-json
-  jekyll-imagemagick
-  jekyll-jupyter-notebook
-  jekyll-link-attributes
-  jekyll-minifier
-  jekyll-paginate-v2
-  jekyll-regex-replace
-  jekyll-scholar
-  jekyll-sitemap
-  jekyll-tabs
-  jekyll-toc
-  jekyll-twitter-plugin
-  jemoji
-  liquid (~> 4.0)
-  mini_racer
-  observer
-  ostruct (~> 0.6.0)
-  uglifier (~> 4.1)
-  unicode_utils
-  webrick
+  jekyll-archives (~> 2.2)
+  jekyll-email-protect (~> 1.1)
+  jekyll-feed (~> 0.17.0)
+  jekyll-get-json (~> 1.0)
+  jekyll-imagemagick (~> 1.4)
+  jekyll-jupyter-notebook (~> 0.0.6)
+  jekyll-link-attributes (~> 1.0)
+  jekyll-minifier (~> 0.1.10)
+  jekyll-paginate-v2 (~> 3.0)
+  jekyll-regex-replace (~> 1.1)
+  jekyll-scholar (~> 7.1)
+  jekyll-sitemap (~> 1.4)
+  jekyll-tabs (~> 1.2)
+  jekyll-toc (~> 0.19.0)
+  jekyll-twitter-plugin (~> 2.1)
+  jemoji (~> 0.13.0)
 
 BUNDLED WITH
    2.5.11
