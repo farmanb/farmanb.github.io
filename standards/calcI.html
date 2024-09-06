@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      Calculus I Standards | Blake A. Farman
+    
+  
+</title>
+<meta name="author" content="Blake A. Farman">
+<meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+
+  <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+<!-- Bootstrap Table -->
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+<!-- pseudocode -->
+
+
+
+  <link rel="shortcut icon" href="/assets/img/bulldog.ico?465798751b2b00cca3d1e8c98815ae91">
+
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="https://farmanb.github.io/standards/calcI.html">
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+<!-- GeoJSON support via Leaflet -->
+
+
+<!-- diff2html -->
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          
+            
+              <span class="font-weight-bold">Blake</span>
+            
+            A.
+            Farman
+          
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">About
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/research/">Research
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/publications/">Publications
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/teaching/">Teaching
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/cv/">CV
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+          
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li>
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      
+        
+<h1>Calculus I</h1>
+<ol>
+  
+  <li>
+<strong>Functions:</strong> I can
+    <ul>
+      
+      <li>evaluate limits using the Limit Laws,</li>
+      
+      <li>determine whether a function is continuous,</li>
+      
+      <li>use the Intermediate Value Theorem to solve problems.</li>
+      
+    </ul>
+  </li>
+  
+  <li>
+<strong>Derivatives:</strong> I can
+    <ul>
+      
+      <li>compute the derivative from the Limit Definition,</li>
+      
+      <li>find the line tangent to a function at a point,</li>
+      
+      <li>find the instantaneous rate of change of a function at a point,</li>
+      
+      <li>find the average rate of change of a function on an interval.</li>
+      
+    </ul>
+  </li>
+  
+  <li>
+<strong>Derivative Rules:</strong> I can
+    <ul>
+      
+      <li>use the power rule to find the derivative of a monomial,</li>
+      
+      <li>use the sum/difference rule to find the derivative of a sum/difference of functions,</li>
+      
+      <li>use the constant multiple rule to find the derivative a constant multiple of a function.</li>
+      
+    </ul>
+  </li>
+  
+  <li>
+<strong>Product and Quotient Rules:</strong> I can
+    <ul>
+      
+      <li>use the product rule to find the derivative of a product of functions,</li>
+      
+      <li>use the quotient rule to find the derivative of a rational function.</li>
+      
+    </ul>
+  </li>
+  
+  <li>
+<strong>Implicit Differentiation and Related Rates:</strong> I can
+    <ul>
+      
+      <li>use the method of Implicit Differentiation to solve Related Rates problems.</li>
+      
+    </ul>
+  </li>
+  
+  <li>
+<strong>Chain Rule:</strong> I can
+    <ul>
+      
+      <li>use the Chain Rule to find the derivative of a composition of functions.</li>
+      
+    </ul>
+  </li>
+  
+  <li>
+<strong>Derivatives and Shape:</strong> I can
+    <ul>
+      
+      <li>find critical numbers of a function,</li>
+      
+      <li>perform the First Derivative Test,</li>
+      
+      <li>perform the Increasing/Decreasing Test,</li>
+      
+      <li>perform the Second Derivative Test,</li>
+      
+      <li>determine the concavity of a function and find its inflection points.</li>
+      
+    </ul>
+  </li>
+  
+  <li>
+<strong>Asymptotes:</strong> I can
+    <ul>
+      
+      <li>determine the horizontal asymptotes of a function,</li>
+      
+      <li>determine the vertical asymptotes of a function,</li>
+      
+      <li>determine the slant/oblique asymptotes of a function.</li>
+      
+    </ul>
+  </li>
+  
+  <li>
+<strong>Curve Sketching:</strong> I can
+    <ul>
+      
+      <li>use the skills from the Derivatives and Shape and Asymptotes standards to sketch a graph of a function.</li>
+      
+    </ul>
+  </li>
+  
+  <li>
+<strong>Closed Interval Method and Optimization:</strong> I can
+    <ul>
+      
+      <li>find the maximum of a function on a closed interval,</li>
+      
+      <li>find the minimum of a function on a closed interval.</li>
+      
+    </ul>
+  </li>
+  
+  <li>
+<strong>Integrals:</strong> I can
+    <ul>
+      
+      <li>approximate the area under a curve using Riemann sums,</li>
+      
+      <li>evaluate definite integrals using the limit definition.</li>
+      
+    </ul>
+  </li>
+  
+  <li>
+<strong>Fundamental Theorem of Calculus:</strong> I can
+    <ul>
+      
+      <li>find the anti-derivative of a given function and evaluate indefinite integrals,</li>
+      
+      <li>use the anti-derivative to evaluate a definite integral.</li>
+      
+    </ul>
+  </li>
+  
+  <li>
+<strong>Substitution:</strong> I can
+    <ul>
+      
+      <li>use substitution to evaluate indefinite integrals,</li>
+      
+      <li>use substitution to evaluate definite integrals.</li>
+      
+    </ul>
+  </li>
+  
+  <li>
+<strong>Inverse Functions:</strong> I can
+    <ul>
+      
+      <li>use the properties of the exponential to solve problems,</li>
+      
+      <li>use the properties of the logarithm to solve problems.</li>
+      
+    </ul>
+  </li>
+  
+  <li>
+<strong>Calculus of Inverse Functions:</strong> I can
+    <ul>
+      
+      <li>evaluate derivatives and integrals involving exponentials,</li>
+      
+      <li>evaluate derivatives and integrals involving logarithms.</li>
+      
+    </ul>
+  </li>
+  
+</ol>
+
+      
+    </div>
+
+    <!-- Footer -->
+    
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      © Copyright 2024
+      Blake
+      A.
+      Farman. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
+
+      
+      
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="/assets/js/mdb.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    
+  <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+<!-- Bootstrap Table -->
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
+<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+
+
+    
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
+
+  <script async src="https://badge.dimensions.ai/badge.js"></script>
+
+
+    
+  
+    <!-- MathJax -->
+    <script type="text/javascript">
+      window.MathJax = {
+        tex: {
+          tags: 'ams',
+        },
+      };
+    </script>
+    <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
+
+
+    
+
+    
+
+
+
+    
+  <!-- Scrolling Progress Bar -->
+  <script type="text/javascript">
+    /*
+     * This JavaScript code has been adapted from the article
+     * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar,
+     * published on the website https://css-tricks.com on the 7th of May, 2014.
+     * Couple of changes were made to the original code to make it compatible
+     * with the `al-foio` theme.
+     */
+    const progressBar = $('#progress');
+    /*
+     * We set up the bar after all elements are done loading.
+     * In some cases, if the images in the page are larger than the intended
+     * size they'll have on the page, they'll be resized via CSS to accomodate
+     * the desired size. This mistake, however, breaks the computations as the
+     * scroll size is computed as soon as the elements finish loading.
+     * To account for this, a minimal delay was introduced before computing the
+     * values.
+     */
+    window.onload = function () {
+      setTimeout(progressBarSetup, 50);
+    };
+    /*
+     * We set up the bar according to the browser.
+     * If the browser supports the progress element we use that.
+     * Otherwise, we resize the bar thru CSS styling
+     */
+    function progressBarSetup() {
+      if ('max' in document.createElement('progress')) {
+        initializeProgressElement();
+        $(document).on('scroll', function () {
+          progressBar.attr({ value: getCurrentScrollPosition() });
+        });
+        $(window).on('resize', initializeProgressElement);
+      } else {
+        resizeProgressBar();
+        $(document).on('scroll', resizeProgressBar);
+        $(window).on('resize', resizeProgressBar);
+      }
+    }
+    /*
+     * The vertical scroll position is the same as the number of pixels that
+     * are hidden from view above the scrollable area. Thus, a value > 0 is
+     * how much the user has scrolled from the top
+     */
+    function getCurrentScrollPosition() {
+      return $(window).scrollTop();
+    }
+
+    function initializeProgressElement() {
+      let navbarHeight = $('#navbar').outerHeight(true);
+      $('body').css({ 'padding-top': navbarHeight });
+      $('progress-container').css({ 'padding-top': navbarHeight });
+      progressBar.css({ top: navbarHeight });
+      progressBar.attr({
+        max: getDistanceToScroll(),
+        value: getCurrentScrollPosition(),
+      });
+    }
+    /*
+     * The offset between the html document height and the browser viewport
+     * height will be greater than zero if vertical scroll is possible.
+     * This is the distance the user can scroll
+     */
+    function getDistanceToScroll() {
+      return $(document).height() - $(window).height();
+    }
+
+    function resizeProgressBar() {
+      progressBar.css({ width: getWidthPercentage() + '%' });
+    }
+    // The scroll ratio equals the percentage to resize the bar
+    function getWidthPercentage() {
+      return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+    }
+  </script>
+
+
+    
+
+    
+
+    
+
+    
+  <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
+  <script>
+    addBackToTop();
+  </script>
+
+
+    
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?601a2d3465e2a52bec38b600518d5f70"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script>
+    let searchTheme = determineComputedTheme();
+    const ninjaKeys = document.querySelector('ninja-keys');
+
+    if (searchTheme === 'dark') {
+      ninjaKeys.classList.add('dark');
+    } else {
+      ninjaKeys.classList.remove('dark');
+    }
+
+    const openSearchModal = () => {
+      // collapse navbarNav if expanded on mobile
+      const $navbarNav = $('#navbarNav');
+      if ($navbarNav.hasClass('show')) {
+        $navbarNav.collapse('hide');
+      }
+      ninjaKeys.open();
+    };
+  </script>
+  <script>
+    // get the ninja-keys element
+    const ninja = document.querySelector('ninja-keys');
+
+    // add the home and posts menu items
+    ninja.data = [{
+        id: "nav-about",
+        title: "About",
+        section: "Navigation",
+        handler: () => {
+          window.location.href = "/";
+        },
+      },{id: "nav-research",
+              title: "Research",
+              description: "An overview of my research.",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/research/";
+              },
+            },{id: "nav-publications",
+              title: "Publications",
+              description: "Submitted papers and preprints",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/publications/";
+              },
+            },{id: "nav-teaching",
+              title: "Teaching",
+              description: "An overview of my teaching.",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/teaching/";
+              },
+            },{id: "nav-cv",
+              title: "CV",
+              description: "",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/cv/";
+              },
+            },{id: "courses-017",
+              title: '017',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/017.html";
+                },},{id: "courses-019",
+              title: '019',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/019.html";
+                },},{id: "courses-1007",
+              title: '1007',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/1007.html";
+                },},{id: "courses-1011",
+              title: '1011',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/1011.html";
+                },},{id: "courses-1031",
+              title: '1031',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/1031.html";
+                },},{id: "courses-111",
+              title: '111',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/111.html";
+                },},{id: "courses-115",
+              title: '115',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/115.html";
+                },},{id: "courses-116",
+              title: '116',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/116.html";
+                },},{id: "courses-122",
+              title: '122',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/122.html";
+                },},{id: "courses-141",
+              title: '141',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/141.html";
+                },},{id: "courses-142",
+              title: '142',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/142.html";
+                },},{id: "courses-161",
+              title: '161',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/161.html";
+                },},{id: "courses-162",
+              title: '162',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/162.html";
+                },},{id: "courses-170",
+              title: '170',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/170.html";
+                },},{id: "courses-2002",
+              title: '2002',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/2002.html";
+                },},{id: "courses-2032",
+              title: '2032',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/2032.html";
+                },},{id: "courses-2040",
+              title: '2040',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/2040.html";
+                },},{id: "courses-243",
+              title: '243',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/243.html";
+                },},{id: "courses-272",
+              title: '272',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/272.html";
+                },},{id: "courses-3040",
+              title: '3040',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/3040.html";
+                },},{id: "courses-3080",
+              title: '3080',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/3080.html";
+                },},{id: "courses-3086",
+              title: '3086',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/3086.html";
+                },},{id: "courses-4007",
+              title: '4007',
+              description: "",
+              section: "Courses",handler: () => {
+                  window.location.href = "/courses/4007.html";
+                },},{id: "sections-017-a",
+              title: '017 A',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/017-A.html";
+                },},{id: "sections-017-g",
+              title: '017 G',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/017-G.html";
+                },},{id: "sections-017-z2",
+              title: '017 Z2',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/017-Z2.html";
+                },},{id: "sections-019-s",
+              title: '019 S',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/019-S.html";
+                },},{id: "sections-019-w",
+              title: '019 W',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/019-W.html";
+                },},{id: "sections-1007-45282-f23",
+              title: '1007 45282 F23',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1007-45282-F23.html";
+                },},{id: "sections-1007-45282",
+              title: '1007 45282',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1007-45282.html";
+                },},{id: "sections-1007-45288-f23",
+              title: '1007 45288 F23',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1007-45288-F23.html";
+                },},{id: "sections-1007-45288",
+              title: '1007 45288',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1007-45288.html";
+                },},{id: "sections-1007-64979",
+              title: '1007 64979',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1007-64979.html";
+                },},{id: "sections-1011-42181",
+              title: '1011 42181',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1011-42181.html";
+                },},{id: "sections-1011-43002",
+              title: '1011 43002',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1011-43002.html";
+                },},{id: "sections-1011-43013",
+              title: '1011 43013',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1011-43013.html";
+                },},{id: "sections-1011-62690",
+              title: '1011 62690',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1011-62690.html";
+                },},{id: "sections-1011-62691",
+              title: '1011 62691',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1011-62691.html";
+                },},{id: "sections-1011-63057",
+              title: '1011 63057',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1011-63057.html";
+                },},{id: "sections-1011-63167",
+              title: '1011 63167',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1011-63167.html";
+                },},{id: "sections-1018-40992",
+              title: '1018 40992',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1018-40992.html";
+                },},{id: "sections-1018-40994",
+              title: '1018 40994',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1018-40994.html";
+                },},{id: "sections-1018-60847",
+              title: '1018 60847',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1018-60847.html";
+                },},{id: "sections-1018-62225",
+              title: '1018 62225',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1018-62225.html";
+                },},{id: "sections-1031-63789",
+              title: '1031 63789',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/1031-63789.html";
+                },},{id: "sections-111-006-15",
+              title: '111 006 15',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/111-006-15.html";
+                },},{id: "sections-111-006-17",
+              title: '111 006 17',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/111-006-17.html";
+                },},{id: "sections-111-m13",
+              title: '111 M13',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/111-M13.html";
+                },},{id: "sections-115-011",
+              title: '115 011',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/115-011.html";
+                },},{id: "sections-116-e1b-13",
+              title: '116 E1b 13',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/116-E1B-13.html";
+                },},{id: "sections-116-e1b-15",
+              title: '116 E1b 15',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/116-E1B-15.html";
+                },},{id: "sections-116-e1b-16",
+              title: '116 E1b 16',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/116-E1B-16.html";
+                },},{id: "sections-116-e2b-13",
+              title: '116 E2b 13',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/116-E2B-13.html";
+                },},{id: "sections-116-e2b-15",
+              title: '116 E2b 15',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/116-E2B-15.html";
+                },},{id: "sections-116-e2b-16",
+              title: '116 E2b 16',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/116-E2B-16.html";
+                },},{id: "sections-122-e01",
+              title: '122 E01',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/122-E01.html";
+                },},{id: "sections-141-007",
+              title: '141 007',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/141-007.html";
+                },},{id: "sections-141-008",
+              title: '141 008',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/141-008.html";
+                },},{id: "sections-142-004",
+              title: '142 004',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/142-004.html";
+                },},{id: "sections-142-009",
+              title: '142 009',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/142-009.html";
+                },},{id: "sections-142-010",
+              title: '142 010',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/142-010.html";
+                },},{id: "sections-142-020",
+              title: '142 020',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/142-020.html";
+                },},{id: "sections-161-f01",
+              title: '161 F01',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/161-F01.html";
+                },},{id: "sections-161-f04-19",
+              title: '161 F04 19',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/161-F04-19.html";
+                },},{id: "sections-161-f04",
+              title: '161 F04',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/161-F04.html";
+                },},{id: "sections-161-s01-s20",
+              title: '161 S01 S20',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/161-S01-S20.html";
+                },},{id: "sections-161-s02-s20",
+              title: '161 S02 S20',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/161-S02-S20.html";
+                },},{id: "sections-162-f01",
+              title: '162 F01',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/162-F01.html";
+                },},{id: "sections-162-f03",
+              title: '162 F03',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/162-F03.html";
+                },},{id: "sections-162-s06",
+              title: '162 S06',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/162-S06.html";
+                },},{id: "sections-162-s07",
+              title: '162 S07',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/162-S07.html";
+                },},{id: "sections-170-002",
+              title: '170 002',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/170-002.html";
+                },},{id: "sections-170-007",
+              title: '170 007',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/170-007.html";
+                },},{id: "sections-2002-41001",
+              title: '2002 41001',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/2002-41001.html";
+                },},{id: "sections-2002-64042-21",
+              title: '2002 64042 21',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/2002-64042-21.html";
+                },},{id: "sections-2002-64042-23",
+              title: '2002 64042 23',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/2002-64042-23.html";
+                },},{id: "sections-2032-44879",
+              title: '2032 44879',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/2032-44879.html";
+                },},{id: "sections-2040-65041",
+              title: '2040 65041',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/2040-65041.html";
+                },},{id: "sections-243-f24",
+              title: '243 F24',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/243-F24.html";
+                },},{id: "sections-272",
+              title: '272',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/272.html";
+                },},{id: "sections-3040-64086",
+              title: '3040 64086',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/3040-64086.html";
+                },},{id: "sections-3080-44174",
+              title: '3080 44174',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/3080-44174.html";
+                },},{id: "sections-3080-64863",
+              title: '3080 64863',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/3080-64863.html";
+                },},{id: "sections-3086-44367",
+              title: '3086 44367',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/3086-44367.html";
+                },},{id: "sections-3086-63395",
+              title: '3086 63395',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/3086-63395.html";
+                },},{id: "sections-4007-44692",
+              title: '4007 44692',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/4007-44692.html";
+                },},{id: "sections-spal",
+              title: 'Spal',
+              description: "",
+              section: "Sections",handler: () => {
+                  window.location.href = "/sections/SPAL.html";
+                },},{id: "standards-calculus-i-standards",
+              title: 'Calculus I Standards',
+              description: "",
+              section: "Standards",handler: () => {
+                  window.location.href = "/standards/calcI.html";
+                },},{id: "standards-calculus-ii-standards",
+              title: 'Calculus II Standards',
+              description: "",
+              section: "Standards",handler: () => {
+                  window.location.href = "/standards/calcII.html";
+                },},{id: "standards-calculus-iii-standards",
+              title: 'Calculus III Standards',
+              description: "",
+              section: "Standards",handler: () => {
+                  window.location.href = "/standards/calcIII.html";
+                },},{id: "standards-college-algebra-standards",
+              title: 'College Algebra Standards',
+              description: "",
+              section: "Standards",handler: () => {
+                  window.location.href = "/standards/college_algebra.html";
+                },},{id: "standards-applied-linear-algebra-standards",
+              title: 'Applied Linear Algebra Standards',
+              description: "",
+              section: "Standards",handler: () => {
+                  window.location.href = "/standards/linear.html";
+                },},{
+            id: 'socials-email',
+            title: 'Send email',
+            section: 'Socials',
+            handler: () => {
+              window.open("mailto:%62%66%61%72%6D%61%6E@%6C%61%74%65%63%68.%65%64%75", "_blank");
+            },
+          },{
+            id: 'socials-orcid',
+            title: 'ORCID',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://orcid.org/0000-0002-3624-837X# your ORCID ID", "_blank");
+            },
+          },{
+            id: 'socials-google-scholar',
+            title: 'Google Scholar',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://scholar.google.com/citations?user=ySXYuuQAAAAJ", "_blank");
+            },
+          },{
+            id: 'socials-linkedin',
+            title: 'LinkedIn',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://www.linkedin.com/in/blake-farman# your LinkedIn user name", "_blank");
+            },
+          },{
+          id: 'light-theme',
+          title: 'Change theme to light',
+          description: 'Change the theme of the site to Light',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("light");
+          },
+        },
+        {
+          id: 'dark-theme',
+          title: 'Change theme to dark',
+          description: 'Change the theme of the site to Dark',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("dark");
+          },
+        },
+        {
+          id: 'system-theme',
+          title: 'Use system default theme',
+          description: 'Change the theme of the site to System Default',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("system");
+          },
+        },];
+  </script>
+  <script src="/assets/js/shortcut-key.js?6f508d74becd347268a7f822bca7309d"></script>
+
+
+  </body>
+</html>
