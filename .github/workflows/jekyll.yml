@@ -33,4 +33,4 @@ jobs:
           ruby-version: '3.3'
           bundler-cache: true
       - name: Setup jupiter
-        run: pip3 install --upgrade jupyter
+        run: brew install jupyter
