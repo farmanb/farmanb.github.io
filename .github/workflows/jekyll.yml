@@ -36,6 +36,10 @@ jobs:
         run: brew install jupyterlab
         env:
           JEKYLL_ENV: production
+      - name: Setup imagemagick
+        run: brew install imagemagick
+        env:
+          JEKYLL_ENV: production	
       - name: Build with Jekyll
         run: bundle exec jekyll build
         env:
