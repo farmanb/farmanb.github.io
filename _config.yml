@@ -302,10 +302,10 @@ sass:
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
 
-#jekyll-minifier:
-#  exclude: ["robots.txt", "assets/js/search/*.js"]
-#  uglifier_args:
-#    harmony: true
+jekyll-minifier:
+  exclude: ["robots.txt", "assets/js/search/*.js"]
+  uglifier_args:
+    harmony: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
@@ -330,8 +330,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Farman]
+  first_name: [Blake, A.]
 
   style: apa
   locale: en
