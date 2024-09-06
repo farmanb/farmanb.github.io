@@ -6,5 +6,6 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v4
+    - uses: actions/deploy-pages@v4      
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v3
