@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Nethken Hall 147</p>
+    <p>Nethken Hall 235</p>
     <p>Louisiana Tech University</p>
     <p>Ruston, LA 71272</p>
 
