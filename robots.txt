@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://farmanb.github.io/sitemap.xml
+Sitemap: https://www.blakefarman.phd/sitemap.xml
