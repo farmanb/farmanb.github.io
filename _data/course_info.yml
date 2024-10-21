@@ -6,8 +6,10 @@
     - day: 'Tuesday/Thursday'
       time: '10:00 AM - 11:50 AM'
   location: 'IESB, Room 220'
-  syllabus_override: 'assets/syllabi/243/F24/index.html'
-  schedule: 'assets/schedules/243/F24/schedule.html'  
+  syllabus_override: 'https://www.blakefarman.phd/syllabi/syllabi/243/F24/syllabus.html'
+  syllabus_override_url_absolute: true
+  schedule: 'https://www.blakefarman.phd/syllabi/schedules/243/F24/schedule.html'
+  schedule_url_absolute: true
 - course_number: 4007
   crn: 44692
   year: 2022

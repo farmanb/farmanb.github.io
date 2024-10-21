@@ -43,13 +43,22 @@ layout: default
   <div style="padding-left: 30px">
     <p>
       {% if info.syllabus_override %}
-      <a href="{% link {{ info.syllabus_override }} %}">Syllabus</a>
+      {% if info.syllabus_override_url_absolute %}
+      <a href="{{ info.syllabus_override }}">Syllabus</a>
+      {% else %}
+      <a href= "{% link {{ info.syllabus_override }} %}">Syllabus</a>
+      {% endif %}
       {% else %}
       <a href="{% link /assets/syllabi/syllabus-{{info.course_number}}-{{info.crn}}.pdf %}">Syllabus</a>
       {% endif %}
-      {% if info.schedule %}
+    </p>
+    {% if info.schedule %}
     <p>
+      {% if info.schedule_url_absolute %}
+      <a href="{{ info.schedule }}">Schedule</a>
+      {% else %}
       <a href="{% link {{ info.schedule }} %}">Schedule</a>
+      {% endif %}
     </p>
     {% endif %}
   </div>
