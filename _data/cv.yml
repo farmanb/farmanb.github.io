@@ -55,11 +55,20 @@
 - title: Funding
   type: time_table
   contents:
-    - title: Fourier-Mukai Partners in Noncommutative Algebraic Geometry (Not Funded)
-      institution: Louisiana Board of Regents Support Fund, Research Competitiveness Subprogram
-      year: 2023 - 2025
+    - title: Student Activity Enhancement Fee ($2,000)
+      institution: Student Development, University of Louisiana at Monroe
+      year: February 2024
       description:
-       - $142,041
+       - Funded trip for ULM students to attend the annual meeting of the Louisiana-Mississippi section of the Mathematical Association of America.
+    - title: Capital One Endowed Professorship in Mathematics ($5370)
+      institution: University of Louisiana at Monroe 
+      year: AY 22-23
+    - title: Capital One Endowed Professorship in Mathematics ($5070)
+      institution: University of Louisiana at Monroe     
+      year: AY 21-22
+    - title: Capital One Endowed Professorship in Mathematics ($4790)
+      institution: University of Louisiana at Monroe     
+      year: AY 20-21
 - title: Undergraduate Mentoring and Research Supervision
   type: time_table
   contents:
