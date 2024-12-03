@@ -1,3 +1,15 @@
+- course_number: 308
+  crn: '001'
+  year: 2025
+  semester: Winter
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '9:00 AM - 10:45 AM'
+  location: 'IESB, Room 222'
+  syllabus_override: 'https://www.blakefarman.phd/syllabi/syllabi/308/W25/syllabus.html'
+  syllabus_override_url_absolute: true
+  schedule: 'https://www.blakefarman.phd/syllabi/schedules/308/W25/schedule.html'
+  schedule_url_absolute: true
 - course_number: 243
   crn: '004'
   year: 2024
