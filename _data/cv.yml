@@ -12,19 +12,22 @@
   type: time_table
   contents:
     - title: Doctor of Philosophy, Mathematics
-      institution: University of South Carolina, Columbia, South Carolina, USA
+      institution: University of South Carolina
+      location: Columbia, SC
       year: 2018
       description:
         - "Dissertation: Geometry of Derived Categories on Noncommutative Projective Schemes"
         - "Advisor: Matthew Ballard"
     - title: Master of Science, Mathematics
-      institution: University of Vermont, Burlington, Vermont, USA
+      institution: University of Vermont
+      location: Burlington, VT
       year: 2011
       description:
         - "Major Concentration: Abstract Algebra"
         - "Minor Concentration: Algebraic Number Theory"
     - title: Bachelor of Science, Computer Science
-      institution: Rensselaer Polytechnic Institute, Troy, New York, USA
+      institution: Rensselaer Polytechnic Institute
+      location: Troy, NY
       year: 2009
       description:
       - title: Minors
@@ -88,40 +91,48 @@
   type: time_table
   contents:
     - title: Riya Shrestha
+      location: Monroe, LA
       year: Spring 2024
       description: Knot Theory research project focused on identifying a family of knots for which there is a winning strategy in the Region Unknot Game.
     - title: The Entrepreneurship Pelican Cup
+      location: Monroe, LA
       year: Spring 2023
       description: Served as faculty advisor for one of the six finalists in the Entrepreneurship Pelican Cup business competition.
     - title: Sagar Bhetuwal
+      location: Monroe, LA
       year: Spring 2021
       description: Number Theory research project focused on providing a formal verification of the proof of the Prime Number Theorem using the Lean proof assistant.
 - title: Conferences and Workshops
   type: time_table
   contents:
-    - title: "AMS Mathematics Research Community"
-      institution: "Beaver Hollow Conference Center, Java, NY"
+    - title: "Mathematics Research Community"
+      institution: American Mathematical Society    
+      location: Java, NY
       year: 2023
       description: "Derived Categories, Arithmetic and Geometry"
-    - title: "University of Louisiana System For our Future 2023"
-      institution: "Lake Charles, LA"
+    - title: "For our Future 2023"
+      institution: University of Louisiana System
+      location: "Lake Charles, LA"
       year: 2023
-    - title: "Mathematical Association of America MathFest"
-      institution: "Tampa, FL"
+    - title: "MathFest"
+      institution: Mathematical Association of America 
+      location: "Tampa, FL"
       description: "Project NExT"
       year: 2023
       description: "Project NExT"
     - title: "Joint Mathematics Meetings"
-      institution: "Boston, MA"
+      location: "Boston, MA"
       year: 2023
       description: "Project NExT"
     - title: "Mathematical Association of America MathFest"
-      institution: "Philadelphia, PA"
+      location: "Philadelphia, PA"
       year: 2022
       description: "Project NExT"
     - title: "Derived, Birational, and Categorical Algebraic Geometry"
-      institution: "Banff International Research Station, Banff, CA"
+      institution: "Banff International Research Station"
+      location: Banff, CA
       year: 2021
     - title: "Derived, Birational, and Categorical Algebraic Geometry (Online)"
-      institution: "Banff International Research Station, Banff, CA"
+      institution: "Banff International Research Station"
+      location: Banff, CA
       year: 2020
