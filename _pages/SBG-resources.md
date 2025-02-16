@@ -1,6 +1,6 @@
 ---
 layout: page
-title: For Our Future Conference Resources
+title: Standards Based Grading Resources
 permalink: /sbg-resources/
 ---
 <h2>Slides</h2>
@@ -12,11 +12,12 @@ permalink: /sbg-resources/
   <li><a href="{% link _pages/standards.md %}">Standards</a> (Blake Farman)</li>
   <li>Linear Algebra</li>
   <ul>
+	<li><a href=" https://www.blakefarman.phd/syllabi/syllabi/308/W25/standards.html">Winter 2025</a> (Blake Farman)</li>
     <li><a href="{% link /assets/syllabi/syllabus-2002-64042-S23.pdf %}">Spring 2023</a> (Blake Farman)</li>
   </ul>
   <li>Calculus III</li>
   <ul>
-    <li><a href="{% link /assets/syllabi/syllabus-2032-44879.pdf %}">Fall 2022</a> (Blake Farman)</li>
+    <li><a href="{% link /assets/syllabi/2032/F24/standards.html %}">Fall 2022</a> (Blake Farman)</li>
   </ul>
     <li>Calculus II</li>
   <ul>
@@ -24,17 +25,19 @@ permalink: /sbg-resources/
   </ul>
     <li>Calculus I</li>
   <ul>
+	<li><a href="{% link /assets/syllabi/1031/S24/standards.html %}">Spring 2024</a> (Blake Farman)</li>
     <li><a href="{% link /assets/syllabi/syllabus-161-01-2020.pdf %}">Spring 2020</a> (Blake Farman)</li>
   </ul>
     <li>College Algebra</li>
   <ul>
+	<li><a href="{% link /assets/syllabi/1011/S24/63057/standards.html %}">Fall 2023</a> (Blake Farman)</li>
     <li><a href="{% link /assets/syllabi/syllabus-1011-62690.pdf %}">Spring 2021</a> (Blake Farman)</li>
   </ul>
   <li>Repositories</li>
   <ul>
     <li><a href="https://drive.google.com/drive/folders/1GNSqfOb0LZS6BeAuc1tqPDZWKkPk11KT">Mathematics</a></li>
     <li><a href="https://drive.google.com/drive/folders/1XPKGXG9Sl0fT90DIoyIwqMtbxp4Qynr9">Physics</a></li>
-    <li><a href="https://drive.google.com/drive/folders/1L-akqa_1BLFQM0ukM_N_Kwr8562yB_gG">Biology</a></li>
+    <!-- <li><a href="https://drive.google.com/drive/folders/1L-akqa_1BLFQM0ukM_N_Kwr8562yB_gG">Biology</a></li> -->
     <li><a href="https://drive.google.com/drive/folders/1ebiUwMJmx8qv-c665WELK9yZ5lCUPPzk">Chemistry</a></li>
   </ul>
 </ul>
