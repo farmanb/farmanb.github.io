@@ -3,9 +3,12 @@ layout: page
 title: Standards Based Grading Resources
 permalink: /sbg-resources/
 ---
-<h2>Slides</h2>
+
+<h2>Fostering Growth Mindsets:</h2>
+<h3>Implementing Standards-Based Grading in College Algebra</h3>
 <ul>
-<li><a href="{% link /assets/pdf/sbg.pdf %}">Implementing Standards Based Grading in STEM</a></li>
+<li><a href="{% link assets/preprints/FGM/index.html %}">Preprint</a></li>
+<li><a href="{% link /assets/pdf/sbg.pdf %}">Slides</a></li>
 </ul>
 <h2>Sample Materials</h2>
 <ul>
