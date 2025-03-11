@@ -1,3 +1,55 @@
+- year: 2025
+  semester: 'Spring'
+  times:
+   - day: 'Monday'
+     hours:
+      - '10:00 AM - 11:00 AM'
+      - '1:00 PM - 3:20 PM'
+   - day: 'Wednesday'
+     hours:
+      - '10:00 AM - 11:00 AM'
+      - '1:00 PM - 3:20 PM'
+   - day: 'Friday'
+     hours:
+      - '10:00 AM - 11:00 AM'
+      - '1:00 PM - 3:20 PM'
+- year: 2025
+  semester: 'Winter'
+  times:
+   - day: 'Monday'
+     hours:
+      - '12:30 PM - 3:00 PM'
+   - day: 'Tuesday'
+     hours:
+      - '1:00 PM - 2:15 PM'
+   - day: 'Wednesday'
+     hours:
+      - '12:30 PM - 3:00 PM'
+   - day: 'Thursday'
+     hours:
+      - '1:00 PM - 2:15 PM'
+   - day: 'Friday'
+     hours:
+      - '12:30 PM - 3:00 PM'
+- year: 2024
+  semester: 'Fall'
+  times:
+   - day: 'Monday'
+     hours:
+      - '12:30 PM - 3:00 PM'
+   - day: 'Tuesday'
+     hours:
+      - '1:00 PM - 2:15 PM'
+   - day: 'Wednesday'
+     hours:
+      - '12:30 PM - 3:00 PM'
+   - day: 'Thursday'
+     hours:
+      - '1:00 PM - 2:15 PM'
+   - day: 'Friday'
+     hours:
+      - '12:30 PM - 3:00 PM'
+  location: 'George T. Walker Hall, Room 3 - 34'  
 - year: 2024
   semester: 'Spring'
   times:
