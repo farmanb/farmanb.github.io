@@ -8,7 +8,8 @@ permalink: /sbg-resources/
 <h3>Implementing Standards-Based Grading in College Algebra</h3>
 <ul>
 <li><a href="{% link assets/preprints/FGM/index.html %}">Preprint</a></li>
-<li><a href="{% link /assets/pdf/sbg.pdf %}">Slides</a></li>
+<li><a href="{% link /assets/pdf/sbg.pdf %}">Slides (LA-MS MAA Sectional)</a></li>
+<li><a href="{% link /assets/pdf/asee.pdf %}"> Slides (ASEE, by Will Long)</a></li>
 </ul>
 <h2>Sample Materials</h2>
 <ul>
