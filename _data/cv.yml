@@ -56,6 +56,10 @@
 - title: Leadership and Governance
   type: time_table
   contents:
+    - title: Communication Coordinator (Officer)
+      institution: Louisiana Mississippi Section, Mathematical Association of America
+      location : LA/MS
+      year: 2025 - Present
     - title: Membership Outreach Director (Officer)
       institution: Friends of Black Bayou, Black Bayou National Wildlife Refuge
       location: Monroe, LA
@@ -73,6 +77,11 @@
 - title: Funding
   type: time_table
   contents:
+    - title: Applied eXploration in Open Mathematics Lab [AXIOM Lab] ($60,875)
+      institution: Louisiana Board of Regents Support Fund
+      year: June 2025
+      description:
+       - Departmental Enhancement Grant to establish a dedicated research collaboration lab within the Mathematics and Statistics program at Louisiana Tech University.
     - title: Student Activity Enhancement Fee ($2,000)
       institution: Student Development, University of Louisiana at Monroe
       year: February 2024
@@ -87,6 +96,13 @@
     - title: Capital One Endowed Professorship in Mathematics ($4790)
       institution: University of Louisiana at Monroe     
       year: AY 20-21
+- title: Graduate Mentoring and Research Supervision
+  type: time_table
+  contents:
+    - title: Joshua Bush
+      location: Ruston, LA
+      year: 2025 - Present
+      description: Ph.D. Student in the CAM program.
 - title: Undergraduate Mentoring and Research Supervision
   type: time_table
   contents:
