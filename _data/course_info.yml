@@ -1,3 +1,15 @@
+- course_number: 4083/5083
+  crn: 'Math 4083/5083 F25'
+  year: 2025
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '2:00 PM - 3:15 PM'
+  location: 'Nethken 153'
+  syllabus_override: 'https://www.blakefarman.phd/syllabi/syllabi/4083/F25'
+  syllabus_override_url_absolute: true
+  schedule: 'https://www.blakefarman.phd/syllabi/schedules/4083/F25'
+  schedule_url_absolute: true
 - course_number: 490/587
   crn: 'Math 490'
   year: 2025
