@@ -260,6 +260,7 @@ exclude:
 keep_files:
   - CNAME
   - .nojekyll
+  - .git
 
 # Plug-ins
 plugins:
