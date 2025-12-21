@@ -7,7 +7,7 @@ permalink: /sbg-resources/
 <h2>Fostering Growth Mindsets:</h2>
 <h3>Implementing Standards-Based Grading in College Algebra</h3>
 <ul>
-<li><a href="{% link assets/preprints/FGM/index.html %}">Preprint</a></li>
+<li><a href="https://www.blakefarman.phd/Fostering-Growth-Mindsets-Implementing-Standards-Based-Grading-in-College-Algebra/frontmatter.html">Preprint</a></li>
 <li><a href="{% link /assets/pdf/sbg.pdf %}">Slides (LA-MS MAA Sectional)</a></li>
 <li><a href="{% link /assets/pdf/asee.pdf %}"> Slides (ASEE, by Will Long)</a></li>
 </ul>
@@ -16,7 +16,7 @@ permalink: /sbg-resources/
   <li><a href="{% link _pages/standards.md %}">Standards</a> (Blake Farman)</li>
   <li>Linear Algebra</li>
   <ul>
-	<li><a href=" https://www.blakefarman.phd/syllabi/syllabi/308/W25/standards.html">Winter 2025</a> (Blake Farman)</li>
+	<li><a href="https://www.blakefarman.phd/syllabi/syllabi/308/W25/standards.html">Winter 2025</a> (Blake Farman)</li>
     <li><a href="{% link /assets/syllabi/syllabus-2002-64042-S23.pdf %}">Spring 2023</a> (Blake Farman)</li>
   </ul>
   <li>Calculus III</li>
