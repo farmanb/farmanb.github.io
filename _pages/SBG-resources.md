@@ -21,7 +21,7 @@ permalink: /sbg-resources/
   </ul>
   <li>Calculus III</li>
   <ul>
-    <li><a href="{% link /assets/syllabi/2032/F24/standards.html %}">Fall 2022</a> (Blake Farman)</li>
+    <li><a href="{% link /assets/syllabi/syllabus-2032-44879.pdf %}">Fall 2022</a> (Blake Farman)</li>
   </ul>
     <li>Calculus II</li>
   <ul>
@@ -29,12 +29,12 @@ permalink: /sbg-resources/
   </ul>
     <li>Calculus I</li>
   <ul>
-	<li><a href="{% link /assets/syllabi/1031/S24/standards.html %}">Spring 2024</a> (Blake Farman)</li>
+	<li><a href="https://www.blakefarman.phd/ulm-syllabi/syllabi/1031/S24/syllabus.html">Spring 2024</a> (Blake Farman)</li>
     <li><a href="{% link /assets/syllabi/syllabus-161-01-2020.pdf %}">Spring 2020</a> (Blake Farman)</li>
   </ul>
     <li>College Algebra</li>
   <ul>
-	<li><a href="{% link /assets/syllabi/1011/S24/63057/standards.html %}">Fall 2023</a> (Blake Farman)</li>
+	<li><a href="https://www.blakefarman.phd/ulm-syllabi/syllabi/1011/S24/63057">Fall 2023</a> (Blake Farman)</li>
     <li><a href="{% link /assets/syllabi/syllabus-1011-62690.pdf %}">Spring 2021</a> (Blake Farman)</li>
   </ul>
   <li>Repositories</li>

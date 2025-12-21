@@ -106,8 +106,10 @@
     - day: 'Tuesday/Thursday'
       time: '9:30 AM - 10:45 AM'
   location: 'George T. Walker Hall, Room 2 - 50'
-  syllabus_override: 'assets/syllabi/3040/S24/index.html'
-  schedule: 'assets/schedules/3040/S24/schedule.html'  
+  syllabus_override: 'https://www.blakefarman.phd/ulm-syllabi/syllabi/3040/S24/syllabus.html'
+  syllabus_override_url_absolute: true
+  schedule: 'https://www.blakefarman.phd/ulm-syllabi/schedules/3040/S24/schedule.html'
+  schedule_url_absolute: true  
 - course_number: 2040
   crn: 65041
   year: 2023
@@ -155,8 +157,10 @@
     - day: 'Monday/Tuesday/Thursday/Friday'
       time: '11:00 AM - 11:50 AM'
   location: 'George T. Walker Hall, Room 3 - 84'
-  syllabus_override: 'assets/syllabi/1031/S24/index.html'
-  schedule: 'assets/schedules/1031/S24/schedule.html'
+  syllabus_override: 'https://www.blakefarman.phd/ulm-syllabi/syllabi/1031/S24/syllabus.html'
+  syllabus_override_url_absolute: true
+  schedule: 'https://www.blakefarman.phd/ulm-syllabi/schedules/1031/S24/schedule.html'
+  schedule_url_absolute: true
 - course_number: 1011
   crn: 63057
   year: 2024
@@ -165,8 +169,10 @@
     - day: 'Monday/Wednesday'
       time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room 3 - 91'      
-  syllabus_override: 'assets/syllabi/1011/S24/63057/index.html'
-  schedule: 'assets/schedules/1011/S24/63057/schedule.html'
+  syllabus_override: 'https://www.blakefarman.phd/ulm-syllabi/syllabi/1011/S24/63057/syllabus.html'
+  syllabus_override_url_absolute: true
+  schedule: 'https://www.blakefarman.phd/ulm-syllabi/schedules/1011/S24/63057/schedule.html'
+  schedule_url_absolute: true
 - course_number: 1011
   crn: 63167
   year: 2024
@@ -175,8 +181,10 @@
     - day: 'Monday/Wednesday'
       time: '2:00 PM - 3:15 PM'
   location: 'George T. Walker Hall, Room 3 - 91'
-  syllabus_override: 'assets/syllabi/1011/S24/63167/index.html'
-  schedule: 'assets/schedules/1011/S24/63167/schedule.html'  
+  syllabus_override: 'https://www.blakefarman.phd/ulm-syllabi/syllabi/1011/S24/63167/syllabus.html'
+  syllabus_override_url_absolute: true
+  schedule: 'https://www.blakefarman.phd/ulm-syllabi/schedules/1011/S24/63167/schedule.html'
+  schedule_url_absolute: true
 - course_number: 1011
   crn: 62691
   year: 2021
