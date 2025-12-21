@@ -1,10 +1,11 @@
 ---
 layout: page
+
 title: Teaching
 permalink: /teaching/
 description: An overview of my teaching.
 nav: true
-nav_order: 3
+nav_order: 4
 universities: [Louisiana Tech University, University of Louisiana at Monroe, Lafayette College, University of South Carolina, University of Vermont]
 ---
 
@@ -21,3 +22,4 @@ universities: [Louisiana Tech University, University of Louisiana at Monroe, Laf
   {% endfor %}
 </ul>
 {% endfor %}
+

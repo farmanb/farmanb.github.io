@@ -1,11 +1,8 @@
 github_users:
   - farmanb
 
+repo_description_lines_max: 2
+
 github_repos:
-  # - farmanb/algebra
-  # - twbs/bootstrap
-  # - jekyll/jekyll
-  # - jquery/jquery
-  # - FortAwesome/Font-Awesome
-  # - jpswalsh/academicons
-  # - mathjax/MathJax
+  - leanprover-community/mathlib4
+  - farmanb/mathlib4
