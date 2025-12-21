@@ -38,3 +38,5 @@ group :other_plugins do
     # gem 'webrick' -- should be already installed by jekyll
 end
 
+
+gem "openssl", "~> 4.0"
