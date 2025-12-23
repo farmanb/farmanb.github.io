@@ -1,3 +1,4 @@
+---
 - name: 'Review: Fundamental Theorem of Calculus Solutions'
   number: 1
   file: 'FTC.review.pdf'
@@ -18,7 +19,7 @@
   number: 5
   file: 'parts.pdf'
   solutions: 'integration.by.parts-solutions.pdf'
-- name:	'Partial Fraction Decomposition'
+- name: 'Partial Fraction Decomposition'
   number: 6
   file: 'partial.fractions.pdf'
   solutions: 'partial.fractions-solutions.pdf'
@@ -29,7 +30,7 @@
 - name: 'Improper Integrals'
   number: 8
   file: 'improper.integrals.pdf'
-  solutions: 'improper.integrals-solutions.pdf'  
+  solutions: 'improper.integrals-solutions.pdf'
 - name: 'Differential Equations'
   number: 9
   file: 'diff.eq.pdf'
@@ -73,4 +74,4 @@
 - name: 'Taylor Series'
   number: 19
   file: 'taylor.series.pdf'
-  solutions: 'taylor.series-solutions.pdf'  
+  solutions: 'taylor.series-solutions.pdf'

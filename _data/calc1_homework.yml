@@ -1,3 +1,4 @@
+---
 - name: "Algebra Review"
   number: 1
   file: "algebra.review.pdf"
@@ -93,5 +94,3 @@
   file: "calculus.of.inverse.functions.pdf"
   date: 5/8/20
   solutions: "calculus.of.inverse.functions-solutions.pdf"
-
-  

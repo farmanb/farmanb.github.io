@@ -1,3 +1,4 @@
+---
 - course_number: 4083
   section_id: '4083'
   year: 2025
@@ -33,7 +34,7 @@
   syllabus_override: 'https://www.blakefarman.phd/syllabi/syllabi/587/S25/syllabus.html'
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/syllabi/schedules/lean/S25/schedule.html'
-  schedule_url_absolute: true  
+  schedule_url_absolute: true
 - course_number: 308
   section_id: '001'
   year: 2025
@@ -89,7 +90,7 @@
   meetings:
     - day: 'Tuesday/Thursday'
       time: '11:00 AM - 12:15 PM'
-  location: 'George T. Walker Hall, Room 2 - 84'  
+  location: 'George T. Walker Hall, Room 2 - 84'
 - course_number: 3080
   section_id: 64863
   year: 2022
@@ -109,7 +110,7 @@
   syllabus_override: 'https://www.blakefarman.phd/ulm-syllabi/syllabi/3040/S24/syllabus.html'
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/ulm-syllabi/schedules/3040/S24/schedule.html'
-  schedule_url_absolute: true  
+  schedule_url_absolute: true
 - course_number: 2040
   section_id: 65041
   year: 2023
@@ -167,7 +168,7 @@
   meetings:
     - day: 'Monday/Wednesday'
       time: '11:00 AM - 12:15 PM'
-  location: 'George T. Walker Hall, Room 3 - 91'      
+  location: 'George T. Walker Hall, Room 3 - 91'
   syllabus_override: 'https://www.blakefarman.phd/ulm-syllabi/syllabi/1011/S24/63057/syllabus.html'
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/ulm-syllabi/schedules/1011/S24/63057/schedule.html'
@@ -190,30 +191,35 @@
   semester: Spring
   meetings:
     - day: 'Online Only'
+  schedule: '/materials/ulm/1011/2021/spring/shared/schedule.pdf'
 - course_number: 1011
   section_id: 62690
   year: 2021
   semester: Spring
   meetings:
     - day: 'Online Only'
+  schedule: '/materials/ulm/1011/2021/spring/shared/schedule.pdf'
 - course_number: 1011
   section_id: 43013
   year: 2020
   semester: Fall
   meetings:
     - day: 'Online Only'
+  schedule: '/materials/ulm/1011/2020/fall/shared/schedule.pdf'
 - course_number: 1011
   section_id: 43002
   year: 2020
   semester: Fall
   meetings:
     - day: 'Online Only'
+  schedule: '/materials/ulm/1011/2020/fall/shared/schedule.pdf'
 - course_number: 1011
   section_id: 42181
   year: 2020
   semester: Fall
   meetings:
     - day: 'Online Only'
+  schedule: '/materials/ulm/1011/2020/fall/shared/schedule.pdf'
 - course_number: 1007
   section_id: 45282
   year: 2023
@@ -222,6 +228,7 @@
     - day: 'Monday/Wednesday'
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 3 - 53'
+  schedule: '/materials/ulm/1007/2023/fall/shared/schedule.pdf'
 - course_number: 1007
   section_id: 45288
   year: 2023
@@ -230,6 +237,7 @@
     - day: 'Monday/Wednesday'
       time: '2:00 PM - 3:15 PM'
   location: 'George T. Walker Hall, Room 3 - 53'
+  schedule: '/materials/ulm/1007/2023/fall/shared/schedule.pdf'
 - course_number: 1007
   section_id: 64979
   year: 2023
@@ -238,6 +246,7 @@
     - day: 'Monday/Wednesday'
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 3 - 90'
+  schedule: '/materials/ulm/1007/2023/spring/64979/schedule.pdf'
 - course_number: 1007
   section_id: 45282
   year: 2022
@@ -246,6 +255,7 @@
     - day: 'Monday/Wednesday'
       time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room 3 - 90'
+  schedule: '/materials/ulm/1007/2022/fall/shared/schedule.pdf'
 - course_number: 1007
   section_id: 45288
   year: 2022
@@ -254,6 +264,7 @@
     - day: 'Monday/Wednesday'
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 3 - 90'
+  schedule: '/materials/ulm/1007/2022/fall/shared/schedule.pdf'
 - course_number: 1007
   section_id: 60847
   year: 2022
@@ -262,6 +273,7 @@
     - day: 'Monday/Wednesday'
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 2 - 51'
+  schedule: '/materials/ulm/1007/2022/spring/shared/schedule.pdf'
 - course_number: 1007
   section_id: 62225
   year: 2022
@@ -270,6 +282,7 @@
     - day: 'Monday/Wednesday'
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 2 - 51'
+  schedule: '/materials/ulm/1007/2022/spring/shared/schedule.pdf'
 - course_number: 1007
   section_id: 40992
   year: 2021
@@ -278,6 +291,7 @@
     - day: 'Monday/Wednesday'
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 3 - 91'
+  schedule: '/materials/ulm/1007/2021/fall/shared/schedule.pdf'
 - course_number: 1007
   section_id: 40994
   year: 2021
@@ -286,6 +300,7 @@
     - day: 'Monday/Wednesday'
       time: '2:00 PM - 3:15 PM'
   location: 'George T. Walker Hall, Room 3 - 91'
+  schedule: '/materials/ulm/1007/2021/fall/shared/schedule.pdf'
 - course_number: 17
   section_id: g
   year: 2009
@@ -294,7 +309,7 @@
     - day: 'Tuesday/Thursday'
       time: '4:00 PM - 5:15 PM'
   location: 'Lafayette Hall, Room L403'
-  no_syllabus: true  
+  no_syllabus: true
 - course_number: 17
   section_id: a
   year: 2010
@@ -312,7 +327,7 @@
     - day: 'Monday - Thursday'
       time: '8:30 AM - 11:00 AM'
   location: 'Votey Hall, Room 209'
-  no_syllabus: true  
+  no_syllabus: true
 - course_number: 19
   section_id: s
   year: 2010
@@ -330,7 +345,7 @@
     - day: 'Monday/Wednesday/Friday'
       time: '3:00 PM - 3:50 PM'
   location: 'Lafayette Hall, Room L210'
-  no_syllabus: true  
+  no_syllabus: true
 - course_number: 272
   section_id: '01'
   year: 2020
@@ -456,7 +471,7 @@
   year: 2012
   semester: Fall
   meetings:
-    - day: 'Wednesday/Friday' 
+    - day: 'Wednesday/Friday'
       time: '10:10 AM - 11:00 AM'
   location: 'LeConte College'
   no_syllabus: true
@@ -465,34 +480,34 @@
   year: 2012
   semester: Fall
   meetings:
-    - day: 'Wednesday/Friday' 
+    - day: 'Wednesday/Friday'
       time: '11:15 AM - 12:05 PM'
-  location: 'LeConte College'  
+  location: 'LeConte College'
   no_syllabus: true
 - course_number: 141
   section_id: '007'
   year: 2013
   semester: Spring
   meetings:
-    - day: 'Wednesday/Friday' 
+    - day: 'Wednesday/Friday'
       time: '8:00 AM - 8:50 AM'
-  location: 'LeConte College'  
+  location: 'LeConte College'
   no_syllabus: true
 - course_number: 141
   section_id: '008'
   year: 2013
   semester: Spring
   meetings:
-    - day: 'Wednesday/Friday' 
+    - day: 'Wednesday/Friday'
       time: '9:30 AM - 10:20 AM'
-  location: 'LeConte College'  
+  location: 'LeConte College'
   no_syllabus: true
 - course_number: 122
   section_id: 'E01'
   year: 2017
   semester: Spring
   meetings:
-    - day: 'Tuesday/Thursday' 
+    - day: 'Tuesday/Thursday'
       time: '6:00 PM - 7:15 PM'
   location: 'LeConte College, Room 101'
 - course_number: 116
@@ -500,9 +515,9 @@
   year: 2016
   semester: Fall
   meetings:
-    - day: 'Monday/Wednesday' 
+    - day: 'Monday/Wednesday'
       time: '5:50 PM - 6:40 PM'
-    - day: 'Tuesday/Thursday' 
+    - day: 'Tuesday/Thursday'
       time: '6:00 PM - 6:50 PM'
   location: 'LeConte College, Room 121'
 - course_number: 116
@@ -510,9 +525,9 @@
   year: 2015
   semester: Fall
   meetings:
-    - day: 'Monday/Wednesday' 
+    - day: 'Monday/Wednesday'
       time: '5:50 PM - 6:40 PM'
-    - day: 'Tuesday/Thursday' 
+    - day: 'Tuesday/Thursday'
       time: '6:00 PM - 6:50 PM'
   location: 'LeConte College, Room 121'
 - course_number: 116
@@ -520,9 +535,9 @@
   year: 2013
   semester: Fall
   meetings:
-    - day: 'Monday/Wednesday' 
+    - day: 'Monday/Wednesday'
       time: '7:00 PM - 7:50 PM'
-    - day: 'Tuesday/Thursday' 
+    - day: 'Tuesday/Thursday'
       time: '7:35 PM - 8:25 PM'
   location: 'LeConte College, Room 121'
 - course_number: 116
@@ -530,9 +545,9 @@
   year: 2016
   semester: Fall
   meetings:
-    - day: 'Monday/Wednesday' 
+    - day: 'Monday/Wednesday'
       time: '7:00 PM - 7:50 PM'
-    - day: 'Tuesday/Thursday' 
+    - day: 'Tuesday/Thursday'
       time: '7:35 PM - 8:25 PM'
   location: 'LeConte College, Room 121'
 - course_number: 116
@@ -540,9 +555,9 @@
   year: 2015
   semester: Fall
   meetings:
-    - day: 'Monday/Wednesday' 
+    - day: 'Monday/Wednesday'
       time: '7:00 PM - 7:50 PM'
-    - day: 'Tuesday/Thursday' 
+    - day: 'Tuesday/Thursday'
       time: '7:35 PM - 8:25 PM'
   location: 'LeConte College, Room 121'
 - course_number: 116
@@ -550,9 +565,9 @@
   year: 2013
   semester: Fall
   meetings:
-    - day: 'Monday/Wednesday' 
+    - day: 'Monday/Wednesday'
       time: '7:00 PM - 7:50 PM'
-    - day: 'Tuesday/Thursday' 
+    - day: 'Tuesday/Thursday'
       time: '7:35 PM - 8:25 PM'
   location: 'LeConte College, Room 121'
 - course_number: 115
@@ -560,9 +575,9 @@
   year: 2014
   semester: Fall
   meetings:
-    - day: 'Monday/Wednesday' 
+    - day: 'Monday/Wednesday'
       time: '3:55 PM - 5:10 PM'
-    - day: 'Tuesday/Thursday' 
+    - day: 'Tuesday/Thursday'
       time: '4:25 PM - 5:15 PM'
   location: 'LeConte College, Room 101'
 - course_number: 111
@@ -570,7 +585,7 @@
   year: 2017
   semester: Fall
   meetings:
-    - day: 'Monday/Wednesday' 
+    - day: 'Monday/Wednesday'
       time: '6:00 PM - 7:15 PM'
   location: 'Callcot Social Sciences Center, Room 003'
 - course_number: 111
@@ -578,7 +593,7 @@
   year: 2015
   semester: Spring
   meetings:
-    - day: 'Monday/Wednesday/Friday' 
+    - day: 'Monday/Wednesday/Friday'
       time: '10:50 AM - 11:40 AM'
   location: 'Gambrell Hall, Room 124'
 - course_number: 111
@@ -586,6 +601,6 @@
   year: 2013
   semester: Summer
   meetings:
-    - day: 'Monday/Wednesday/Friday' 
+    - day: 'Monday/Wednesday/Friday'
       time: '1:00 PM - 2:00 PM'
   location: 'Welsh Humanities, Room 317'

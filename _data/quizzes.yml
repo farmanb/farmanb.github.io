@@ -1,3 +1,4 @@
+---
 - semester: Fall
   year: 2019
   course_number: 162
@@ -15,77 +16,77 @@
 - semester: Fall
   year: 2019
   course_number: 162
-  number: 3  
+  number: 3
   name: "Area and Volume"
   solutions: "/materials/lafayette/162/2019/fall/shared/area.and.volume-162-Fall-2019.pdf"
   date: '9/20/19'
 - semester: Fall
   year: 2019
   course_number: 162
-  number: 4  
+  number: 4
   name: "Integration by Parts"
   solutions: "/materials/lafayette/162/2019/fall/shared/parts-162-Fall-2019.pdf"
   date: '9/23/19'
 - semester: Fall
   year: 2019
   course_number: 162
-  number: 5  
+  number: 5
   name: "Differential Equations"
   solutions: "/materials/lafayette/162/2019/fall/shared/diff.eq-162-Fall-2019.pdf"
   date: '10/4/19'
 - semester: Fall
   year: 2019
   course_number: 162
-  number: 6  
+  number: 6
   name: "Parametric Curves"
   solutions: "/materials/lafayette/162/2019/fall/shared/parametric-162-Fall-2019.pdf"
   date: '10/9/19'
 - semester: Fall
   year: 2019
   course_number: 162
-  number: 7  
+  number: 7
   name: "Sequences"
   solutions: "/materials/lafayette/162/2019/fall/shared/sequences-162-Fall-2019.pdf"
   date: '10/28/19'
 - semester: Fall
   year: 2019
   course_number: 162
-  number: 8  
+  number: 8
   name: "Geometric Series"
   solutions: "/materials/lafayette/162/2019/fall/shared/geometric.series-162-Fall-2019.pdf"
   date: '11/1/19'
 - semester: Fall
   year: 2019
   course_number: 162
-  number: 9  
+  number: 9
   name: "The Integral Test"
   solutions: "/materials/lafayette/162/2019/fall/shared/integral.test-162-Fall-2019.pdf"
   date: '11/8/19'
 - semester: Fall
   year: 2019
   course_number: 162
-  number: 10  
+  number: 10
   name: "The Comparison Tests"
   solutions: "/materials/lafayette/162/2019/fall/shared/comparison.tests-162-Fall-2019.pdf"
   date: '11/11/19'
 - semester: Fall
   year: 2019
   course_number: 162
-  number: 11  
+  number: 11
   name: "Alternating Series"
   solutions: "/materials/lafayette/162/2019/fall/shared/alternating.series-162-Fall-2019.pdf"
   date: '11/13/19'
 - semester: Fall
   year: 2019
   course_number: 162
-  number: 12  
+  number: 12
   name: "The Ratio and Root Tests"
   solutions: "/materials/lafayette/162/2019/fall/shared/ratio.and.root-162-Fall-2019.pdf"
   date: '11/15/19'
 - semester: Fall
   year: 2019
   course_number: 162
-  number: 13  
+  number: 13
   name: "Power Series"
   solutions: "/materials/lafayette/162/2019/fall/shared/power.series-162-Fall-2019.pdf"
   date: '11/20/19'

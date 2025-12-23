@@ -1,6 +1,7 @@
+---
 "JNCG":
-  url: https://ems.press/journals/jncg
+  url: 'https://ems.press/journals/jncg'
   color: "#00369f"
 "ASEE":
-  url: https://peer.asee.org/collections/2025-asee-annual-conference-exposition
+  url: 'https://peer.asee.org/collections/2025-asee-annual-conference-exposition'
   color: "#00369f"
