@@ -184,6 +184,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/construction_zone_compound/";
+            },},{id: "news-coes-education-award",
+          title: 'COES Education Award',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/coes_education_award/";
             },},{id: "sections-017-a",
           title: '017 A',
           description: "",
