@@ -60,7 +60,7 @@ layout: default
       {% if info.schedule_url_absolute %}
       <a href="{{ info.schedule }}">Schedule</a>
       {% else %}
-      <a href="{% link {{ info.schedule }} %}">Schedule</a>
+      <a href="{{ info.schedule  | relative_url }}">Schedule</a>
       {% endif %}
     </p>
     {% endif %}
