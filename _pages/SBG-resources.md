@@ -17,25 +17,25 @@ permalink: /sbg-resources/
   <li>Linear Algebra</li>
   <ul>
 	<li><a href="https://www.blakefarman.phd/syllabi/syllabi/308/W25/standards.html">Winter 2025</a> (Blake Farman)</li>
-    <li><a href="{% link /assets/syllabi/syllabus-2002-64042-S23.pdf %}">Spring 2023</a> (Blake Farman)</li>
+    <li><a href="{{ '/materials/ulm/2002/2023/spring/64042/syllabus.pdf' | relative_url }}"">Spring 2023</a> (Blake Farman)</li>
   </ul>
   <li>Calculus III</li>
   <ul>
-    <li><a href="{% link /assets/syllabi/syllabus-2032-44879.pdf %}">Fall 2022</a> (Blake Farman)</li>
+    <li><a href="{{ '/materials/ulm/2032/2022/fall/44879/syllabus.pdf' | relative_url }}">Fall 2022</a> (Blake Farman)</li>
   </ul>
     <li>Calculus II</li>
   <ul>
-    <li><a href="{% link /assets/syllabi/syllabus-162-Section 01.pdf %}">Fall 2019</a> (Blake Farman)</li>
+    <li><a href="{{ '/materials/lafayette/162/2019/fall/01/syllabus.pdf' | relative_url }}">Fall 2019</a> (Blake Farman)</li>
   </ul>
     <li>Calculus I</li>
   <ul>
 	<li><a href="https://www.blakefarman.phd/ulm-syllabi/syllabi/1031/S24/syllabus.html">Spring 2024</a> (Blake Farman)</li>
-    <li><a href="{% link /assets/syllabi/syllabus-161-01-2020.pdf %}">Spring 2020</a> (Blake Farman)</li>
+    <li><a href="{{ '/materials/lafayette/161/2020/spring/01/syllabus.pdf' | relative_url }}">Spring 2020</a> (Blake Farman)</li>
   </ul>
     <li>College Algebra</li>
   <ul>
 	<li><a href="https://www.blakefarman.phd/ulm-syllabi/syllabi/1011/S24/63057">Fall 2023</a> (Blake Farman)</li>
-    <li><a href="{% link /assets/syllabi/syllabus-1011-62690.pdf %}">Spring 2021</a> (Blake Farman)</li>
+    <li><a href="{{ '/materials/ulm/1011/2021/spring/62690/syllabus.pdf' | relative_url }}">Spring 2021</a> (Blake Farman)</li>
   </ul>
   <li>Repositories</li>
   <ul>

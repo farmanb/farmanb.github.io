@@ -1,14 +1,15 @@
 ---
 course_number: 170
-crn: '002'
+section_id: '002'
+section_name: '002'
 year: 2016
 semester: Spring
 ---
-
+{% include section_paths.liquid %}
 <h3>Lecture Notes</h3>
 <div style="padding-left:30px">
   <p>
-    You can find a copy of my lecture notes for each class <a href="{% link notes/170/S16/index.html %}">here</a>.
+    You can find a copy of my lecture notes for each class <a href="{{ section_root | append: '/notes.html' | relative_url }}">here</a>.
   </p>
 </div>
 
@@ -38,7 +39,7 @@ semester: Spring
 	  <td>01</td>
 	  <td>
 	    Appendix A (Logic) and Chapter 6 (Sets and Counting)<br/>
-	    Solutions: <a href="{% link /assets/170/S16/notes/exam01-solutions-v1.pdf %}">Version 1</a> and <a href="{% link /assets/170/S16/notes/exam01-solutions-v2.pdf %}">Version 2</a>
+	    Solutions: <a href="{{ section_root | append: '/exam01-solutions-v1.pdf' | relative_url }}">Version 1</a> and <a href="{{ section_root | append: '/exam01-solutions-v2.pdf' | relative_url }}">Version 2</a>
 	  </td>
 	  <td>2/26/16</td>
 	</tr>
@@ -46,7 +47,7 @@ semester: Spring
 	  <td>02</td>
 	  <td>
 	    Chapters 3 and 4.<br/>
-	    Solutions: <a href="{% link /assets/170/S16/notes/exam02-solutions-v1.pdf %}">Version 1</a> and <a href="{% link /assets/170/S16/notes/exam02-solutions-v2.pdf %}">Version 2</a>
+	    Solutions: <a href="{{ section_root | append: '/exam02-solutions-v1.pdf' | relative_url }}">Version 1</a> and <a href="{{ section_root | append: '/exam02-solutions-v2.pdf' | relative_url }}">Version 2</a>
 	  </td>
 	  <td>4/18/15</td>
 	</tr>

@@ -1,7 +1,7 @@
 ---
 layout: section
 ---
-
+{% include section_paths.liquid %}
 <!-- <h2>Animations</h2> -->
 <!-- <div style="padding-left: 30px; width: 100%; overflow: hidden;"> -->
   <!--   <div style="float: left; width: 50%;"> -->
@@ -48,7 +48,7 @@ layout: section
       <td>{{ exam.material | join: ", " }}</td>
       <td>{{ exam.date }}</td>
       {% if exam.solutions %}
-      <td><a href="{% link {{exam.solutions}} %}">Solutions</a></td>
+      <td><a href="{{exam.solutions | relative_url }}">Solutions</a></td>
       {% else %}
       <td></td>
       {% endif %}
@@ -57,7 +57,8 @@ layout: section
   </table>
 </div>
 
-{% assign homework_path = '/assets/calc1/homework' %}
+{% assign homework_path = '/materials/lafayette/calc1/homework' %}
+
 
 <h2>Homework</h2>
 <div style="padding-left: 30px">

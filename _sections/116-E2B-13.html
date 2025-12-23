@@ -1,9 +1,11 @@
 ---
 course_number: 116
-crn: E2B
+section_id: E2B
+section_name: E2B
 year: 2013
 semester: Fall
 ---
+{% include section_paths.liquid %}
 <h2>Homework</h2>
 <div style="padding-left:30px;">
   <table>
@@ -13,7 +15,7 @@ semester: Fall
       <th>Due Date</th>
     </tr>
     <tr>
-      <td><a href="{% link /assets/116/F13/hw/solutions/01/hw01-116.pdf %}">01</a></td>
+      <td><a href="{{ term_root | append: '/shared/hw/hw01-116.pdf' | relative_url}}">01</a></td>
       <td>
 	1.1: 13, 14, <br/>
 	1.2: 16, 21, <br/>
@@ -25,14 +27,14 @@ semester: Fall
       </td>
     </tr>
     <tr>
-      <td><a href="{% link /assets/116/F13/hw/solutions/02/hw02-116.pdf %}">02</a></td>
+      <td><a href="{{ term_root | append: '/shared/hw/hw02-116.pdf' | relative_url}}">02</a></td>
       <td>
 	2.1: 1, 2, 5, 7, 8 <br/>
       </td>
       <td>10/31/13</td>
     </tr>
     <tr>
-      <td><a href="{% link /assets/116/F13/hw/solutions/03/hw03-116.pdf %}">03</a></td>
+      <td><a href="{{ term_root | append: '/shared/hw/hw03-116.pdf' | relative_url}}">03</a></td>
       <td>
 	3.1: 5, 12 <br/>
 	3.2: 3, 7 <br/>
@@ -44,7 +46,7 @@ semester: Fall
       <td>11/7/13</td>
     </tr>
     <tr>
-      <td><a href="{% link /assets/116/F13/hw/solutions/04/hw04-116.pdf %}">04</a></td>
+      <td><a href="{{ term_root | append: '/shared/hw/hw04-116.pdf' | relative_url}}">04</a></td>
       <td>
 	5.2: 2, 4, 6<br/>
 	5.3: 2, 4, 8, 12<br/>
@@ -53,7 +55,7 @@ semester: Fall
       <td>11/19/13</td>
     </tr>
     <tr>
-      <td><a href="{% link /assets/116/F13/hw/solutions/05/hw05-116.pdf %}">05</a></td>
+      <td><a href="{{ term_root | append: '/shared/hw/hw05-116.pdf' | relative_url}}">05</a></td>
       <td>
 	6.2: 2, 6, <br/>
 	7.1: 2, 4, <br/>  			    
@@ -96,13 +98,13 @@ semester: Fall
     </tr>
     <tr>
       <td >
-	<a href="{% link /assets/116/F13/exams/solns/01/exam01-116-solns.pdf %}">01</a>
+	<a href="{{ term_root | append: '/shared/exam01-116-solns.pdf' | relative_url}}">01</a>
       </td>
       <td>1-4</td>
       <td>11/12/13</td>
     </tr>
     <tr>
-      <td><a href="{% link /assets/116/F13/exams/solns/02/exam02-116-solns.pdf %}">02</a></td>
+      <td><a href="{{ term_root | append: '/shared/exam02-116-solns.pdf' | relative_url}}">02</a></td>
       <td>5-8</td>
       <td>12/2/13</td>
     </tr>

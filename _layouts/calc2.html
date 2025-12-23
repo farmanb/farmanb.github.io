@@ -49,7 +49,7 @@ layout: section
       <td>{{ exam.material | join: ", " }}</td>
       <td>{{ exam.date }}</td>
       {% if exam.solutions %}
-      <td><a href="{% link {{exam.solutions}} %}">Solutions</a></td>
+      <td><a href="{{ exam.solutions | relative_url }}">Solutions</a></td>
       {% else %}
       <td></td>
       {% endif %}
@@ -58,7 +58,7 @@ layout: section
   </table>
 </div>
 
-{% assign homework_path = '/assets/calc2/homework' %}
+{% assign homework_path = '/materials/lafayette/calc2/homework' %}
 
 <h2>Homework</h2>
 <div style="padding-left: 30px">
@@ -89,7 +89,7 @@ layout: section
     </tr>
     {% for quiz in quizzes %}
     <tr>
-      <td><a href="{% link {{quiz.solutions}} %}">{{quiz.name}}</a></td>
+      <td><a href="{{ quiz.solutions | relative_url }}">{{quiz.name}}</a></td>
       <td>{{quiz.date}}</td>
     </tr>
     {% endfor %}

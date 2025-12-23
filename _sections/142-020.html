@@ -1,13 +1,14 @@
 ---
 course_number: 142
-crn: '020'
+section_id: '020'
+section_name: '020'
 year: 2018
 semester: Spring
 ---
-
+{% include section_paths.liquid %}
 <h3>Lecture Notes</h3>
 <div style="padding-left:30px">
-  <a href="{% link materials/USC/142/S18/notes.html %}">Spring 2018</a>
+  <a href="{{ section_root | append: '/notes.html' | relative_url}}">Spring 2018</a>
 </div>
 
 <h2>Exams</h2>
@@ -35,7 +36,7 @@ semester: Spring
 	  Trigonometric Substitutions (8.4),
 	  Integration of Rational Functions by Partial Fractions (8.5),
 	  Improper Integrals (8.8)<br/>
-	  <a href="{% link /assets/142/S18/exam-solutions/exam01-142-solns.pdf %}">Solutions</a>
+	  <a href="{{ section_root | append: '/exam01-142-solns.pdf ' | relative_url }}">Solutions</a>
 	</td>
 	<td>2/13/18</td>
       </tr>
@@ -45,7 +46,7 @@ semester: Spring
 	  Sequences and Series<br/>
 	  Sequences (10.1),
 	  Infinite Series (10.2), The Integral Test (10.3), Comparison Tests (10.4), Absolute Convergence; The Ratio and Root Tests (10.5), Alternating Series and Conditional Convergence (10.6)<br/>
-	  <a href="{% link /assets/142/S18/exam-solutions/exam02-142-solns.pdf %}">Solutions</a>
+	  <a href="{{ section_root | append: '/exam02-142-solns.pdf ' | relative_url }}">Solutions</a>
 	</td>
 	<td>3/20/18</td>
       </tr>
@@ -56,7 +57,7 @@ semester: Spring
 	  Power Serires (10.7),
 	  Taylor and Maclaurin Series (10.8),
 	  Convergence of Taylor Series (10.9)<br/>
-	  <a href="{% link /assets/142/S18/exam-solutions/exam03-142-solns.pdf %}">Solutions</a>
+	  <a href="{{ section_root | append: '/exam03-142-solns.pdf ' | relative_url }}">Solutions</a>
 	</td>
 	<td>4/17/18</td>
       </tr>

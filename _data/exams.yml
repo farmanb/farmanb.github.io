@@ -10,7 +10,7 @@
    - "Partial Fractions (7.4)"
    - "Improper Integrals (7.8)"
   date: '2/15/19'
-  solutions: '/assets/exams/exam01-162-Spring-2019.pdf'
+  solutions: '/materials/lafayette/162/2019/spring/shared/exam01-162-Spring-2019.pdf'
 - semester: Spring
   year: 2019
   course_number: 162
@@ -26,7 +26,7 @@
    - "Tangents and arclength (10.2)"
    - "Polar Coordinates (10.3)"
    - "Areas in Polar Coordinates (10.4)"
-  solutions: '/assets/exams/exam02-162-Spring-2019.pdf'
+  solutions: '/materials/lafayette/162/2019/spring/shared/exam02-162-Spring-2019.pdf'
 - semester: Spring
   year: 2019
   course_number: 162
@@ -43,7 +43,7 @@
    - "Representing functions (11.9)"
    - "Taylor and Maclaurin series (11.10)"
    - "Applications of Taylor polynomials (11.11)"
-  solutions: '/assets/exams/exam03-162-Spring-2019.pdf'
+  solutions: '/materials/lafayette/162/2019/spring/shared/exam03-162-Spring-2019.pdf'
 - semester: Spring
   year: 2019
   course_number: 162
@@ -63,7 +63,7 @@
    - "Integration by Parts (7.1)"
    - "Partial Fractions (7.4)"
    - "Improper Integrals (7.8)"
-  solutions: '/assets/exams/exam01-162-Fall-2019.pdf'
+  solutions: '/materials/lafayette/162/2019/fall/shared/exam01-162-Fall-2019.pdf'
 - semester: Fall
   year: 2019
   course_number: 162
@@ -79,7 +79,7 @@
    - "Tangents and arclength (10.2)"
    - "Polar Coordinates (10.3)"
    - "Areas in Polar Coordinates (10.4)"
-  solutions: '/assets/exams/exam02-162-Fall-2019.pdf'
+  solutions: '/materials/lafayette/162/2019/fall/shared/exam02-162-Fall-2019.pdf'
 - semester: Fall
   year: 2019
   course_number: 162
@@ -96,7 +96,7 @@
    - "Representing functions (11.9)"
    - "Taylor and Maclaurin series (11.10)"
    - "Applications of Taylor polynomials (11.11)"
-  solutions: '/assets/exams/exam03-162-Fall-2019.pdf'
+  solutions: '/materials/lafayette/162/2019/fall/shared/exam03-162-Fall-2019.pdf'
 - semester: Fall
   year: 2019
   course_number: 162
@@ -112,7 +112,7 @@
   material:
    - "Limits and Continuity (1.4-1.6, 1.8)"
    - "Derivative Rules (2.1-2.5)"
-  solutions: '/assets/exams/exam01-161-Fall-2018.pdf'
+  solutions: '/materials/lafayette/161/2018/shared/exam01-161-Fall-2018.pdf'
 - semester: Fall
   year: 2018
   course_number: 161
@@ -122,7 +122,7 @@
    - "Applications of Derivatives (2.6-2.9, 3.1-3.4)"
    - "Curve Sketching (3.5)"
    - "Optimization (3.7)"
-  solutions: '/assets/exams/exam02-161-Fall-2018.pdf'
+  solutions: '/materials/lafayette/161/2018/shared/exam02-161-Fall-2018.pdf'
 - semester: Fall
   year: 2018
   course_number: 161
@@ -133,7 +133,7 @@
    - "Fundamental Theorem of Calculus (4.3-4.4)"
    - "Substitution (4.5)"
    - "Inverse/Exponential/Logarithmic Functions (6.1-6.4)"
-  solutions: '/assets/exams/exam03-161-Fall-2018.pdf'
+  solutions: '/materials/lafayette/161/2018/shared/exam03-161-Fall-2018.pdf'
 - semester: Fall
   year: 2018
   course_number: 161
@@ -149,7 +149,7 @@
   material:
    - "Limits and Continuity (1.4-1.6, 1.8)"
    - "Derivative Rules (2.1-2.5)"
-  solutions: '/assets/exams/exam01-161-Summer-2019.pdf'
+  solutions: '/materials/lafayette/161/2019/summer/spal/exam01-161-Summer-2019.pdf'
 - semester: Summer
   year: 2019
   course_number: 161
@@ -159,7 +159,7 @@
    - "Applications of Derivatives (2.6-2.9, 3.1-3.4)"
    - "Curve Sketching (3.5)"
    - "Optimization (3.7)"
-  solutions: '/assets/exams/exam02-161-Summer-2019.pdf'
+  solutions: '/materials/lafayette/161/2019/summer/spal/exam02-161-Summer-2019.pdf'
 - semester: Summer
   year: 2019
   course_number: 161
@@ -169,7 +169,7 @@
    - "Antiderivatives and Integration (3.9-4.2)"
    - "Fundamental Theorem of Calculus (4.3-4.4)"
    - "Substitution (4.5)"
-  solutions: '/assets/exams/exam03-161-Summer-2019.pdf'
+  solutions: '/materials/lafayette/161/2019/summer/spal/exam03-161-Summer-2019.pdf'
 - semester: Summer
   year: 2019
   course_number: 161
@@ -185,7 +185,7 @@
   material:
    - "Limits and Continuity (1.4-1.6, 1.8)"
    - "Derivative Rules (2.1-2.5)"
-  solutions: '/assets/exams/exam01-161-Fall-2019.pdf'
+  solutions: '/materials/lafayette/161/2019/fall/04/exam01-161-Fall-2019.pdf'
 - semester: Fall
   year: 2019
   course_number: 161
@@ -195,7 +195,7 @@
    - "Applications of Derivatives (2.6-2.9, 3.1-3.4)"
    - "Curve Sketching (3.5)"
    - "Optimization (3.7)"
-  solutions: '/assets/exams/exam02-161-Fall-2019.pdf'
+  solutions: '/materials/lafayette/161/2019/fall/04/exam02-161-Fall-2019.pdf'
 - semester: Fall
   year: 2019
   course_number: 161
@@ -205,7 +205,7 @@
    - "Antiderivatives and Integration (3.9-4.2)"
    - "Fundamental Theorem of Calculus (4.3-4.4)"
    - "Substitution (4.5)"
-  solutions: '/assets/exams/exam03-161-Fall-2019.pdf'
+  solutions: '/materials/lafayette/161/2019/fall/04/exam03-161-Fall-2019.pdf'
 - semester: Fall
   year: 2019
   course_number: 161
@@ -224,7 +224,7 @@
    - "Derivative Rules"
    - "Product and Quotient Rules"
    - "Chain Rule"
-  solutions: '/assets/exams/exam01-161-Spring-2020.pdf'
+  solutions: '/materials/lafayette/161/2020/spring/shared/exam01-161-Spring-2020.pdf'
 - semester: Spring
   year: 2020
   course_number: 161
@@ -236,7 +236,7 @@
    - "Asymptotes"
    - "Curve Sketching"
    - "Closed Interval Method and Optimization"
-  solutions: '/assets/exams/exam02-161-Spring-2020.pdf'
+  solutions: '/materials/lafayette/161/2020/spring/shared/exam02-161-Spring-2020.pdf'
 - semester: Spring
   year: 2020
   course_number: 161
@@ -246,7 +246,7 @@
    - "Integration"
    - "Fundamental Theorem of Calculus"
    - "Substitution"
-  solutions: '/assets/exams/exam03-161-Spring-2020.pdf'
+  solutions: '/materials/lafayette/161/2020/spring/shared/exam03-161-Spring-2020.pdf'
 - semester: Spring
   year: 2020
   course_number: 161

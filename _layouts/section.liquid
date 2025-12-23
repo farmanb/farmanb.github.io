@@ -3,6 +3,9 @@ layout: default
 ---
 
 {% assign course = site.courses | where: 'course_number', page.course_number | first %}
+
+{% include section_paths.liquid %}
+
 <h1> {{course.name}} </h1>
 <h2>{{ page.semester }} {{ page.year}}</h2>
 
@@ -46,10 +49,10 @@ layout: default
       {% if info.syllabus_override_url_absolute %}
       <a href="{{ info.syllabus_override }}">Syllabus</a>
       {% else %}
-      <a href= "{% link {{ info.syllabus_override }} %}">Syllabus</a>
+      <a href= "{{ info.syllabus_override | relative_url }}>Syllabus</a>
       {% endif %}
       {% else %}
-      <a href="{% link /assets/syllabi/syllabus-{{info.course_number}}-{{info.crn}}.pdf %}">Syllabus</a>
+      <a href="{{ section_root | append: '/syllabus.pdf' | relative_url }}">Syllabus</a>
       {% endif %}
     </p>
     {% if info.schedule %}

@@ -1,10 +1,11 @@
 ---
 course_number: 111
-crn: 'M13'
+section_id: '001'
+section_name: '001'
 year: 2013
 semester: Summer
 ---
-
+{% include section_paths.liquid %}
 <h2>Homework</h2>
 <div class="table-wrapper" style="padding-left:30px">
   <table>
@@ -14,7 +15,7 @@ semester: Summer
       <th>Due Date</th>
     </tr>
     <tr>
-      <td><a href="{% link /assets/111/M13/hw/hw01-111.pdf %}">01</a></td>
+      <td><a href="{{ section_root | append: '/hw01-111.pdf' | relative_url}}">01</a></td>
       <td>
 	A.2: 3, 4, 27, 29, 49, 63<br/>
 	A.3: 1, 3, 6, 29, 33, 52<br/>
@@ -26,7 +27,7 @@ semester: Summer
     </tr>
 
     <tr>
-      <td><a href="{% link/assets/111/M13/hw/hw02-111.pdf %}">02</a></td>
+      <td><a href="{{ section_root | append: '/hw02-111.pdf' | relative_url}}">02</a></td>
       <td>
 	B.3: 5, 17, 21,33, 43, 50<br/>
 	C.1: 9, 13, 23, 27, 35, 41, 61.<br/>
@@ -37,7 +38,7 @@ semester: Summer
     </tr>
 
     <tr>
-      <td><a href="{% link/assets/111/M13/hw/hw03-111.pdf %}">03</a></td>
+      <td><a href="{{ section_root | append: '/hw03-111.pdf' | relative_url}}">03</a></td>
       <td>
 	1.3: 11, 21<br/>
 	1.4: 7, 9, 11, 13, 21, 29, 31, 57<br/>
@@ -76,7 +77,7 @@ semester: Summer
     </tr>
 
     <tr>
-      <td><a href="{% link/assets/111/M13/hw/hw07-111.pdf %}">07</a></td>
+      <td><a href="{{ section_root | append: '/hw07-111.pdf' | relative_url}}">07</a></td>
       <td>
 	3.2: 32, 34, 38
 	3.3: 26 
@@ -85,7 +86,7 @@ semester: Summer
     </tr>
 
     <tr>
-      <td><a href="{% link/assets/111/M13/hw/hw08-111.pdf %}">08</a></td>
+      <td><a href="{{ section_root | append: '/hw08-111.pdf' | relative_url}}">08</a></td>
       <td>
 	4.1: 16, 18, 24, 32, 34 <br/>
 	4.2: 12, 14, 16, 20, 22, 34, 36
@@ -115,7 +116,7 @@ semester: Summer
 
 <h2>Exams</h2>
 <p>
-  <a href="{% link/assets/111/M13/exams/exam01-111-solns.pdf %}">Exam 1 Solutions</a><br/>
-  <a href="{% link/assets/111/M13/exams/exam02-111-solns.pdf %}">Exam 2 Solutions</a><br/>
-  <a href="{% link/assets/111/M13/exams/exam03-111-solns.pdf %}">Exam 3 Solutions</a>
+  <a href="{{ section_root | append: '/exam01-111-solns.pdf' | relative_url}}">Exam 1 Solutions</a><br/>
+  <a href="{{ section_root | append: '/exam02-111-solns.pdf' | relative_url}}">Exam 2 Solutions</a><br/>
+  <a href="{{ section_root | append: '/exam03-111-solns.pdf' | relative_url}}">Exam 3 Solutions</a>
 </p>

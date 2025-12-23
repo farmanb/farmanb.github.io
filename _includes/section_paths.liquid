@@ -1,0 +1,27 @@
+{% assign course = site.courses | where: 'course_number', page.course_number | first %}
+
+{% assign sem = page.semester | downcase %}
+{% assign section_id = page.section_id | default: info.section_id %}
+
+{% assign materials_root = '/materials' %}
+{% assign course_root =
+  materials_root
+  | append: '/'
+  | append: course.university_slug
+  | append: '/'
+  | append: page.course_number
+%}
+
+{% assign term_root =
+  course_root
+  | append: '/'
+  | append: page.year
+  | append: '/'
+  | append: sem
+%}
+
+{% assign section_root =
+  term_root
+  | append: '/'
+  | append: section_id
+%}

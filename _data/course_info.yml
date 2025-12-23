@@ -1,5 +1,5 @@
-- course_number: 4083/5083
-  crn: 'Math 4083/5083 F25'
+- course_number: 4083
+  section_id: '4083'
   year: 2025
   semester: Fall
   meetings:
@@ -10,8 +10,8 @@
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/syllabi/schedules/4083/F25'
   schedule_url_absolute: true
-- course_number: 490/587
-  crn: 'Math 490'
+- course_number: lean
+  section_id: '490'
   year: 2025
   semester: Spring
   meetings:
@@ -22,8 +22,8 @@
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/syllabi/schedules/lean/S25/schedule.html'
   schedule_url_absolute: true
-- course_number: 490/587
-  crn: 'Math 587'
+- course_number: lean
+  section_id: 587
   year: 2025
   semester: Spring
   meetings:
@@ -35,7 +35,7 @@
   schedule: 'https://www.blakefarman.phd/syllabi/schedules/lean/S25/schedule.html'
   schedule_url_absolute: true  
 - course_number: 308
-  crn: '001'
+  section_id: '001'
   year: 2025
   semester: Winter
   meetings:
@@ -47,7 +47,7 @@
   schedule: 'https://www.blakefarman.phd/syllabi/schedules/308/W25/schedule.html'
   schedule_url_absolute: true
 - course_number: 243
-  crn: '004'
+  section_id: '004'
   year: 2024
   semester: Fall
   meetings:
@@ -59,7 +59,7 @@
   schedule: 'https://www.blakefarman.phd/syllabi/schedules/243/F24/schedule.html'
   schedule_url_absolute: true
 - course_number: 4007
-  crn: 44692
+  section_id: 44692
   year: 2022
   semester: Fall
   meetings:
@@ -67,7 +67,7 @@
       time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room 3 - 84'
 - course_number: 3086
-  crn: 63395
+  section_id: 63395
   year: 2023
   semester: Spring
   meetings:
@@ -75,7 +75,7 @@
       time: '9:30 AM - 10:45 AM'
   location: 'George T. Walker Hall, Room 3-84'
 - course_number: 3086
-  crn: 44367
+  section_id: 44367
   year: 2021
   semester: Fall
   meetings:
@@ -83,7 +83,7 @@
       time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room 3 - 90'
 - course_number: 3080
-  crn: 44174
+  section_id: 44174
   year: 2023
   semester: Fall
   meetings:
@@ -91,7 +91,7 @@
       time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room 2 - 84'  
 - course_number: 3080
-  crn: 64863
+  section_id: 64863
   year: 2022
   semester: Spring
   meetings:
@@ -99,7 +99,7 @@
       time: '9:30 AM - 10:45 AM'
   location: 'George T. Walker Hall, Room 1 - 116'
 - course_number: 3040
-  crn: 64086
+  section_id: 64086
   year: 2024
   semester: Spring
   meetings:
@@ -111,7 +111,7 @@
   schedule: 'https://www.blakefarman.phd/ulm-syllabi/schedules/3040/S24/schedule.html'
   schedule_url_absolute: true  
 - course_number: 2040
-  crn: 65041
+  section_id: 65041
   year: 2023
   semester: Spring
   meetings:
@@ -119,7 +119,7 @@
       time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room 3-84'
 - course_number: 2032
-  crn: 44879
+  section_id: 44879
   year: 2022
   semester: Fall
   meetings:
@@ -127,16 +127,15 @@
       time: '10:00 AM - 10:50 AM'
   location: 'George T. Walker Hall, Room 3 - 90'
 - course_number: 2002
-  crn: 64042
+  section_id: 64042
   year: 2023
   semester: Spring
   meetings:
     - day: 'Tuesday/Thursday'
       time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room 3 - 84'
-  syllabus_override: '/assets/syllabi/syllabus-2002-64042-S23.pdf'
 - course_number: 2002
-  crn: 41001
+  section_id: 41001
   year: 2021
   semester: Fall
   meetings:
@@ -144,13 +143,13 @@
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 3 - 96'
 - course_number: 2002
-  crn: 64042
+  section_id: 64042
   year: 2021
   semester: Spring
   meetings:
     - day: 'Online Only'
 - course_number: 1031
-  crn: 63789
+  section_id: 63789
   year: 2024
   semester: Spring
   meetings:
@@ -162,7 +161,7 @@
   schedule: 'https://www.blakefarman.phd/ulm-syllabi/schedules/1031/S24/schedule.html'
   schedule_url_absolute: true
 - course_number: 1011
-  crn: 63057
+  section_id: 63057
   year: 2024
   semester: Spring
   meetings:
@@ -174,7 +173,7 @@
   schedule: 'https://www.blakefarman.phd/ulm-syllabi/schedules/1011/S24/63057/schedule.html'
   schedule_url_absolute: true
 - course_number: 1011
-  crn: 63167
+  section_id: 63167
   year: 2024
   semester: Spring
   meetings:
@@ -186,55 +185,53 @@
   schedule: 'https://www.blakefarman.phd/ulm-syllabi/schedules/1011/S24/63167/schedule.html'
   schedule_url_absolute: true
 - course_number: 1011
-  crn: 62691
+  section_id: 62691
   year: 2021
   semester: Spring
   meetings:
     - day: 'Online Only'
 - course_number: 1011
-  crn: 62690
+  section_id: 62690
   year: 2021
   semester: Spring
   meetings:
     - day: 'Online Only'
 - course_number: 1011
-  crn: 43013
+  section_id: 43013
   year: 2020
   semester: Fall
   meetings:
     - day: 'Online Only'
 - course_number: 1011
-  crn: 43002
+  section_id: 43002
   year: 2020
   semester: Fall
   meetings:
     - day: 'Online Only'
 - course_number: 1011
-  crn: 42181
+  section_id: 42181
   year: 2020
   semester: Fall
   meetings:
     - day: 'Online Only'
 - course_number: 1007
-  crn: 45282
+  section_id: 45282
   year: 2023
   semester: Fall
   meetings:
     - day: 'Monday/Wednesday'
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 3 - 53'
-  syllabus_override: '/assets/syllabi/syllabus-1007-45282-F23.pdf'
 - course_number: 1007
-  crn: 45288
+  section_id: 45288
   year: 2023
   semester: Fall
   meetings:
     - day: 'Monday/Wednesday'
       time: '2:00 PM - 3:15 PM'
   location: 'George T. Walker Hall, Room 3 - 53'
-  syllabus_override: '/assets/syllabi/syllabus-1007-45288-F23.pdf'  
 - course_number: 1007
-  crn: 64979
+  section_id: 64979
   year: 2023
   semester: Spring
   meetings:
@@ -242,7 +239,7 @@
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 3 - 90'
 - course_number: 1007
-  crn: 45282
+  section_id: 45282
   year: 2022
   semester: Fall
   meetings:
@@ -250,7 +247,7 @@
       time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room 3 - 90'
 - course_number: 1007
-  crn: 45288
+  section_id: 45288
   year: 2022
   semester: Fall
   meetings:
@@ -258,7 +255,7 @@
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 3 - 90'
 - course_number: 1007
-  crn: 60847
+  section_id: 60847
   year: 2022
   semester: Spring
   meetings:
@@ -266,7 +263,7 @@
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 2 - 51'
 - course_number: 1007
-  crn: 62225
+  section_id: 62225
   year: 2022
   semester: Spring
   meetings:
@@ -274,7 +271,7 @@
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 2 - 51'
 - course_number: 1007
-  crn: 40992
+  section_id: 40992
   year: 2021
   semester: Fall
   meetings:
@@ -282,7 +279,7 @@
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 3 - 91'
 - course_number: 1007
-  crn: 40994
+  section_id: 40994
   year: 2021
   semester: Fall
   meetings:
@@ -290,52 +287,52 @@
       time: '2:00 PM - 3:15 PM'
   location: 'George T. Walker Hall, Room 3 - 91'
 - course_number: 17
-  crn: G
+  section_id: g
   year: 2009
   semester: Fall
   meetings:
     - day: 'Tuesday/Thursday'
       time: '4:00 PM - 5:15 PM'
   location: 'Lafayette Hall, Room L403'
-  syllabus_override: 'assets/syllabi/UVM/syllabus-17-Fall-2009.html'
+  no_syllabus: true  
 - course_number: 17
-  crn: A
+  section_id: a
   year: 2010
   semester: Spring
   meetings:
     - day: 'Monday/Wednesday/Friday'
       time: '8:30 AM - 9:20 AM'
   location: 'Perkins Hall, Room 200'
-  syllabus_override: 'assets/syllabi/UVM/syllabus-17-Spring-2010.html'
+  no_syllabus: true
 - course_number: 17
-  crn: Z2
+  section_id: z2
   year: 2010
   semester: Summer
   meetings:
     - day: 'Monday - Thursday'
       time: '8:30 AM - 11:00 AM'
   location: 'Votey Hall, Room 209'
-  syllabus_override: 'assets/syllabi/UVM/syllabus-17-Summer-2010.html'
+  no_syllabus: true  
 - course_number: 19
-  crn: S
+  section_id: s
   year: 2010
   semester: Fall
   meetings:
     - day: 'Monday/Wednesday/Friday'
       time: '1:55 PM - 2:45 PM'
-  location: 'Lafayette Hall, Room L210'  
-  syllabus_override: 'assets/syllabi/UVM/syllabus-19-S.html'
+  location: 'Lafayette Hall, Room L210'
+  no_syllabus: true
 - course_number: 19
-  crn: W
+  section_id: w
   year: 2010
   semester: Fall
   meetings:
     - day: 'Monday/Wednesday/Friday'
       time: '3:00 PM - 3:50 PM'
-  location: 'Lafayette Hall, Room L210'    
-  syllabus_override: 'assets/syllabi/UVM/syllabus-19-S.html'
+  location: 'Lafayette Hall, Room L210'
+  no_syllabus: true  
 - course_number: 272
-  crn: Section 01
+  section_id: '01'
   year: 2020
   semester: Spring
   meetings:
@@ -343,7 +340,7 @@
       time: '3:00 PM - 4:30 PM'
   location: 'Pardee Hall, Room 321'
 - course_number: 162
-  crn: Section 01
+  section_id: '01'
   year: 2019
   semester: Fall
   meetings:
@@ -351,7 +348,7 @@
       time: '8:00 AM - 9:15 AM'
   location: 'Pardee Hall, Room 227'
 - course_number: 162
-  crn: Section 03
+  section_id: '03'
   year: 2019
   semester: Fall
   meetings:
@@ -359,7 +356,7 @@
       time: '11:00 AM - 12:15 PM'
   location: 'Pardee Hall, Room 227'
 - course_number: 162
-  crn: Section 06
+  section_id: '06'
   year: 2019
   semester: Spring
   meetings:
@@ -367,7 +364,7 @@
       time: '2:45 PM - 4:00 PM'
   location: 'Pardee Hall, Room 201'
 - course_number: 162
-  crn: Section 07
+  section_id: '07'
   year: 2019
   semester: Spring
   meetings:
@@ -375,61 +372,55 @@
       time: '11:00 AM - 12:15 PM'
   location: 'Pardee Hall, Room 217'
 - course_number: 161
-  crn: Section 01
+  section_id: '01'
   year: 2020
   semester: Spring
   meetings:
     - day: 'Monday/Wednesday/Friday'
       time: '9:30 AM - 10:45 AM'
   location: 'Pardee Hall, Room 201'
-  syllabus_override: '/assets/syllabi/syllabus-161-01-2020.pdf'
 - course_number: 161
-  crn: Section 02
+  section_id: '02'
   year: 2020
   semester: Spring
   meetings:
     - day: 'Monday/Wednesday/Friday'
       time: '11:00 AM - 12:15 PM'
   location: 'Pardee Hall, Room 201'
-  syllabus_override: '/assets/syllabi/syllabus-161-02.pdf'
 - course_number: 161
-  crn: Section 04
+  section_id: '04'
   year: 2019
   semester: Fall
   meetings:
     - day: 'Monday/Wednesday/Friday'
       time: '9:30 AM - 10:45 AM'
   location: 'Pardee Hall, Room 217'
-  syllabus_override: '/assets/syllabi/syllabus-161-04.pdf'
 - course_number: 161
-  crn: Summer Program for the Advancement of Leadership
+  section_id: spal
   year: 2019
   semester: Summer
   meetings:
     - day: 'Monday - -Friday'
       time: '9:00 AM - 11:00 AM'
   location: 'Pardee Hall, Room 217'
-  syllabus_override: '/assets/syllabi/syllabus-SPAL.pdf'
 - course_number: 161
-  crn: Section 01
+  section_id: '01'
   year: 2018
   semester: Fall
   meetings:
     - day: 'Monday/Wednesday/Friday'
       time: '8:00 AM - 9:15 AM'
   location: 'Pardee Hall, Room 201'
-  syllabus_override: '/assets/syllabi/syllabus-161-01-2018.pdf'
 - course_number: 161
-  crn: Section 04
+  section_id: '04'
   year: 2018
   semester: Fall
   meetings:
     - day: 'Monday/Wednesday/Friday'
       time: '11:00 AM - 12:15 PM'
   location: 'Pardee Hall, Room 201'
-  syllabus_override: '/assets/syllabi/syllabus-161-04-2018.pdf'
 - course_number: 170
-  crn: '002'
+  section_id: '002'
   year: 2016
   semester: Spring
   meetings:
@@ -437,7 +428,7 @@
       time: '12:00 PM - 12:50 PM'
   location: 'Callcott Social Sciences Center, Room 101'
 - course_number: 170
-  crn: '007'
+  section_id: '007'
   year: 2014
   semester: Spring
   meetings:
@@ -445,7 +436,7 @@
       time: '5:30 PM - 6:45 PM'
   location: 'LeConte College, Room 115'
 - course_number: 142
-  crn: '020'
+  section_id: '020'
   year: 2018
   semester: Spring
   meetings:
@@ -453,7 +444,7 @@
       time: '10:05 AM - 11:20 AM'
   location: 'Gambrell Hall, Room 103'
 - course_number: 142
-  crn: '004'
+  section_id: '004'
   year: 2014
   semester: Summer
   meetings:
@@ -461,7 +452,7 @@
       time: '10:05 AM - 12:05 PM'
   location: 'LeConte College, Room 121'
 - course_number: 142
-  crn: '010'
+  section_id: '010'
   year: 2012
   semester: Fall
   meetings:
@@ -470,7 +461,7 @@
   location: 'LeConte College'
   no_syllabus: true
 - course_number: 142
-  crn: '009'
+  section_id: '009'
   year: 2012
   semester: Fall
   meetings:
@@ -479,7 +470,7 @@
   location: 'LeConte College'  
   no_syllabus: true
 - course_number: 141
-  crn: '007'
+  section_id: '007'
   year: 2013
   semester: Spring
   meetings:
@@ -488,7 +479,7 @@
   location: 'LeConte College'  
   no_syllabus: true
 - course_number: 141
-  crn: '008'
+  section_id: '008'
   year: 2013
   semester: Spring
   meetings:
@@ -497,7 +488,7 @@
   location: 'LeConte College'  
   no_syllabus: true
 - course_number: 122
-  crn: 'E01'
+  section_id: 'E01'
   year: 2017
   semester: Spring
   meetings:
@@ -505,7 +496,7 @@
       time: '6:00 PM - 7:15 PM'
   location: 'LeConte College, Room 101'
 - course_number: 116
-  crn: 'E1B'
+  section_id: 'E1B'
   year: 2016
   semester: Fall
   meetings:
@@ -515,7 +506,7 @@
       time: '6:00 PM - 6:50 PM'
   location: 'LeConte College, Room 121'
 - course_number: 116
-  crn: 'E1B'
+  section_id: 'E1B'
   year: 2015
   semester: Fall
   meetings:
@@ -525,7 +516,7 @@
       time: '6:00 PM - 6:50 PM'
   location: 'LeConte College, Room 121'
 - course_number: 116
-  crn: 'E1B'
+  section_id: 'E1B'
   year: 2013
   semester: Fall
   meetings:
@@ -535,7 +526,7 @@
       time: '7:35 PM - 8:25 PM'
   location: 'LeConte College, Room 121'
 - course_number: 116
-  crn: 'E2B'
+  section_id: 'E2B'
   year: 2016
   semester: Fall
   meetings:
@@ -545,7 +536,7 @@
       time: '7:35 PM - 8:25 PM'
   location: 'LeConte College, Room 121'
 - course_number: 116
-  crn: 'E2B'
+  section_id: 'E2B'
   year: 2015
   semester: Fall
   meetings:
@@ -555,7 +546,7 @@
       time: '7:35 PM - 8:25 PM'
   location: 'LeConte College, Room 121'
 - course_number: 116
-  crn: 'E2B'
+  section_id: 'E2B'
   year: 2013
   semester: Fall
   meetings:
@@ -565,7 +556,7 @@
       time: '7:35 PM - 8:25 PM'
   location: 'LeConte College, Room 121'
 - course_number: 115
-  crn: '011'
+  section_id: '011'
   year: 2014
   semester: Fall
   meetings:
@@ -575,16 +566,15 @@
       time: '4:25 PM - 5:15 PM'
   location: 'LeConte College, Room 101'
 - course_number: 111
-  crn: '006'
+  section_id: '006'
   year: 2017
   semester: Fall
   meetings:
     - day: 'Monday/Wednesday' 
       time: '6:00 PM - 7:15 PM'
   location: 'Callcot Social Sciences Center, Room 003'
-  syllabus_override: '/assets/syllabi/syllabus-111-006-2017.pdf'
 - course_number: 111
-  crn: '006'
+  section_id: '006'
   year: 2015
   semester: Spring
   meetings:
@@ -592,7 +582,7 @@
       time: '10:50 AM - 11:40 AM'
   location: 'Gambrell Hall, Room 124'
 - course_number: 111
-  crn: 'M13'
+  section_id: '001'
   year: 2013
   semester: Summer
   meetings:

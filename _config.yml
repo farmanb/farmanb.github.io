@@ -2,6 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
+#liquid:
+#  error_mode: strict
+#  strict_filters: true
+
 title: blank # the website title (if blank, full name will be used instead)
 
 first_name: Blake
