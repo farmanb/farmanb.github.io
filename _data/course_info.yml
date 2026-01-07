@@ -1,27 +1,27 @@
 ---
 - course_number: 4083
-  section_id: '4083'
+  section_id: '001'
   year: 2025
   semester: Fall
   meetings:
     - day: 'Monday/Wednesday/Friday'
       time: '2:00 PM - 3:15 PM'
   location: 'Nethken 153'
-  syllabus_override: 'https://www.blakefarman.phd/syllabi/syllabi/4083/F25'
+  syllabus_override: 'https://www.blakefarman.phd/syllabus-4083-001-F25/frontmatter.html'
   syllabus_override_url_absolute: true
-  schedule: 'https://www.blakefarman.phd/syllabi/schedules/4083/F25'
+  schedule: 'https://www.blakefarman.phd/syllabus-4083-001-F25/schedule.html'
   schedule_url_absolute: true
 - course_number: lean
-  section_id: '490'
+  section_id: 490
   year: 2025
   semester: Spring
   meetings:
     - day: 'Monday/Wednesday/Friday'
       time: '11:00 AM - 12:15 PM'
   location: 'Nethken 153'
-  syllabus_override: 'https://www.blakefarman.phd/syllabi/syllabi/490/S25/syllabus.html'
+  syllabus_override: 'http://www.blakefarman.phd/syllabus-490-S25/'
   syllabus_override_url_absolute: true
-  schedule: 'https://www.blakefarman.phd/syllabi/schedules/lean/S25/schedule.html'
+  schedule: 'https://www.blakefarman.phd/syllabus-490-S25/schedule.html'
   schedule_url_absolute: true
 - course_number: lean
   section_id: 587
@@ -31,9 +31,9 @@
     - day: 'Monday/Wednesday/Friday'
       time: '11:00 AM - 12:15 PM'
   location: 'Nethken 153'
-  syllabus_override: 'https://www.blakefarman.phd/syllabi/syllabi/587/S25/syllabus.html'
+  syllabus_override: 'http://www.blakefarman.phd/syllabus-587-S25/'
   syllabus_override_url_absolute: true
-  schedule: 'https://www.blakefarman.phd/syllabi/schedules/lean/S25/schedule.html'
+  schedule: 'https://www.blakefarman.phd/syllabus-587-S25/schedule.html'
   schedule_url_absolute: true
 - course_number: 308
   section_id: '001'
@@ -43,9 +43,9 @@
     - day: 'Monday/Wednesday/Friday'
       time: '9:00 AM - 10:45 AM'
   location: 'IESB, Room 222'
-  syllabus_override: 'https://www.blakefarman.phd/syllabi/syllabi/308/W25/syllabus.html'
+  syllabus_override: 'http://www.blakefarman.phd/syllabus-308-001-W25/'
   syllabus_override_url_absolute: true
-  schedule: 'https://www.blakefarman.phd/syllabi/schedules/308/W25/schedule.html'
+  schedule: 'https://www.blakefarman.phd/syllabus-308-001-W25/schedule.html'
   schedule_url_absolute: true
 - course_number: 243
   section_id: '004'
@@ -55,9 +55,9 @@
     - day: 'Tuesday/Thursday'
       time: '10:00 AM - 11:50 AM'
   location: 'IESB, Room 220'
-  syllabus_override: 'https://www.blakefarman.phd/syllabi/syllabi/243/F24/syllabus.html'
+  syllabus_override: 'https://www.blakefarman.phd/syllabus-243-004-F24/frontmatter.html'
   syllabus_override_url_absolute: true
-  schedule: 'https://www.blakefarman.phd/syllabi/schedules/243/F24/schedule.html'
+  schedule: 'https://www.blakefarman.phd/syllabus-243-004-F24/schedule.html'
   schedule_url_absolute: true
 - course_number: 4007
   section_id: 44692

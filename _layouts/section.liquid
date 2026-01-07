@@ -10,7 +10,7 @@ layout: default
 <h2>{{ page.semester }} {{ page.year}}</h2>
 
 <h2>Course Information</h2>
-{% assign info = site.data.course_info | where_exp: "item", "item.course_number == page.course_number and item.crn == page.crn and item.year == page.year and item.semester == page.semester" | first %}
+{% assign info = site.data.course_info | where_exp: "item", "item.course_number == page.course_number and item.section_id == page.section_id and item.year == page.year and item.semester == page.semester" | first %}
 <div style="padding-left: 30px">
   <h3>Lectures</h3>
   <div style="padding-left: 30px">
