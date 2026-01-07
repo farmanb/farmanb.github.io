@@ -1,7 +1,7 @@
 ---
 - semester: Spring
   year: 2019
-  course_number: 162
+  course_id: 162
   number: 1
   material:
     - "Inverse trig functions (6.6)"
@@ -14,7 +14,7 @@
   solutions: '/materials/lafayette/162/2019/spring/shared/exam01-162-Spring-2019.pdf'
 - semester: Spring
   year: 2019
-  course_number: 162
+  course_id: 162
   number: 2
   date: '3/27/19'
   material:
@@ -30,7 +30,7 @@
   solutions: '/materials/lafayette/162/2019/spring/shared/exam02-162-Spring-2019.pdf'
 - semester: Spring
   year: 2019
-  course_number: 162
+  course_id: 162
   number: 3
   date: '5/1/19'
   material:
@@ -47,14 +47,14 @@
   solutions: '/materials/lafayette/162/2019/spring/shared/exam03-162-Spring-2019.pdf'
 - semester: Spring
   year: 2019
-  course_number: 162
+  course_id: 162
   number: 'Final'
   material:
     - "Cumulative. The Final Exam will be held Friday December 13, 2019 12:00 pm - 3:00 pm in Kirby 104."
   date: '5/15/19'
 - semester: Fall
   year: 2019
-  course_number: 162
+  course_id: 162
   number: 1
   date: '9/23/19'
   material:
@@ -67,7 +67,7 @@
   solutions: '/materials/lafayette/162/2019/fall/shared/exam01-162-Fall-2019.pdf'
 - semester: Fall
   year: 2019
-  course_number: 162
+  course_id: 162
   number: 2
   date: '10/11/19'
   material:
@@ -83,7 +83,7 @@
   solutions: '/materials/lafayette/162/2019/fall/shared/exam02-162-Fall-2019.pdf'
 - semester: Fall
   year: 2019
-  course_number: 162
+  course_id: 162
   number: 3
   date: '11/22/19'
   material:
@@ -100,14 +100,14 @@
   solutions: '/materials/lafayette/162/2019/fall/shared/exam03-162-Fall-2019.pdf'
 - semester: Fall
   year: 2019
-  course_number: 162
+  course_id: 162
   number: Final
   date: '12/13/19'
   material:
     - "Cumulative. The Final Exam will be held Friday December 13, 2019 12:00 pm - 3:00 pm in Kirby 104."
 - semester: Fall
   year: 2018
-  course_number: 161
+  course_id: 161
   number: 1
   date: '9/26/18'
   material:
@@ -116,7 +116,7 @@
   solutions: '/materials/lafayette/161/2018/shared/exam01-161-Fall-2018.pdf'
 - semester: Fall
   year: 2018
-  course_number: 161
+  course_id: 161
   number: 2
   date: '10/24/18'
   material:
@@ -126,7 +126,7 @@
   solutions: '/materials/lafayette/161/2018/shared/exam02-161-Fall-2018.pdf'
 - semester: Fall
   year: 2018
-  course_number: 161
+  course_id: 161
   number: 3
   date: '11/28/18'
   material:
@@ -137,14 +137,14 @@
   solutions: '/materials/lafayette/161/2018/shared/exam03-161-Fall-2018.pdf'
 - semester: Fall
   year: 2018
-  course_number: 161
+  course_id: 161
   number: Final
   date: '12/13/19'
   material:
     - "Cumulative."
 - semester: Summer
   year: 2019
-  course_number: 161
+  course_id: 161
   number: 1
   date: '7/8/19'
   material:
@@ -153,7 +153,7 @@
   solutions: '/materials/lafayette/161/2019/summer/spal/exam01-161-Summer-2019.pdf'
 - semester: Summer
   year: 2019
-  course_number: 161
+  course_id: 161
   number: 2
   date: '7/24/19'
   material:
@@ -163,7 +163,7 @@
   solutions: '/materials/lafayette/161/2019/summer/spal/exam02-161-Summer-2019.pdf'
 - semester: Summer
   year: 2019
-  course_number: 161
+  course_id: 161
   number: 3
   date: '8/2/19'
   material:
@@ -173,14 +173,14 @@
   solutions: '/materials/lafayette/161/2019/summer/spal/exam03-161-Summer-2019.pdf'
 - semester: Summer
   year: 2019
-  course_number: 161
+  course_id: 161
   number: Final
   date: '8/9/19'
   material:
     - "Cumulative."
 - semester: Fall
   year: 2019
-  course_number: 161
+  course_id: 161
   number: 1
   date: '9/18/19'
   material:
@@ -189,7 +189,7 @@
   solutions: '/materials/lafayette/161/2019/fall/04/exam01-161-Fall-2019.pdf'
 - semester: Fall
   year: 2019
-  course_number: 161
+  course_id: 161
   number: 2
   date: '10/23/19'
   material:
@@ -199,7 +199,7 @@
   solutions: '/materials/lafayette/161/2019/fall/04/exam02-161-Fall-2019.pdf'
 - semester: Fall
   year: 2019
-  course_number: 161
+  course_id: 161
   number: 3
   date: '11/13/19'
   material:
@@ -209,14 +209,14 @@
   solutions: '/materials/lafayette/161/2019/fall/04/exam03-161-Fall-2019.pdf'
 - semester: Fall
   year: 2019
-  course_number: 161
+  course_id: 161
   number: Final
   date: '12/13/19'
   material:
     - "Cumulative. The Final Exam will be held Friday December 13, 2019 8:00 am - 11:00 am in Farinon Theater."
 - semester: Spring
   year: 2020
-  course_number: 161
+  course_id: 161
   number: 1
   date: '2/19/20'
   material:
@@ -228,7 +228,7 @@
   solutions: '/materials/lafayette/161/2020/spring/shared/exam01-161-Spring-2020.pdf'
 - semester: Spring
   year: 2020
-  course_number: 161
+  course_id: 161
   number: 2
   date: '4/3/20 - 4/10/20'
   material:
@@ -240,7 +240,7 @@
   solutions: '/materials/lafayette/161/2020/spring/shared/exam02-161-Spring-2020.pdf'
 - semester: Spring
   year: 2020
-  course_number: 161
+  course_id: 161
   number: 3
   date: '4/27/20 - 5/1/20'
   material:
@@ -250,7 +250,7 @@
   solutions: '/materials/lafayette/161/2020/spring/shared/exam03-161-Spring-2020.pdf'
 - semester: Spring
   year: 2020
-  course_number: 161
+  course_id: 161
   number: Final
   date: '5/13/20'
   material:

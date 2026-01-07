@@ -1,6 +1,6 @@
 ---
 name: Interactive Theorem Proving with Lean
-course_number: lean
+course_id: lean
 university: Louisiana Tech University
 university_slug: latech
 ---

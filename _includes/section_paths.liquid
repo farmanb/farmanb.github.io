@@ -1,4 +1,4 @@
-{% assign course = site.courses | where: 'course_number', page.course_number | first %}
+{% assign course = site.courses | where: 'course_id', page.course_id | first %}
 
 {% assign sem = page.semester | downcase %}
 {% assign section_id = page.section_id | default: info.section_id %}
@@ -9,7 +9,7 @@
   | append: '/'
   | append: course.university_slug
   | append: '/'
-  | append: page.course_number
+  | append: page.course_id
 %}
 
 {% assign term_root =

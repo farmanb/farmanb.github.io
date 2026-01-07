@@ -10,16 +10,14 @@ universities: [Louisiana Tech University, University of Louisiana at Monroe, Laf
 ---
 
 {% for university in page.universities %}
-<h1>{{ university }}</h1>
-<ul>
-  {% assign ulm_courses = site.courses | where: 'university', university | sort: "course_number" | reverse %}
-  {% for course in ulm_courses %}
-  <li>
-    <h2><a href="{% link {{course.path}} %}">{{ course.name }}</a></h2>
-    <!-- <h3>{{ course.position }}</h3> -->
-    <p>{{ course.content | markdownify }}</p>
-  </li>
+# {{ university}}
+---
+
+  {% assign courses = site.courses | where: 'university', university | sort: "course_id" | reverse %}
+  {% for course in courses %}
+  - ## [{{ course.name }}]({{course.url | relative_url}})
+
+      {{ course.content | markdownify }}
   {% endfor %}
-</ul>
 {% endfor %}
 

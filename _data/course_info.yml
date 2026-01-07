@@ -1,5 +1,5 @@
 ---
-- course_number: 4083
+- course_id: 4083
   section_id: '001'
   year: 2025
   semester: Fall
@@ -11,7 +11,7 @@
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/syllabus-4083-001-F25/schedule.html'
   schedule_url_absolute: true
-- course_number: lean
+- course_id: lean
   section_id: 490
   year: 2025
   semester: Spring
@@ -23,7 +23,7 @@
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/syllabus-490-S25/schedule.html'
   schedule_url_absolute: true
-- course_number: lean
+- course_id: lean
   section_id: 587
   year: 2025
   semester: Spring
@@ -35,7 +35,7 @@
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/syllabus-587-S25/schedule.html'
   schedule_url_absolute: true
-- course_number: 308
+- course_id: 308
   section_id: '001'
   year: 2025
   semester: Winter
@@ -47,7 +47,7 @@
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/syllabus-308-001-W25/schedule.html'
   schedule_url_absolute: true
-- course_number: 243
+- course_id: 243
   section_id: '004'
   year: 2024
   semester: Fall
@@ -59,7 +59,7 @@
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/syllabus-243-004-F24/schedule.html'
   schedule_url_absolute: true
-- course_number: 4007
+- course_id: 4007
   section_id: 44692
   year: 2022
   semester: Fall
@@ -67,7 +67,7 @@
     - day: 'Tuesday/Thurdsay'
       time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room 3 - 84'
-- course_number: 3086
+- course_id: 3086
   section_id: 63395
   year: 2023
   semester: Spring
@@ -75,7 +75,7 @@
     - day: 'Tuesday/Thurdsay'
       time: '9:30 AM - 10:45 AM'
   location: 'George T. Walker Hall, Room 3-84'
-- course_number: 3086
+- course_id: 3086
   section_id: 44367
   year: 2021
   semester: Fall
@@ -83,7 +83,7 @@
     - day: 'Tuesday/Thurdsay'
       time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room 3 - 90'
-- course_number: 3080
+- course_id: 3080
   section_id: 44174
   year: 2023
   semester: Fall
@@ -91,7 +91,7 @@
     - day: 'Tuesday/Thursday'
       time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room 2 - 84'
-- course_number: 3080
+- course_id: 3080
   section_id: 64863
   year: 2022
   semester: Spring
@@ -99,7 +99,7 @@
     - day: 'Monday/Wednesday'
       time: '9:30 AM - 10:45 AM'
   location: 'George T. Walker Hall, Room 1 - 116'
-- course_number: 3040
+- course_id: 3040
   section_id: 64086
   year: 2024
   semester: Spring
@@ -111,7 +111,7 @@
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/ulm-syllabi/schedules/3040/S24/schedule.html'
   schedule_url_absolute: true
-- course_number: 2040
+- course_id: 2040
   section_id: 65041
   year: 2023
   semester: Spring
@@ -119,7 +119,7 @@
     - day: 'Monday/Wednesday'
       time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room 3-84'
-- course_number: 2032
+- course_id: 2032
   section_id: 44879
   year: 2022
   semester: Fall
@@ -127,7 +127,7 @@
     - day: 'Monday/Tuesday/Thursday/Friday'
       time: '10:00 AM - 10:50 AM'
   location: 'George T. Walker Hall, Room 3 - 90'
-- course_number: 2002
+- course_id: 2002
   section_id: 64042
   year: 2023
   semester: Spring
@@ -135,7 +135,7 @@
     - day: 'Tuesday/Thursday'
       time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room 3 - 84'
-- course_number: 2002
+- course_id: 2002
   section_id: 41001
   year: 2021
   semester: Fall
@@ -143,13 +143,13 @@
     - day: 'Tuesday/Thursday'
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 3 - 96'
-- course_number: 2002
+- course_id: 2002
   section_id: 64042
   year: 2021
   semester: Spring
   meetings:
     - day: 'Online Only'
-- course_number: 1031
+- course_id: 1031
   section_id: 63789
   year: 2024
   semester: Spring
@@ -161,7 +161,7 @@
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/ulm-syllabi/schedules/1031/S24/schedule.html'
   schedule_url_absolute: true
-- course_number: 1011
+- course_id: 1011
   section_id: 63057
   year: 2024
   semester: Spring
@@ -173,7 +173,7 @@
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/ulm-syllabi/schedules/1011/S24/63057/schedule.html'
   schedule_url_absolute: true
-- course_number: 1011
+- course_id: 1011
   section_id: 63167
   year: 2024
   semester: Spring
@@ -185,42 +185,42 @@
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/ulm-syllabi/schedules/1011/S24/63167/schedule.html'
   schedule_url_absolute: true
-- course_number: 1011
+- course_id: 1011
   section_id: 62691
   year: 2021
   semester: Spring
   meetings:
     - day: 'Online Only'
   schedule: '/materials/ulm/1011/2021/spring/shared/schedule.pdf'
-- course_number: 1011
+- course_id: 1011
   section_id: 62690
   year: 2021
   semester: Spring
   meetings:
     - day: 'Online Only'
   schedule: '/materials/ulm/1011/2021/spring/shared/schedule.pdf'
-- course_number: 1011
+- course_id: 1011
   section_id: 43013
   year: 2020
   semester: Fall
   meetings:
     - day: 'Online Only'
   schedule: '/materials/ulm/1011/2020/fall/shared/schedule.pdf'
-- course_number: 1011
+- course_id: 1011
   section_id: 43002
   year: 2020
   semester: Fall
   meetings:
     - day: 'Online Only'
   schedule: '/materials/ulm/1011/2020/fall/shared/schedule.pdf'
-- course_number: 1011
+- course_id: 1011
   section_id: 42181
   year: 2020
   semester: Fall
   meetings:
     - day: 'Online Only'
   schedule: '/materials/ulm/1011/2020/fall/shared/schedule.pdf'
-- course_number: 1007
+- course_id: 1007
   section_id: 45282
   year: 2023
   semester: Fall
@@ -229,7 +229,7 @@
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 3 - 53'
   schedule: '/materials/ulm/1007/2023/fall/shared/schedule.pdf'
-- course_number: 1007
+- course_id: 1007
   section_id: 45288
   year: 2023
   semester: Fall
@@ -238,7 +238,7 @@
       time: '2:00 PM - 3:15 PM'
   location: 'George T. Walker Hall, Room 3 - 53'
   schedule: '/materials/ulm/1007/2023/fall/shared/schedule.pdf'
-- course_number: 1007
+- course_id: 1007
   section_id: 64979
   year: 2023
   semester: Spring
@@ -247,7 +247,7 @@
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 3 - 90'
   schedule: '/materials/ulm/1007/2023/spring/64979/schedule.pdf'
-- course_number: 1007
+- course_id: 1007
   section_id: 45282
   year: 2022
   semester: Fall
@@ -256,7 +256,7 @@
       time: '11:00 AM - 12:15 PM'
   location: 'George T. Walker Hall, Room 3 - 90'
   schedule: '/materials/ulm/1007/2022/fall/shared/schedule.pdf'
-- course_number: 1007
+- course_id: 1007
   section_id: 45288
   year: 2022
   semester: Fall
@@ -265,7 +265,7 @@
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 3 - 90'
   schedule: '/materials/ulm/1007/2022/fall/shared/schedule.pdf'
-- course_number: 1007
+- course_id: 1007
   section_id: 60847
   year: 2022
   semester: Spring
@@ -274,7 +274,7 @@
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 2 - 51'
   schedule: '/materials/ulm/1007/2022/spring/shared/schedule.pdf'
-- course_number: 1007
+- course_id: 1007
   section_id: 62225
   year: 2022
   semester: Spring
@@ -283,7 +283,7 @@
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 2 - 51'
   schedule: '/materials/ulm/1007/2022/spring/shared/schedule.pdf'
-- course_number: 1007
+- course_id: 1007
   section_id: 40992
   year: 2021
   semester: Fall
@@ -292,7 +292,7 @@
       time: '12:30 PM - 1:45 PM'
   location: 'George T. Walker Hall, Room 3 - 91'
   schedule: '/materials/ulm/1007/2021/fall/shared/schedule.pdf'
-- course_number: 1007
+- course_id: 1007
   section_id: 40994
   year: 2021
   semester: Fall
@@ -301,7 +301,7 @@
       time: '2:00 PM - 3:15 PM'
   location: 'George T. Walker Hall, Room 3 - 91'
   schedule: '/materials/ulm/1007/2021/fall/shared/schedule.pdf'
-- course_number: 17
+- course_id: 17
   section_id: g
   year: 2009
   semester: Fall
@@ -310,7 +310,7 @@
       time: '4:00 PM - 5:15 PM'
   location: 'Lafayette Hall, Room L403'
   no_syllabus: true
-- course_number: 17
+- course_id: 17
   section_id: a
   year: 2010
   semester: Spring
@@ -319,7 +319,7 @@
       time: '8:30 AM - 9:20 AM'
   location: 'Perkins Hall, Room 200'
   no_syllabus: true
-- course_number: 17
+- course_id: 17
   section_id: z2
   year: 2010
   semester: Summer
@@ -328,7 +328,7 @@
       time: '8:30 AM - 11:00 AM'
   location: 'Votey Hall, Room 209'
   no_syllabus: true
-- course_number: 19
+- course_id: 19
   section_id: s
   year: 2010
   semester: Fall
@@ -337,7 +337,7 @@
       time: '1:55 PM - 2:45 PM'
   location: 'Lafayette Hall, Room L210'
   no_syllabus: true
-- course_number: 19
+- course_id: 19
   section_id: w
   year: 2010
   semester: Fall
@@ -346,7 +346,7 @@
       time: '3:00 PM - 3:50 PM'
   location: 'Lafayette Hall, Room L210'
   no_syllabus: true
-- course_number: 272
+- course_id: 272
   section_id: '01'
   year: 2020
   semester: Spring
@@ -354,7 +354,7 @@
     - day: 'Monday/Wednesday/Friday'
       time: '3:00 PM - 4:30 PM'
   location: 'Pardee Hall, Room 321'
-- course_number: 162
+- course_id: 162
   section_id: '01'
   year: 2019
   semester: Fall
@@ -362,7 +362,7 @@
     - day: 'Monday/Wednesday/Friday'
       time: '8:00 AM - 9:15 AM'
   location: 'Pardee Hall, Room 227'
-- course_number: 162
+- course_id: 162
   section_id: '03'
   year: 2019
   semester: Fall
@@ -370,7 +370,7 @@
     - day: 'Monday/Wednesday/Friday'
       time: '11:00 AM - 12:15 PM'
   location: 'Pardee Hall, Room 227'
-- course_number: 162
+- course_id: 162
   section_id: '06'
   year: 2019
   semester: Spring
@@ -378,7 +378,7 @@
     - day: 'Monday/Wednesday/Friday'
       time: '2:45 PM - 4:00 PM'
   location: 'Pardee Hall, Room 201'
-- course_number: 162
+- course_id: 162
   section_id: '07'
   year: 2019
   semester: Spring
@@ -386,7 +386,7 @@
     - day: 'Monday/Wednesday/Friday'
       time: '11:00 AM - 12:15 PM'
   location: 'Pardee Hall, Room 217'
-- course_number: 161
+- course_id: 161
   section_id: '01'
   year: 2020
   semester: Spring
@@ -394,7 +394,7 @@
     - day: 'Monday/Wednesday/Friday'
       time: '9:30 AM - 10:45 AM'
   location: 'Pardee Hall, Room 201'
-- course_number: 161
+- course_id: 161
   section_id: '02'
   year: 2020
   semester: Spring
@@ -402,7 +402,7 @@
     - day: 'Monday/Wednesday/Friday'
       time: '11:00 AM - 12:15 PM'
   location: 'Pardee Hall, Room 201'
-- course_number: 161
+- course_id: 161
   section_id: '04'
   year: 2019
   semester: Fall
@@ -410,7 +410,7 @@
     - day: 'Monday/Wednesday/Friday'
       time: '9:30 AM - 10:45 AM'
   location: 'Pardee Hall, Room 217'
-- course_number: 161
+- course_id: 161
   section_id: spal
   year: 2019
   semester: Summer
@@ -418,7 +418,7 @@
     - day: 'Monday - -Friday'
       time: '9:00 AM - 11:00 AM'
   location: 'Pardee Hall, Room 217'
-- course_number: 161
+- course_id: 161
   section_id: '01'
   year: 2018
   semester: Fall
@@ -426,7 +426,7 @@
     - day: 'Monday/Wednesday/Friday'
       time: '8:00 AM - 9:15 AM'
   location: 'Pardee Hall, Room 201'
-- course_number: 161
+- course_id: 161
   section_id: '04'
   year: 2018
   semester: Fall
@@ -434,7 +434,7 @@
     - day: 'Monday/Wednesday/Friday'
       time: '11:00 AM - 12:15 PM'
   location: 'Pardee Hall, Room 201'
-- course_number: 170
+- course_id: 170
   section_id: '002'
   year: 2016
   semester: Spring
@@ -442,7 +442,7 @@
     - day: 'Monday/Wednesday/Friday'
       time: '12:00 PM - 12:50 PM'
   location: 'Callcott Social Sciences Center, Room 101'
-- course_number: 170
+- course_id: 170
   section_id: '007'
   year: 2014
   semester: Spring
@@ -450,7 +450,7 @@
     - day: 'Monday/Wednesday'
       time: '5:30 PM - 6:45 PM'
   location: 'LeConte College, Room 115'
-- course_number: 142
+- course_id: 142
   section_id: '020'
   year: 2018
   semester: Spring
@@ -458,7 +458,7 @@
     - day: 'Tuesday/Thursday'
       time: '10:05 AM - 11:20 AM'
   location: 'Gambrell Hall, Room 103'
-- course_number: 142
+- course_id: 142
   section_id: '004'
   year: 2014
   semester: Summer
@@ -466,7 +466,7 @@
     - day: 'Monday - Friday'
       time: '10:05 AM - 12:05 PM'
   location: 'LeConte College, Room 121'
-- course_number: 142
+- course_id: 142
   section_id: '010'
   year: 2012
   semester: Fall
@@ -475,7 +475,7 @@
       time: '10:10 AM - 11:00 AM'
   location: 'LeConte College'
   no_syllabus: true
-- course_number: 142
+- course_id: 142
   section_id: '009'
   year: 2012
   semester: Fall
@@ -484,7 +484,7 @@
       time: '11:15 AM - 12:05 PM'
   location: 'LeConte College'
   no_syllabus: true
-- course_number: 141
+- course_id: 141
   section_id: '007'
   year: 2013
   semester: Spring
@@ -493,7 +493,7 @@
       time: '8:00 AM - 8:50 AM'
   location: 'LeConte College'
   no_syllabus: true
-- course_number: 141
+- course_id: 141
   section_id: '008'
   year: 2013
   semester: Spring
@@ -502,7 +502,7 @@
       time: '9:30 AM - 10:20 AM'
   location: 'LeConte College'
   no_syllabus: true
-- course_number: 122
+- course_id: 122
   section_id: 'E01'
   year: 2017
   semester: Spring
@@ -510,7 +510,7 @@
     - day: 'Tuesday/Thursday'
       time: '6:00 PM - 7:15 PM'
   location: 'LeConte College, Room 101'
-- course_number: 116
+- course_id: 116
   section_id: 'E1B'
   year: 2016
   semester: Fall
@@ -520,7 +520,7 @@
     - day: 'Tuesday/Thursday'
       time: '6:00 PM - 6:50 PM'
   location: 'LeConte College, Room 121'
-- course_number: 116
+- course_id: 116
   section_id: 'E1B'
   year: 2015
   semester: Fall
@@ -530,7 +530,7 @@
     - day: 'Tuesday/Thursday'
       time: '6:00 PM - 6:50 PM'
   location: 'LeConte College, Room 121'
-- course_number: 116
+- course_id: 116
   section_id: 'E1B'
   year: 2013
   semester: Fall
@@ -540,7 +540,7 @@
     - day: 'Tuesday/Thursday'
       time: '7:35 PM - 8:25 PM'
   location: 'LeConte College, Room 121'
-- course_number: 116
+- course_id: 116
   section_id: 'E2B'
   year: 2016
   semester: Fall
@@ -550,7 +550,7 @@
     - day: 'Tuesday/Thursday'
       time: '7:35 PM - 8:25 PM'
   location: 'LeConte College, Room 121'
-- course_number: 116
+- course_id: 116
   section_id: 'E2B'
   year: 2015
   semester: Fall
@@ -560,7 +560,7 @@
     - day: 'Tuesday/Thursday'
       time: '7:35 PM - 8:25 PM'
   location: 'LeConte College, Room 121'
-- course_number: 116
+- course_id: 116
   section_id: 'E2B'
   year: 2013
   semester: Fall
@@ -570,7 +570,7 @@
     - day: 'Tuesday/Thursday'
       time: '7:35 PM - 8:25 PM'
   location: 'LeConte College, Room 121'
-- course_number: 115
+- course_id: 115
   section_id: '011'
   year: 2014
   semester: Fall
@@ -580,7 +580,7 @@
     - day: 'Tuesday/Thursday'
       time: '4:25 PM - 5:15 PM'
   location: 'LeConte College, Room 101'
-- course_number: 111
+- course_id: 111
   section_id: '006'
   year: 2017
   semester: Fall
@@ -588,7 +588,7 @@
     - day: 'Monday/Wednesday'
       time: '6:00 PM - 7:15 PM'
   location: 'Callcot Social Sciences Center, Room 003'
-- course_number: 111
+- course_id: 111
   section_id: '006'
   year: 2015
   semester: Spring
@@ -596,7 +596,7 @@
     - day: 'Monday/Wednesday/Friday'
       time: '10:50 AM - 11:40 AM'
   location: 'Gambrell Hall, Room 124'
-- course_number: 111
+- course_id: 111
   section_id: '001'
   year: 2013
   semester: Summer

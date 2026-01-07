@@ -2,18 +2,17 @@
 layout: default
 ---
 <h1>{{ page.name }}</h1>
-<h2>Math {{ page.course_number }}
-  {% if page.former_number %}
-  (Formerly Math {{ page.former_number }})
-  {% endif %}
-</h2>
-
 {{ content }}
+<hr/>
 
 <h2>Sections Taught</h2>
 <ul>
-  {% assign sections = site.sections | where: 'course_number', page.course_number | sort: "year" | reverse %}
+  {% assign sections = site.sections | where: 'course_id', page.course_id | sort: "year" | reverse %}
   {% for section in sections %}
-  <li><a href="{% link {{ section.path }} %}">{{ section.section_name }} ({{section.semester}} {{section.year}})</a></li>
+  <li>
+    <a href="{{ section.url | relative_path }}">
+      {{ section.section_name}} ({{section.semester}} {{section.year}})
+    </a>
+  </li>
   {% endfor %}
 </ul>

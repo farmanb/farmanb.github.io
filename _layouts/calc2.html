@@ -42,7 +42,7 @@ layout: section
       <th>Date</th>
       <th>Solutions</th>
     </tr>
-    {% assign exams = site.data.exams | where_exp: "item", "item.course_number == page.course_number and item.year == page.year and item.semester == page.semester" | sort: "number" %}
+    {% assign exams = site.data.exams | where_exp: "item", "item.course_id == page.course_id and item.year == page.year and item.semester == page.semester" | sort: "number" %}
     {% for exam in exams %}
     <tr>
       <td>{{exam.number}}</td>
@@ -78,7 +78,7 @@ layout: section
   </table>
 </div>
 
-{% assign quizzes = site.data.quizzes | where_exp: "item", "item.course_number == page.course_number and item.year == page.year and item.semester == page.semester" | sort: "number" %}
+{% assign quizzes = site.data.quizzes | where_exp: "item", "item.course_id == page.course_id and item.year == page.year and item.semester == page.semester" | sort: "number" %}
 {% if quizzes.size > 0 %}
 <h2>Quizzes</h2>
 <div style="padding-left: 30px">

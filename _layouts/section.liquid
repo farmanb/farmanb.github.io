@@ -2,15 +2,16 @@
 layout: default
 ---
 
-{% assign course = site.courses | where: 'course_number', page.course_number | first %}
+{% assign course = site.courses | where: 'course_id', page.course_id | first %}
 
 {% include section_paths.liquid %}
 
 <h1> {{course.name}} </h1>
 <h2>{{ page.semester }} {{ page.year}}</h2>
+<hr/>
 
 <h2>Course Information</h2>
-{% assign info = site.data.course_info | where_exp: "item", "item.course_number == page.course_number and item.section_id == page.section_id and item.year == page.year and item.semester == page.semester" | first %}
+{% assign info = site.data.course_info | where_exp: "item", "item.course_id == page.course_id and item.section_id == page.section_id and item.year == page.year and item.semester == page.semester" | first %}
 <div style="padding-left: 30px">
   <h3>Lectures</h3>
   <div style="padding-left: 30px">
@@ -49,7 +50,7 @@ layout: default
       {% if info.syllabus_override_url_absolute %}
       <a href="{{ info.syllabus_override }}">Syllabus</a>
       {% else %}
-      <a href= "{{ info.syllabus_override | relative_url }}>Syllabus</a>
+      <a href="{{ info.syllabus_override | relative_url }}">Syllabus</a>
       {% endif %}
       {% else %}
       <a href="{{ section_root | append: '/syllabus.pdf' | relative_url }}">Syllabus</a>
