@@ -1,4 +1,28 @@
 ---
+- course_id: ag
+  section_id: 4903
+  year: 2026
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '2:00 PM - 3:50 PM'
+  location: 'Nethken 243'
+  syllabus_override: 'http://www.blakefarman.phd/syllabus-4903-S26/'
+  syllabus_override_url_absolute: true
+  schedule: 'https://www.blakefarman.phd/syllabus-4903-S26/schedule.html'
+  schedule_url_absolute: true
+- course_id: ag
+  section_id: 5843
+  year: 2026
+  semester: Spring
+  meetings:
+    - day: 'Monday/Wednesday'
+      time: '2:00 pM - 3:50 PM'
+  location: 'Nethken 243'
+  syllabus_override: 'http://www.blakefarman.phd/syllabus-4903-S26/'
+  syllabus_override_url_absolute: true
+  schedule: 'https://www.blakefarman.phd/syllabus-4903-S26/schedule.html'
+  schedule_url_absolute: true
 - course_id: 4083
   section_id: '001'
   year: 2025
