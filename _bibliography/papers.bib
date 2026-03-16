@@ -3,6 +3,51 @@
 
 @string{ems = {European Mathematical Society,}}
 
+@misc{mathlib-farmanb-09d467d,
+  abbr         = {mathlib4},
+  author       = {Farman, Blake},
+  title        = {feat(CategoryTheory/Abelian/Preradical): introduce and characterize radicals},
+  howpublished = {\url{https://github.com/leanprover-community/mathlib4/commit/09d467d7872b13e9a0719ad6b63b4cd2585b8411}},
+  github       = {https://github.com/leanprover-community/mathlib4/commit/09d467d7872b13e9a0719ad6b63b4cd2585b8411},
+  year         = {2026},
+  month        = {March},
+  day          = {16},
+  note         = {Following Stenström, a preradical `Φ` is called radical if it coincides with its self colon. We encode this as the existence of an isomorphism `Φ.colon Φ ≅ Φ`.  We then prove a basic characterization of radical preradicals in terms of the vanishing of `Φ.r` on `Φ.quotient`.},
+  selected     = {true},
+  category     = {formalization},
+  preview      = {lean.png}
+}
+
+@misc{mathlib-farmanb-c505a69,
+  abbr         = {mathlib4},
+  author       = {Farman, Blake},
+  title        = {feat(CategoryTheory/Abelian/Preradical): add Stenström's colon construction for preradicals},
+  howpublished = {\url{https://github.com/leanprover-community/mathlib4/commit/c505a695662a7827e32365b9af344e2705cdac09}},
+  github       = {https://github.com/leanprover-community/mathlib4/commit/c505a695662a7827e32365b9af344e2705cdac09},
+  year         = {2026},
+  month        = {March},
+  day          = {3},
+  note         = {Given preradicals `Φ` and `Ψ` on an abelian category `C`, this file defines their colon `Φ : Ψ` in the sense of Stenström.  Categorically, `Φ : Ψ` is constructed objectwise as a pullback of the canonical projection `Φ.π X : X ⟶ Φ.quotient.obj X` along the inclusion `Functor.whiskerLeft Φ.quotient Ψ.ι`.},
+  selected     = {true},
+  category     = {formalization},
+  preview      = {lean.png}
+}
+
+@misc{mathlib-farmanb-1f308dd,
+  abbr         = {mathlib4},
+  author       = {Farman, Blake},
+  title        = {feat(CategoryTheory/Abelian/Preradical): introduce basic definition of preradicals},
+  howpublished = {\url{https://github.com/leanprover-community/mathlib4/commit/1f308dd68d960b6befde25e3c90346789bbb18b6}},
+  github       = {https://github.com/leanprover-community/mathlib4/commit/1f308dd68d960b6befde25e3c90346789bbb18b6},
+  year         = {2026},
+  month        = {March},
+  day          = {4},
+  note         = {A preradical on an abelian category `C` is a monomorphism in the functor category `C ⥤ C` with codomain `𝟭 C`, i.e. an element of `MonoOver (𝟭 C)`.},
+  selected     = {true},
+  category     = {formalization},
+  preview      = {lean.png}
+}
+
 @misc{mathlib-farmanb-78484be,
   abbr         = {mathlib4},
   author       = {Farman, Blake},
