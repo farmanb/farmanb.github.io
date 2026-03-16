@@ -162,6 +162,11 @@ ninja.data = [{
           description: "",
           section: "Courses",handler: () => {
               window.location.href = "/courses/4083.html";
+            },},{id: "courses-ag",
+          title: 'Ag',
+          description: "",
+          section: "Courses",handler: () => {
+              window.location.href = "/courses/ag.html";
             },},{id: "courses-lean",
           title: 'Lean',
           description: "",
@@ -512,6 +517,16 @@ ninja.data = [{
           description: "",
           section: "Sections",handler: () => {
               window.location.href = "/sections/SPAL.html";
+            },},{id: "sections-ag-graduate",
+          title: 'Ag Graduate',
+          description: "",
+          section: "Sections",handler: () => {
+              window.location.href = "/sections/ag-graduate.html";
+            },},{id: "sections-ag",
+          title: 'Ag',
+          description: "",
+          section: "Sections",handler: () => {
+              window.location.href = "/sections/ag.html";
             },},{id: "sections-lean-graduate",
           title: 'Lean Graduate',
           description: "",
