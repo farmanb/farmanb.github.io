@@ -7,7 +7,7 @@
     - day: 'Monday/Wednesday'
       time: '2:00 PM - 3:50 PM'
   location: 'Nethken 243'
-  syllabus_override: 'http://www.blakefarman.phd/syllabus-4903-S26/'
+  syllabus_override: 'https://www.blakefarman.phd/syllabus-4903-S26/'
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/syllabus-4903-S26/schedule.html'
   schedule_url_absolute: true
@@ -19,7 +19,7 @@
     - day: 'Monday/Wednesday'
       time: '2:00 pM - 3:50 PM'
   location: 'Nethken 243'
-  syllabus_override: 'http://www.blakefarman.phd/syllabus-4903-S26/'
+  syllabus_override: 'https://www.blakefarman.phd/syllabus-4903-S26/'
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/syllabus-4903-S26/schedule.html'
   schedule_url_absolute: true
@@ -43,7 +43,7 @@
     - day: 'Monday/Wednesday/Friday'
       time: '11:00 AM - 12:15 PM'
   location: 'Nethken 153'
-  syllabus_override: 'http://www.blakefarman.phd/syllabus-490-S25/'
+  syllabus_override: 'https://www.blakefarman.phd/syllabus-490-S25/'
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/syllabus-490-S25/schedule.html'
   schedule_url_absolute: true
@@ -55,7 +55,7 @@
     - day: 'Monday/Wednesday/Friday'
       time: '11:00 AM - 12:15 PM'
   location: 'Nethken 153'
-  syllabus_override: 'http://www.blakefarman.phd/syllabus-587-S25/'
+  syllabus_override: 'https://www.blakefarman.phd/syllabus-587-S25/'
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/syllabus-587-S25/schedule.html'
   schedule_url_absolute: true
@@ -67,7 +67,7 @@
     - day: 'Monday/Wednesday/Friday'
       time: '9:00 AM - 10:45 AM'
   location: 'IESB, Room 222'
-  syllabus_override: 'http://www.blakefarman.phd/syllabus-308-001-W25/'
+  syllabus_override: 'https://www.blakefarman.phd/syllabus-308-001-W25/'
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/syllabus-308-001-W25/schedule.html'
   schedule_url_absolute: true
