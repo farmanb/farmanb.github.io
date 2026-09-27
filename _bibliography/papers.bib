@@ -4,6 +4,7 @@
 @string{ems = {European Mathematical Society,}}
 
 @misc{mathlib-farmanb-09d467d,
+  status       = {merged},
   abbr         = {mathlib4},
   author       = {Farman, Blake},
   title        = {feat(CategoryTheory/Abelian/Preradical): introduce and characterize radicals},
@@ -19,6 +20,7 @@
 }
 
 @misc{mathlib-farmanb-c505a69,
+  status       = {merged},
   abbr         = {mathlib4},
   author       = {Farman, Blake},
   title        = {feat(CategoryTheory/Abelian/Preradical): add Stenström's colon construction for preradicals},
@@ -34,6 +36,7 @@
 }
 
 @misc{mathlib-farmanb-1f308dd,
+  status       = {merged},
   abbr         = {mathlib4},
   author       = {Farman, Blake},
   title        = {feat(CategoryTheory/Abelian/Preradical): introduce basic definition of preradicals},
@@ -49,6 +52,7 @@
 }
 
 @misc{mathlib-farmanb-78484be,
+  status       = {merged},
   abbr         = {mathlib4},
   author       = {Farman, Blake},
   title        = {feat(RingTheory/IdealFilter): add ideal filters and Gabriel filters},
@@ -64,6 +68,7 @@
 }
 
 @misc{mathlib4-farmanb-a91e88c,
+  status       = {merged},
   abbr         = {mathlib4},
   author       = {Farman, Blake},
   title        = {feat(RingTheory/IdealFilter): topologies associated to ideal filters},
@@ -79,6 +84,7 @@
 }
 
 @misc{mathlib4-farman-95093e9,
+  status       = {merged},
   abbr         = {mathlib4},
   author       = {Farman, Blake},
   title        = {feat(RingTheory/Ideal): Generalize <code>Submodule.colon</code> to sets},
@@ -93,6 +99,7 @@
 }
 
 @article{KNCP,
+  status       = {published},
   abbr={JNCG},
   title={Kernels for noncommutative projective schemes},
   author={Matthew Ballard and Blake Farman},
@@ -113,6 +120,7 @@
 }
 
 @inproceedings{FGM,
+  status       = {published},
   abbr={ASEE},
   title={Fostering Growth Mindsets: Implementing Standards-Based Grading in College Algebra},
   author = {Blake Farman and Ann W. Clifton and William C. Long, and Krystal Corbett Cruse},
@@ -134,6 +142,7 @@ Supported by recent literature, SBG has been shown to foster student engagement,
 }
 
 @inproceedings{asee_peer_57495,
+  status       = {published},
   abbr={ASEE},
   title={Work in Progress: First-Year Engineering Students' Confidence in Communicating Mathematical Content},
   author = {Ann W. Clifton and Mary Fendley and Blake Farman, and Joshua Coriell},
@@ -152,4 +161,81 @@ Aligned with Kern Entrepreneurial Engineering Network (KEEN) principles of Curio
   doi={10.18260/1-2--57495},
   category={paper},
   preview={asee.png}
+}
+
+@inproceedings{asee_peer_60813,
+  status       = {published},
+  abbr={ASEE},
+  title={WIP: Using Career Panels to Spark Curiosity and Career Awareness Among Mathematics Majors},
+  author = {Ann W. Clifton and Blake Farman},
+  year={2026},
+  month={June},
+  address={Charlotte, North Carolina},
+  publisher={ASEE Conferences},
+  url={https://doi.org/10.18260/1-2--60813},
+  pdf={https://peer.asee.org/60813},
+  journal={ASEE Annual Conference &amp; Exposition},
+  doi={10.18260/1-2--60813},
+  category={paper},
+  preview={asee.png}
+}
+
+@misc{mathlib4-farmanb-pr44223,
+  status       = {open},
+  abbr         = {mathlib4},
+  author       = {Farman, Blake},
+  title        = {feat(CategoryTheory/Subobject): kernels of pullbacks of subobjects},
+  howpublished = {\url{https://github.com/leanprover-community/mathlib4/pull/44223}},
+  github       = {https://github.com/leanprover-community/mathlib4/pull/44223},
+  year         = {2026},
+  month        = {September},
+  day          = {26},
+  note         = {Adds <code>Subobject.le_pullback_of_comp_eq_zero</code>, <code>Subobject.ofLE_comp_pullbackπ_eq_zero</code> and <code>Subobject.isLimitKernelForkPullbackπ</code>: for a morphism <code>f : X ⟶ Y</code> and subobjects <code>x</code> of <code>X</code> and <code>y</code> of <code>Y</code>, if <code>x.arrow ≫ f = 0</code> then <code>x</code> is contained in the pullback of <code>y</code> along <code>f</code>, the induced map into that pullback composed with <code>pullbackπ f y</code> vanishes, and if moreover <code>x.arrow</code> is a kernel of <code>f</code> then that map is a kernel of <code>pullbackπ f y</code>. These require only <code>HasZeroMorphisms</code> and <code>HasPullbacks</code>. Open pull request <a href="https://github.com/leanprover-community/mathlib4/pull/44223">#44223</a>.},
+  category     = {formalization},
+  preview      = {lean.png}
+}
+
+@misc{mathlib4-farmanb-pr44229,
+  status       = {open},
+  abbr         = {mathlib4},
+  author       = {Farman, Blake},
+  title        = {feat(CategoryTheory/Abelian): short exact sequences from pulling back a subobject},
+  howpublished = {\url{https://github.com/leanprover-community/mathlib4/pull/44229}},
+  github       = {https://github.com/leanprover-community/mathlib4/pull/44229},
+  year         = {2026},
+  month        = {September},
+  day          = {26},
+  note         = {Pulling a subobject <code>B</code> of <code>Y</code> back along an epimorphism <code>f : X ⟶ Y</code> whose kernel is <code>A</code> yields an extension of <code>B</code> by <code>A</code>; this records that as a short exact sequence in an abelian category. Adds <code>shortComplexPullbackπ</code> and <code>shortExact_shortComplexPullbackπ</code>, together with the special case <code>f = cokernel.π A.arrow</code>, which is one direction of the correspondence between subobjects of <code>X</code> containing <code>A</code> and subobjects of the quotient. Builds on <code>Subobject.isLimitKernelForkPullbackπ</code> from <a href="https://github.com/leanprover-community/mathlib4/pull/44223">#44223</a>. Open pull request <a href="https://github.com/leanprover-community/mathlib4/pull/44229">#44229</a>.},
+  category     = {formalization},
+  preview      = {lean.png}
+}
+
+@misc{mathlib4-farmanb-pr44226,
+  status       = {open},
+  abbr         = {mathlib4},
+  author       = {Farman, Blake},
+  title        = {feat(CategoryTheory/ObjectProperty): closure properties of orthogonals and S. E. Dickson's theorem},
+  howpublished = {\url{https://github.com/leanprover-community/mathlib4/pull/44226}},
+  github       = {https://github.com/leanprover-community/mathlib4/pull/44226},
+  year         = {2026},
+  month        = {September},
+  day          = {26},
+  note         = {Studies how the closure properties of a property of objects <code>P</code> interact with the orthogonal complements <code>P.leftOrthogonal</code> and <code>P.rightOrthogonal</code> and with passage to the opposite category. In a well-powered abelian category with coproducts, if <code>P</code> is closed under quotients, extensions and coproducts then <code>P.rightOrthogonal.leftOrthogonal = P</code>, the hard direction of S. E. Dickson's characterization of torsion classes. Open pull request <a href="https://github.com/leanprover-community/mathlib4/pull/44226">#44226</a>.},
+  category     = {formalization},
+  preview      = {lean.png}
+}
+
+@misc{mathlib4-farmanb-pr36744,
+  status       = {open},
+  abbr         = {mathlib4},
+  author       = {Farman, Blake},
+  title        = {feat(CategoryTheory/Abelian/TorsionTheory): Introduce torsion theory for abelian categories},
+  howpublished = {\url{https://github.com/leanprover-community/mathlib4/pull/36744}},
+  github       = {https://github.com/leanprover-community/mathlib4/pull/36744},
+  year         = {2026},
+  month        = {March},
+  day          = {16},
+  note         = {Introduces torsion theories on an abelian category: a pair of object properties that are each other's left and right orthogonals. Adds <code>Abelian.TorsionTheory</code>, the typeclasses <code>IsTorsionClass</code> and <code>IsTorsionFreeClass</code>, the torsion theories generated and cogenerated by a property, transport along <code>op</code> and <code>unop</code>, and Dickson's theorem <code>isTorsionClass_iff</code>: in a well-powered abelian category with coproducts, a class is a torsion class if and only if it is closed under quotients, extensions and coproducts. Open pull request <a href="https://github.com/leanprover-community/mathlib4/pull/36744">#36744</a>.},
+  category     = {formalization},
+  preview      = {lean.png}
 }
