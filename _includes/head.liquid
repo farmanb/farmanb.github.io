@@ -1,4 +1,12 @@
 
+<!-- Redirect plain-HTTP visitors to HTTPS. TLS terminates at Cloudflare, so
+     GitHub Pages cannot enforce HTTPS for this domain; this is the in-page fallback. -->
+<script>
+  if (location.protocol === "http:" && /(^|\.)blakefarman\.phd$/.test(location.hostname)) {
+    location.replace("https://" + location.host + location.pathname + location.search + location.hash);
+  }
+</script>
+
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
