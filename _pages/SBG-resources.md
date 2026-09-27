@@ -14,36 +14,42 @@ permalink: /sbg-resources/
 <h2>Sample Materials</h2>
 <ul>
   <li><a href="{% link _pages/standards.md %}">Standards</a> (Blake Farman)</li>
-  <li>Linear Algebra</li>
-  <ul>
-	<li><a href="https://www.blakefarman.phd/syllabus-308-001-W25/standards.html">Winter 2025</a> (Blake Farman)</li>
-    <li><a href="{{ '/materials/ulm/2002/2023/spring/64042/syllabus.pdf' | relative_url }}"">Spring 2023</a> (Blake Farman)</li>
-  </ul>
-  <li>Calculus III</li>
-  <ul>
-    <li><a href="{{ '/materials/ulm/2032/2022/fall/44879/syllabus.pdf' | relative_url }}">Fall 2022</a> (Blake Farman)</li>
-  </ul>
-    <li>Calculus II</li>
-  <ul>
-    <li><a href="{{ '/materials/lafayette/162/2019/fall/01/syllabus.pdf' | relative_url }}">Fall 2019</a> (Blake Farman)</li>
-  </ul>
-    <li>Calculus I</li>
-  <ul>
-	<li><a href="https://www.blakefarman.phd/ulm-syllabi/syllabi/1031/S24/syllabus.html">Spring 2024</a> (Blake Farman)</li>
-    <li><a href="{{ '/materials/lafayette/161/2020/spring/01/syllabus.pdf' | relative_url }}">Spring 2020</a> (Blake Farman)</li>
-  </ul>
-    <li>College Algebra</li>
-  <ul>
-	<li><a href="https://www.blakefarman.phd/ulm-syllabi/syllabi/1011/S24/63057">Fall 2023</a> (Blake Farman)</li>
-    <li><a href="{{ '/materials/ulm/1011/2021/spring/62690/syllabus.pdf' | relative_url }}">Spring 2021</a> (Blake Farman)</li>
-  </ul>
-  <li>Repositories</li>
-  <ul>
-    <li><a href="https://drive.google.com/drive/folders/1GNSqfOb0LZS6BeAuc1tqPDZWKkPk11KT">Mathematics</a></li>
-    <li><a href="https://drive.google.com/drive/folders/1XPKGXG9Sl0fT90DIoyIwqMtbxp4Qynr9">Physics</a></li>
-    <!-- <li><a href="https://drive.google.com/drive/folders/1L-akqa_1BLFQM0ukM_N_Kwr8562yB_gG">Biology</a></li> -->
-    <li><a href="https://drive.google.com/drive/folders/1ebiUwMJmx8qv-c665WELK9yZ5lCUPPzk">Chemistry</a></li>
-  </ul>
+  <li>Linear Algebra
+    <ul>
+      <li><a href="https://www.blakefarman.phd/syllabus-308-001-W25/standards.html">Winter 2025</a> (Blake Farman)</li>
+      <li><a href="{{ '/materials/ulm/2002/2023/spring/64042/syllabus.pdf' | relative_url }}">Spring 2023</a> (Blake Farman)</li>
+    </ul>
+  </li>
+  <li>Calculus III
+    <ul>
+      <li><a href="{{ '/materials/ulm/2032/2022/fall/44879/syllabus.pdf' | relative_url }}">Fall 2022</a> (Blake Farman)</li>
+    </ul>
+  </li>
+  <li>Calculus II
+    <ul>
+      <li><a href="{{ '/materials/lafayette/162/2019/fall/01/syllabus.pdf' | relative_url }}">Fall 2019</a> (Blake Farman)</li>
+    </ul>
+  </li>
+  <li>Calculus I
+    <ul>
+      <li><a href="https://www.blakefarman.phd/ulm-syllabi/syllabi/1031/S24/syllabus.html">Spring 2024</a> (Blake Farman)</li>
+      <li><a href="{{ '/materials/lafayette/161/2020/spring/01/syllabus.pdf' | relative_url }}">Spring 2020</a> (Blake Farman)</li>
+    </ul>
+  </li>
+  <li>College Algebra
+    <ul>
+      <li><a href="https://www.blakefarman.phd/ulm-syllabi/syllabi/1011/S24/63057">Fall 2023</a> (Blake Farman)</li>
+      <li><a href="{{ '/materials/ulm/1011/2021/spring/62690/syllabus.pdf' | relative_url }}">Spring 2021</a> (Blake Farman)</li>
+    </ul>
+  </li>
+  <li>Repositories
+    <ul>
+      <li><a href="https://drive.google.com/drive/folders/1GNSqfOb0LZS6BeAuc1tqPDZWKkPk11KT">Mathematics</a></li>
+      <li><a href="https://drive.google.com/drive/folders/1XPKGXG9Sl0fT90DIoyIwqMtbxp4Qynr9">Physics</a></li>
+      <!-- <li><a href="https://drive.google.com/drive/folders/1L-akqa_1BLFQM0ukM_N_Kwr8562yB_gG">Biology</a></li> -->
+      <li><a href="https://drive.google.com/drive/folders/1ebiUwMJmx8qv-c665WELK9yZ5lCUPPzk">Chemistry</a></li>
+    </ul>
+  </li>
 </ul>
 
 <h2>Community Resources</h2>
