@@ -37,6 +37,9 @@ layout: default
       {% for hour in time.hours %}
       <dd>{{hour}}</dd>
       {% endfor %}
+      {% if time.hours == nil or time.hours == empty %}
+      <dd>{{ time.location | default: 'Contact me to schedule a time.' }}</dd>
+      {% endif %}
     {% endfor %}
     </dl>
     <p>{{office_hours.location}}</p>
