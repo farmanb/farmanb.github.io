@@ -6,7 +6,6 @@
 #   error_mode: strict
 #   strict_filters: true
 
-destination: ../gh-pages
 
 title: blank  # the website title (if blank, full name will be used instead)
 
