@@ -1,8 +1,9 @@
-name: Deploy site
+name: Build, check, and deploy
 
 on:
   push:
     branches: [master]
+  pull_request:
   workflow_dispatch:
 
 permissions:
@@ -11,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -36,12 +37,69 @@ jobs:
       - name: Purge unused CSS
         run: npx --yes purgecss -c purgecss.config.js
 
+      # The same build is audited by the jobs below and, if they pass, deployed.
+      - uses: actions/upload-artifact@v6
+        with:
+          name: site
+          path: _site
+          retention-days: 7
+
       - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
-  deploy:
+  lighthouse:
     needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/download-artifact@v6
+        with:
+          name: site
+          path: _site
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+
+      # Accessibility must score 100 on the sampled pages; see lighthouserc.json.
+      - name: Run Lighthouse CI
+        run: |
+          npm install -g @lhci/cli@0.15.x
+          lhci autorun
+
+      - name: Upload Lighthouse reports
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: lighthouse-reports
+          path: .lighthouseci/reports
+          retention-days: 30
+
+  pa11y:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/download-artifact@v6
+        with:
+          name: site
+          path: _site
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+
+      # WCAG 2 AA on every page in the sitemap, with both the HTML_CodeSniffer
+      # and axe engines. Any error fails the build; see .pa11yci.js and bin/a11y.
+      - name: Run pa11y-ci over the whole site
+        run: bin/a11y
+
+  deploy:
+    needs: [build, lighthouse, pa11y]
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
