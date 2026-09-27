@@ -1510,3 +1510,18 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+// Publications page: headings for the status sections (published, merged,
+// open pull requests). Distinct from h2.bibliography, which scholar emits
+// for the year groups inside a section.
+h2.publication-section {
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--global-text-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  &:first-of-type {
+    margin-top: 1rem;
+  }
+}
