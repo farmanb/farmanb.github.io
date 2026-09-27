@@ -219,6 +219,7 @@ exclude:
   - LICENSE
   - lighthouse_results/
   - lighthouserc.json
+  - .pa11yci.js
   - package.json
   - package-lock.json
   - purgecss.config.js

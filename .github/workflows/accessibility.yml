@@ -1,4 +1,4 @@
-name: Lighthouse
+name: Accessibility
 
 on:
   push:
@@ -47,3 +47,33 @@ jobs:
           name: lighthouse-reports
           path: .lighthouseci/reports
           retention-days: 30
+
+  pa11y:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Install ImageMagick (responsive images)
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
+      - name: Build site
+        env:
+          JEKYLL_ENV: production
+        run: bundle exec jekyll build -d _site
+
+      - name: Purge unused CSS
+        run: npx --yes purgecss -c purgecss.config.js
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+
+      # WCAG 2 AA on every page in the sitemap, with both the HTML_CodeSniffer
+      # and axe engines. Any error fails the build; see .pa11yci.js and bin/a11y.
+      - name: Run pa11y-ci over the whole site
+        run: bin/a11y

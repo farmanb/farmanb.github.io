@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+# Run pa11y-ci (WCAG 2 AA, htmlcs + axe) over every page in the built site.
+#
+#   bundle exec jekyll build && bin/a11y
+#
+# Pages come from _site/sitemap.xml, so the set matches what search engines
+# see. The list is audited in chunks so each chunk gets a fresh browser;
+# a single long-lived Chrome tends to drop its connection partway through.
+# Set PA11Y_CHROME to use a specific Chrome binary (see .pa11yci.js).
+set -euo pipefail
+
+SITE_DIR="${SITE_DIR:-_site}"
+PORT="${PORT:-8123}"
+CHUNK="${CHUNK:-20}"
+
+if [ ! -f "$SITE_DIR/sitemap.xml" ]; then
+  echo "No $SITE_DIR/sitemap.xml; build the site first." >&2
+  exit 2
+fi
+
+# Rewrite whatever host the sitemap was built with to the local server.
+mapfile -t URLS < <(
+  grep -o '<loc>[^<]*' "$SITE_DIR/sitemap.xml" \
+    | sed -E 's#<loc>https?://[^/]+#http://localhost:'"$PORT"'#' \
+    | grep -v '\.pdf$'
+)
+echo "Auditing ${#URLS[@]} pages from $SITE_DIR/sitemap.xml"
+
+(cd "$SITE_DIR" && python3 -m http.server "$PORT" >/dev/null 2>&1) &
+SERVER_PID=$!
+trap 'kill "$SERVER_PID" 2>/dev/null || true' EXIT
+for _ in $(seq 1 50); do
+  curl -sfI "http://localhost:$PORT/" >/dev/null 2>&1 && break
+  sleep 0.2
+done
+
+status=0
+for ((i = 0; i < ${#URLS[@]}; i += CHUNK)); do
+  echo "--- pages $((i + 1))-$((i + CHUNK < ${#URLS[@]} ? i + CHUNK : ${#URLS[@]}))"
+  npx --yes pa11y-ci@4 --config .pa11yci.js "${URLS[@]:i:CHUNK}" || status=1
+done
+exit $status
