@@ -16,7 +16,7 @@ permalink: /sbg-resources/
   <li><a href="{% link _pages/standards.md %}">Standards</a> (Blake Farman)</li>
   <li>Linear Algebra</li>
   <ul>
-	<li><a href="https://www.blakefarman.phd/syllabi/syllabi/308/W25/standards.html">Winter 2025</a> (Blake Farman)</li>
+	<li><a href="https://www.blakefarman.phd/syllabus-308-001-W25/standards.html">Winter 2025</a> (Blake Farman)</li>
     <li><a href="{{ '/materials/ulm/2002/2023/spring/64042/syllabus.pdf' | relative_url }}"">Spring 2023</a> (Blake Farman)</li>
   </ul>
   <li>Calculus III</li>
