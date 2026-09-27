@@ -485,6 +485,20 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// WCAG 1.4.1: links inside running text must not rely on color alone.
+div[role="main"] a:not(.btn):not(.badge),
+footer a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+// Icon-only and navigation links keep the theme's plain style.
+div[role="main"] .social a,
+div[role="main"] #toc-sidebar a,
+div[role="main"] .contact-icons a {
+  text-decoration: none;
+}
+
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
@@ -734,7 +748,7 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-text-color-light);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
