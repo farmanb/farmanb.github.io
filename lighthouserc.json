@@ -1,0 +1,50 @@
+{
+  "ci": {
+    "collect": {
+      "staticDistDir": "./_site",
+      "url": [
+        "http://localhost/index.html",
+        "http://localhost/research/index.html",
+        "http://localhost/publications/index.html",
+        "http://localhost/teaching/index.html",
+        "http://localhost/cv/index.html",
+        "http://localhost/news/index.html",
+        "http://localhost/standards/index.html",
+        "http://localhost/sbg-resources/index.html",
+        "http://localhost/courses/4083.html",
+        "http://localhost/sections/017-G.html",
+        "http://localhost/standards/calcI.html"
+      ],
+      "numberOfRuns": 1,
+      "settings": {
+        "chromeFlags": "--no-sandbox --headless=new"
+      }
+    },
+    "assert": {
+      "assertions": {
+        "categories:accessibility": [
+          "error",
+          {
+            "minScore": 1
+          }
+        ],
+        "categories:best-practices": [
+          "warn",
+          {
+            "minScore": 0.9
+          }
+        ],
+        "categories:seo": [
+          "warn",
+          {
+            "minScore": 0.9
+          }
+        ]
+      }
+    },
+    "upload": {
+      "target": "filesystem",
+      "outputDir": ".lighthouseci/reports"
+    }
+  }
+}

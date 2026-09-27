@@ -218,6 +218,7 @@ exclude:
   - INSTALL.md
   - LICENSE
   - lighthouse_results/
+  - lighthouserc.json
   - package.json
   - package-lock.json
   - purgecss.config.js
