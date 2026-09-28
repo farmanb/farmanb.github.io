@@ -29,9 +29,9 @@ latest_posts:
 ---
 
 ## About Me
-I am a Vermonter, born and raised.
-When I'm not doing mathematics, I tend to spend my time outdoors.
-Some of my favorite activities include hiking, backpacking, fly fishing, cycling, and snowboarding.
+I am a Vermonter, born and raised, and these days I live in Ruston, Louisiana with my wife, our daughter, and our dog, Emmy, named after the eminent algebraist [Emmy Noether](https://en.wikipedia.org/wiki/Emmy_Noether).
+When I'm not doing mathematics, I'm usually outside.
+I hike, backpack, fly fish, and cycle, and I get back to the snow to ride whenever I can.
 
 ---
 
@@ -70,8 +70,10 @@ For more specific information about my research program, take a look at my [Rese
 ---
 
 ## Teaching
-As an educator, I have taught courses at all levels of the undergraduate curriculum, ranging from general education courses like Contemporary Mathematics and College Algebra, to upper division major courses like Real Analysis and Abstract Algebra.
-I strive to create an inclusive and equitable environment in each of my courses that challenges and engages all of my students.
-I structure my courses to encourage students to be active participants in their own learning while building the intuition necessary to utilize the material beyond the confines of the coursework, and to become independent learners with the capacity to critically assess the mathematics they and their peers produce.
+I have taught across the undergraduate curriculum, from general education courses like Contemporary Mathematics and College Algebra, through the calculus sequence and linear algebra, to Real Analysis and Abstract Algebra.
+At Louisiana Tech I have also built two courses from scratch, each cross-listed for graduate students: Interactive Theorem Proving with Lean, first offered in Spring 2025, and Algebraic Geometry, first offered in Spring 2026.
 
-More detailed information about my teaching is available on my [Teaching Statement]({% link /assets/pdf/teaching-BFarman.pdf %}).
+I strive to create an inclusive and equitable environment in each of my courses that challenges and engages all of my students.
+My classrooms are active, in the sense I learned as a [Project NExT](https://www.maa.org/programs-and-communities/professional-development/project-next) fellow, and I structure my courses so that students are participants in their own learning, build the intuition to use the material beyond the coursework, and become independent learners who can critically assess the mathematics they and their peers produce.
+
+A full list of my courses is on my [Teaching Page]({% link _pages/teaching.md %}), and my [Teaching Statement]({% link /assets/pdf/teaching-BFarman.pdf %}) goes into more detail on how I run a course.
