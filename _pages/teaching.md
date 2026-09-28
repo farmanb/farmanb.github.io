@@ -10,7 +10,7 @@ universities: [Louisiana Tech University, University of Louisiana at Monroe, Laf
 ---
 
 {% for university in page.universities %}
-# {{ university}}
+## {{ university }}
 ---
 
   {%- comment -%}
@@ -23,7 +23,7 @@ universities: [Louisiana Tech University, University of Louisiana at Monroe, Laf
   {% assign numbered = taught | where_exp: "course", "course.special_topics != true" | sort: "course_id" | reverse %}
   {% assign courses = topics | concat: numbered %}
   {% for course in courses %}
-  - ## [{{ course.name }}]({{course.url | relative_url}})
+  - ### [{{ course.name }}]({{course.url | relative_url}})
 
       {{ course.content | markdownify }}
   {% endfor %}
