@@ -10,7 +10,7 @@ layout: default
   {% assign sections = site.sections | where: 'course_id', page.course_id | sort: "year" | reverse %}
   {% for section in sections %}
   <li>
-    <a href="{{ section.url | relative_path }}">
+    <a href="{{ section.url | relative_url }}">
       {{ section.section_name}} ({{section.semester}} {{section.year}})
     </a>
   </li>
