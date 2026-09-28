@@ -766,6 +766,12 @@ footer.sticky-bottom {
       .preview {
       }
 
+      // The Lean logo is black strokes on a transparent background,
+      // so invert it to stay visible on the dark theme.
+      html[data-theme="dark"] & img.preview[alt="lean.png"] {
+        filter: invert(1);
+      }
+
       .abbr {
         margin-bottom: 0.5rem;
 
