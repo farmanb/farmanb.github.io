@@ -37,9 +37,9 @@ Some of my favorite activities include hiking, backpacking, fly fishing, cycling
 
 ## Appointments 
 I am currently an Assistant Professor in the [Mathematics and Statistics Program](https://coes.latech.edu/undergraduate-programs/mathematics-statistics/) within the [College of Engineering and Sciences](https://coes.latech.edu) at [Louisiana Tech University](https://latech.edu).
-I am a recent [Project NExT (New Experiences in Teaching)](https://www.maa.org/programs-and-communities/professional-development/project-next) fellow in the Red '22 cohort.
+I am a [Project NExT (New Experiences in Teaching)](https://www.maa.org/programs-and-communities/professional-development/project-next) fellow in the Red '22 cohort.
 
-I was most recently an Assistant Professor and the Capital One Endowed Professor of Mathematics in the [Mathematics Program](https://ulm.edu/math) within the [School of Sciences](https://www.ulm.edu/sciences/) at the [University of Louisiana at Monroe](https://ulm.edu).
+I was previously an Assistant Professor and the Capital One Endowed Professor of Mathematics in the [Mathematics Program](https://ulm.edu/math) within the [School of Sciences](https://www.ulm.edu/sciences/) at the [University of Louisiana at Monroe](https://ulm.edu).
 Before that, I was a Visiting Assistant Professor in the [Department of Mathematics](https://math.lafayette.edu) at [Lafayette College](https://lafayette.edu).
 
 ---
@@ -58,6 +58,11 @@ More general information about me can be found on my [Curriculum Vitae]({% link 
 Algebraic geometry is a discipline that utilizes tools from many different areas of mathematics that form the basis for our understanding of a vast array of applications: the study of elliptic curves has produced modern cryptographic methods; methods from homological algebra provide data scientists with cutting edge tools for understanding the shape of data; the study of derived categories provides a link to string theory by way of Kontsevich's homological mirror symmetry.
 
 My particular research interests lie broadly in developing algebraic techniques to study structures in noncommutative algebra through derived categories on noncommutative projective schemes.
+Increasingly, this work runs through formalization.
+I contribute to [mathlib](https://github.com/leanprover-community/mathlib4), the Lean theorem prover's mathematics library, where I am building toward the correspondence between Gabriel topologies on a ring and Giraud subcategories of its module category, by way of ideal filters, preradicals, and torsion theories.
+The aim is to be able to equip a Grothendieck category with its injective model structure.
+With support from Anthropic's AI for Science program, I am separately building the dg-category layer that mathlib currently lacks, working toward the derived category of a dg-category.
+
 For more specific information about my research program, take a look at my [Research Page]({% link _pages/research.md %}).
 
 ---
