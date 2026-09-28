@@ -58,8 +58,8 @@ layout: section
 </div>
 
 {% assign homework_path = '/materials/lafayette/calc1/homework' %}
-
-
+{% assign homework_set = site.data.calc1_homework | where_exp: "item", "item.year == page.year and item.semester == page.semester" | sort: "number" %}
+{% if homework_set.size > 0 %}
 <h2>Homework</h2>
 <div style="padding-left: 30px">
   <table><caption>Homework Assignments</caption>
@@ -68,7 +68,7 @@ layout: section
       <th>Problems</th>
       <th>Solutions</th>
     </tr>
-    {% for homework in site.data.calc1_homework %}
+    {% for homework in homework_set %}
     <tr>
       <td> {{ homework.number }}</td>
       <td> <a href="{% link {{ homework_path }}/{{ homework.file }} %}">{{homework.name}}</a></td>
@@ -77,6 +77,7 @@ layout: section
     {% endfor %}
   </table>
 </div>
+{% endif %}
 
 {% assign quizzes = site.data.quizzes | where_exp: "item", "item.course_id == page.course_id and item.year == page.year and item.semester == page.semester" | sort: "number" %}
 {% if quizzes.size > 0 %}
