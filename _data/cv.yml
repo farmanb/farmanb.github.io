@@ -75,9 +75,9 @@
     - title: Education Award
       institution: College of Engineering and Science, Louisiana Tech University
       year: 2025
-    - year: 2022
-      items:
-        - Project NExT Fellow (Red '22)
+    - title: Project NExT Fellow (Red '22)
+      institution: Mathematical Association of America
+      year: 2022
 - title: Funding
   type: time_table
   contents:
