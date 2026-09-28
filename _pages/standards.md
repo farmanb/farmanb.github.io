@@ -2,6 +2,7 @@
 layout: page
 title: Standards
 permalink: /standards/
+description: Learning standards for the courses I grade with standards-based grading.
 ---
 
 <ul>

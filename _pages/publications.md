@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Journal and conference papers, and contributions to the mathlib4 library
+description: Journal and conference papers, and contributions to the mathlib4 library.
 nav: true
 nav_order: 3
 ---

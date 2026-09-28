@@ -3,7 +3,7 @@ layout: page
 
 title: Teaching
 permalink: /teaching/
-description: An overview of my teaching.
+description: Every course I have taught, by institution, with materials and syllabi.
 nav: true
 nav_order: 4
 universities: [Louisiana Tech University, University of Louisiana at Monroe, Lafayette College, University of South Carolina, University of Vermont]

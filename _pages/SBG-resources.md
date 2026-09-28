@@ -2,6 +2,7 @@
 layout: page
 title: Standards Based Grading Resources
 permalink: /sbg-resources/
+description: Preprints, slides, and sample standards and syllabi for standards-based grading.
 ---
 
 <h2>Fostering Growth Mindsets:</h2>
