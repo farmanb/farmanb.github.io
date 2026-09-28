@@ -5,6 +5,9 @@
 
 @use "sass:color";
 
+// Layout: main.scss sets this from `max_width` in _config.yml
+$max-content-width: 930px !default;
+
 // Colors
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
