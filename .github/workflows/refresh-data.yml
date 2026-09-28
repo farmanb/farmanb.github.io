@@ -1,0 +1,55 @@
+name: Refresh generated data
+
+# _data/mathlib.yml and _data/citations.yml are generated, not written by hand.
+# Nothing in the build regenerates them, so they drift until someone runs the
+# scripts. This keeps them current and opens a pull request when they change.
+
+on:
+  schedule:
+    - cron: "17 6 * * 1" # Mondays, 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      # Both steps continue on error: Google Scholar blocks datacenter traffic
+      # often enough that a failure here should not be treated as breakage, and
+      # a stale file is better than a half-written one.
+      - name: Refresh mathlib contributions
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bin/mathlib-stats
+
+      - name: Refresh Google Scholar citations
+        continue-on-error: true
+        run: python bin/update_scholar_citations.py
+
+      - name: Open a pull request if anything changed
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "Refresh generated data"
+          title: "Refresh generated data"
+          body: |
+            Automated refresh of `_data/mathlib.yml` and `_data/citations.yml`.
+            Review the diff before merging; a scraper failure shows up here as
+            an unexpectedly empty or truncated file.
+          branch: refresh-generated-data
+          delete-branch: true
+          add-paths: |
+            _data/mathlib.yml
+            _data/citations.yml
