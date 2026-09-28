@@ -157,8 +157,6 @@ newsletter:
 
 collections:
   news:
-    defaults:
-      layout: post
     output: true
     permalink: /:collection/:title/
   projects:
@@ -254,6 +252,11 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "post"
   - scope:
       path: ""
       type: "courses"
