@@ -44,11 +44,11 @@ Before Louisiana Tech, I was an Assistant Professor and the Capital One Endowed 
 ---
 ## Education
 
-I received my Ph.D. on May 12, 2018 from the [Department of Mathematics](https://sc.edu/study/colleges_schools/artsandsciences/mathematics/index.php) at the [University of South Carolina](https://sc.edu) under the direction of [Matthew Ballard](https://www.matthewrobertballard.com). My dissertation is titled [Geometry of Derived Categories on Noncommutative Projective Schemes](https://scholarcommons.sc.edu/cgi/viewcontent.cgi?article=5742&context=etd).
+I received my Ph.D. on May 12, 2018 from the [Department of Mathematics](https://sc.edu/study/colleges_schools/artsandsciences/mathematics/index.php) at the [University of South Carolina](https://sc.edu) under the direction of [Matthew Ballard](https://www.matthewrobertballard.com). My dissertation is titled [Geometry of Derived Categories on Noncommutative Projective Schemes](https://scholarcommons.sc.edu/etd/4669/).
 
 Before that I completed an M.S. in Mathematics at the [University of Vermont](https://uvm.edu) and a B.S. in Computer Science at [Rensselaer Polytechnic Institute](https://rpi.edu).
 
-Thanks to the [Mathematics Genealogy Project](https://www.genealogy.math.ndsu.nodak.edu/) at [North Dakota State University](https://www.ndsu.edu/math/), you can view my [Academic Genealogy]({% link /assets/pdf/genealogy-farman.pdf %}).
+Thanks to the [Mathematics Genealogy Project](https://www.genealogy.math.ndsu.nodak.edu/), you can view my [Academic Genealogy]({% link /assets/pdf/genealogy-farman.pdf %}).
 More general information about me can be found on my [Curriculum Vitae]({% link _pages/cv.md %}).
 
 ---
