@@ -35,12 +35,11 @@ I hike, backpack, fly fish, and cycle, and I get back to the snow to ride whenev
 
 ---
 
-## Appointments 
-I am currently an Assistant Professor in the [Mathematics and Statistics Program](https://coes.latech.edu/undergraduate-programs/mathematics-statistics/) within the [College of Engineering and Sciences](https://coes.latech.edu) at [Louisiana Tech University](https://latech.edu).
-I am a [Project NExT (New Experiences in Teaching)](https://www.maa.org/programs-and-communities/professional-development/project-next) fellow in the Red '22 cohort.
+## Appointments
+I am an Assistant Professor of Mathematics and Statistics in the [College of Engineering and Science](https://www.latech.edu/engineering-science/) at [Louisiana Tech University](https://latech.edu).
+I am also a fellow of the Mathematical Association of America's [Project NExT (New Experiences in Teaching)](https://maa.org/maa-project-next/), Red '22 cohort.
 
-I was previously an Assistant Professor and the Capital One Endowed Professor of Mathematics in the [Mathematics Program](https://ulm.edu/math) within the [School of Sciences](https://www.ulm.edu/sciences/) at the [University of Louisiana at Monroe](https://ulm.edu).
-Before that, I was a Visiting Assistant Professor in the [Department of Mathematics](https://math.lafayette.edu) at [Lafayette College](https://lafayette.edu).
+Before Louisiana Tech, I was an Assistant Professor and the Capital One Endowed Professor of Mathematics at the [University of Louisiana at Monroe](https://ulm.edu), and before that a Visiting Assistant Professor of Mathematics at [Lafayette College](https://lafayette.edu).
 
 ---
 ## Education
@@ -74,6 +73,6 @@ I have taught across the undergraduate curriculum, from general education course
 At Louisiana Tech I have also built two courses from scratch, each cross-listed for graduate students: Interactive Theorem Proving with Lean, first offered in Spring 2025, and Algebraic Geometry, first offered in Spring 2026.
 
 I strive to create an inclusive and equitable environment in each of my courses that challenges and engages all of my students.
-My classrooms are active, in the sense I learned as a [Project NExT](https://www.maa.org/programs-and-communities/professional-development/project-next) fellow, and I structure my courses so that students are participants in their own learning, build the intuition to use the material beyond the coursework, and become independent learners who can critically assess the mathematics they and their peers produce.
+My classrooms are active, in the sense I learned as a [Project NExT](https://maa.org/maa-project-next/) fellow, and I structure my courses so that students are participants in their own learning, build the intuition to use the material beyond the coursework, and become independent learners who can critically assess the mathematics they and their peers produce.
 
 A full list of my courses is on my [Teaching Page]({% link _pages/teaching.md %}), and my [Teaching Statement]({% link /assets/pdf/teaching-BFarman.pdf %}) goes into more detail on how I run a course.
