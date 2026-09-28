@@ -120,14 +120,6 @@
       location: Ruston, LA
       year: 2026 - Present
       description: Ph.D. Student (Committee Chair), Computational Analysis and Modeling.
-    - title: Joshua Bush
-      location: Ruston, LA
-      year: 2025 - 2026
-      description: Ph.D. Student (Committee Chair), Computational Analysis and Modeling.
-    - title: Josiah Norman
-      location: Ruston, LA
-      year: Spring 2026
-      description: M.S. Student (Committee Member).
 - title: Undergraduate Mentoring and Research Supervision
   type: time_table
   contents:
@@ -135,48 +127,3 @@
       location: Ruston, LA
       year: Spring 2025
       description: Co-mentored with Ann Clifton on a Cayley graph research project, Structural and Topological Properties of Cayley Graphs, presented at the Louisiana Tech Undergraduate Research & Service-Learning Symposium and awarded second place in the Student Paper Competition at the LA/MS Section meeting of the Mathematical Association of America.
-    - title: Riya Shrestha
-      location: Monroe, LA
-      year: Spring 2024
-      description: Knot Theory research project focused on identifying a family of knots for which there is a winning strategy in the Region Unknot Game.
-    - title: The Entrepreneurship Pelican Cup
-      location: Monroe, LA
-      year: Spring 2023
-      description: Served as faculty advisor for one of the six finalists in the Entrepreneurship Pelican Cup business competition.
-    - title: Sagar Bhetuwal
-      location: Monroe, LA
-      year: Spring 2021
-      description: Number Theory research project focused on providing a formal verification of the proof of the Prime Number Theorem using the Lean proof assistant.
-- title: Conferences and Workshops
-  type: time_table
-  contents:
-    - title: "Mathematics Research Community"
-      institution: American Mathematical Society
-      location: Java, NY
-      year: 2023
-      description: "Derived Categories, Arithmetic and Geometry"
-    - title: "For our Future 2023"
-      institution: University of Louisiana System
-      location: "Lake Charles, LA"
-      year: 2023
-    - title: "MathFest"
-      institution: Mathematical Association of America
-      location: "Tampa, FL"
-      year: 2023
-      description: "Project NExT"
-    - title: "Joint Mathematics Meetings"
-      location: "Boston, MA"
-      year: 2023
-      description: "Project NExT"
-    - title: "Mathematical Association of America MathFest"
-      location: "Philadelphia, PA"
-      year: 2022
-      description: "Project NExT"
-    - title: "Derived, Birational, and Categorical Algebraic Geometry"
-      institution: "Banff International Research Station"
-      location: Banff, CA
-      year: 2021
-    - title: "Derived, Birational, and Categorical Algebraic Geometry (Online)"
-      institution: "Banff International Research Station"
-      location: Banff, CA
-      year: 2020
