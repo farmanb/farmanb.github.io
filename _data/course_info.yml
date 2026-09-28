@@ -35,6 +35,18 @@
   syllabus_override_url_absolute: true
   schedule: 'https://www.blakefarman.phd/syllabus-4083-001-F25/schedule.html'
   schedule_url_absolute: true
+- course_id: 4083
+  section_id: '001'
+  year: 2026
+  semester: Fall
+  meetings:
+    - day: 'Monday/Wednesday/Friday'
+      time: '2:00 PM - 3:15 PM'
+  location: 'Nethken 153'
+  syllabus_override: 'https://www.blakefarman.phd/syllabus-4083-F26/frontmatter.html'
+  syllabus_override_url_absolute: true
+  schedule: 'https://www.blakefarman.phd/syllabus-4083-F26/schedule.html'
+  schedule_url_absolute: true
 - course_id: lean
   section_id: 490
   year: 2025
