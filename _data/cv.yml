@@ -7,6 +7,10 @@
     - name: Languages
       value: English
 
+- title: Research Interests
+  type: list
+  contents:
+    - Algebra, (Noncommutative) Algebraic Geometry, Derived Categories, Category Theory, and Formalized Mathematics in Lean
 - title: Education
   type: time_table
   contents:
@@ -52,6 +56,12 @@
       institution: Lafayette College
       location: Easton, PA
       year: 2018 - 2020
+- title: Administrative Appointments
+  type: time_table
+  contents:
+    - title: Coordinator, M.S. in Mathematics
+      institution: Mathematics and Statistics, Louisiana Tech University
+      year: 2026 - Present
 - title: Leadership and Governance
   type: time_table
   contents:
@@ -70,6 +80,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - title: Education Award
+      institution: College of Engineering and Science, Louisiana Tech University
+      year: 2025
     - year: 2022
       items:
         - Project NExT Fellow (Red '22)
@@ -103,13 +116,25 @@
 - title: Graduate Mentoring and Research Supervision
   type: time_table
   contents:
+    - title: Emma Foster
+      location: Ruston, LA
+      year: 2026 - Present
+      description: Ph.D. Student (Committee Chair), Computational Analysis and Modeling.
     - title: Joshua Bush
       location: Ruston, LA
-      year: 2025 - Present
-      description: Ph.D. Student in the CAM program.
+      year: 2025 - 2026
+      description: Ph.D. Student (Committee Chair), Computational Analysis and Modeling.
+    - title: Josiah Norman
+      location: Ruston, LA
+      year: Spring 2026
+      description: M.S. Student (Committee Member).
 - title: Undergraduate Mentoring and Research Supervision
   type: time_table
   contents:
+    - title: Joshua Robinson
+      location: Ruston, LA
+      year: Spring 2025
+      description: Co-mentored with Ann Clifton on a Cayley graph research project, Structural and Topological Properties of Cayley Graphs, presented at the Louisiana Tech Undergraduate Research & Service-Learning Symposium and awarded second place in the Student Paper Competition at the LA/MS Section meeting of the Mathematical Association of America.
     - title: Riya Shrestha
       location: Monroe, LA
       year: Spring 2024
