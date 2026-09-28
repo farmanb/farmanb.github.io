@@ -82,10 +82,26 @@ ninja.data = [
     {%- if collection.label != 'posts' -%}
       {%- for item in collection.docs -%}
         {
+          {%- comment -%}
+            Courses and sections carry no `title`, so Jekyll falls back to the
+            filename slug and the index would read "4083 F26". Build the label
+            from the fields they do carry instead.
+          {%- endcomment -%}
+          {%- assign raw_title = item.title -%}
+          {%- if collection.label == 'courses' -%}
+            {%- assign raw_title = item.name -%}
+          {%- elsif collection.label == 'sections' -%}
+            {%- assign section_course = site.courses | where: 'course_id', item.course_id | first -%}
+            {%- if section_course.name -%}
+              {%- capture raw_title -%}{{ section_course.name }}, {{ item.section_name }} ({{ item.semester }} {{ item.year }}){%- endcapture -%}
+            {%- else -%}
+              {%- capture raw_title -%}{{ item.section_name }} ({{ item.semester }} {{ item.year }}){%- endcapture -%}
+            {%- endif -%}
+          {%- endif -%}
           {%- if item.inline -%}
             {%- assign title = item.content | newline_to_br | replace: "<br />", " " | replace: "<br/>", " " | strip_html | strip_newlines | escape | strip -%}
           {%- else -%}
-            {%- assign title = item.title | newline_to_br | replace: "<br />", " " | replace: "<br/>", " " | strip_html | strip_newlines | escape | strip -%}
+            {%- assign title = raw_title | newline_to_br | replace: "<br />", " " | replace: "<br/>", " " | strip_html | strip_newlines | escape | strip -%}
           {%- endif -%}
           id: "{{ collection.label }}-{{ title | slugify }}",
           title: '{{ title | escape | emojify | truncatewords: 13 }}',

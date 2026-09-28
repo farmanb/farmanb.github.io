@@ -1,5 +1,11 @@
 ---
 ---
+{%- comment -%}
+  jekyll-scholar runs the `latex` filter over every field, which turns the LaTeX
+  en dash `--` inside a DOI into a literal – and breaks the doi.org link.
+  Undo that here so every use below gets the DOI exactly as the .bib file has it.
+{%- endcomment -%}
+{%- assign entry_doi = entry.doi | replace: '–', '--' -%}
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
@@ -196,7 +202,7 @@
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
       {% if entry.doi %}
-        <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
+        <a href="https://doi.org/{{ entry_doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
@@ -291,7 +297,7 @@
               {% elsif entry.eprint %}
                 data-arxiv-id="{{ entry.eprint }}"
               {% elsif entry.doi %}
-                data-doi="{{ entry.doi }}"
+                data-doi="{{ entry_doi }}"
               {% elsif entry.pmid %}
                 data-pmid="{{ entry.pmid }}"
               {% elsif entry.isbn %}
@@ -305,7 +311,7 @@
               {% if entry.dimensions != blank and entry.dimensions != 'true' %}
                 data-id="{{ entry.dimensions }}"
               {% elsif entry.doi %}
-                data-doi="{{ entry.doi }}"
+                data-doi="{{ entry_doi }}"
               {% else %}
                 data-pmid="{{ entry.pmid }}"
               {% endif %}
