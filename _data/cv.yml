@@ -76,6 +76,11 @@
 - title: Funding
   type: time_table
   contents:
+    - title: Formalizing the dg-Enhancement of Triangulated Categories ($20,000)
+      institution: Anthropic AI for Science
+      year: September 2026
+      description:
+        - Six-month award of Claude usage credits to formalize dg-categories and the derived category of a dg-category in Lean's Mathlib library.
     - title: Applied eXploration in Open Mathematics Lab [AXIOM Lab] ($60,875)
       institution: Louisiana Board of Regents Support Fund
       year: June 2025
