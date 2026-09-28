@@ -43,10 +43,6 @@ table.table a {
     color: var(--global-theme-color);
     text-decoration: underline;
   }
-
-  &:hover:after :not(.nav-item.dropdown) {
-    width: 100%;
-  }
 }
 
 .table-dark {
@@ -345,7 +341,7 @@ ul.task-list input[type="checkbox"] {
 
       i::before {
         color: var(--global-text-color);
-        transition-property: all 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out;
       }
 
       &:hover {
@@ -437,7 +433,7 @@ ul.task-list input[type="checkbox"] {
 
       i::before {
         color: var(--global-text-color);
-        transition-property: all 0.2s ease-in-out;
+        transition: color 0.2s ease-in-out;
       }
 
       &:hover {
@@ -465,7 +461,6 @@ ul.task-list input[type="checkbox"] {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -662,7 +657,7 @@ footer.sticky-bottom {
     }
 
     &.active .page-link {
-      color: $white-color;
+      color: var(--global-hover-text-color);
       background-color: var(--global-theme-color);
 
       &:hover {
@@ -763,9 +758,6 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
-      .preview {
-      }
-
       // The Lean logo is black strokes on a transparent background,
       // so invert it to stay visible on the dark theme.
       html[data-theme="dark"] & img.preview[alt="lean.png"] {
@@ -782,7 +774,7 @@ footer.sticky-bottom {
           color: var(--global-card-bg-color) !important;
 
           a {
-            color: white;
+            color: inherit;
 
             &:hover {
               text-decoration: none;
@@ -851,7 +843,7 @@ footer.sticky-bottom {
         padding-bottom: 0.5rem;
         span {
           display: inline-block;
-          color: $black-color;
+          color: var(--global-text-color);
           height: 100%;
           padding-right: 0.5rem;
           vertical-align: middle;
@@ -867,10 +859,6 @@ footer.sticky-bottom {
         max-height: 0px;
         overflow: hidden;
         text-align: justify;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
         transition: all 0.15s ease;
 
         p {
@@ -887,10 +875,6 @@ footer.sticky-bottom {
 
       .hidden.open {
         max-height: 100em;
-        transition-property: 0.15s ease;
-        -moz-transition: 0.15s ease;
-        -ms-transition: 0.15s ease;
-        -o-transition: 0.15s ease;
         transition: all 0.15s ease;
       }
 
@@ -917,14 +901,12 @@ figure.highlight {
 
   // Responsive code block container
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
 
   pre {
     // Ensure code blocks can scroll horizontally
     white-space: pre;
-    word-wrap: normal;
+    overflow-wrap: normal;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
   }
 }
 
@@ -936,9 +918,8 @@ pre {
 
   // Responsive behavior for code blocks
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
   white-space: pre;
-  word-wrap: normal;
+  overflow-wrap: normal;
 
   pre,
   code {
@@ -957,7 +938,7 @@ code {
 
   // Inline code should wrap
   white-space: normal;
-  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 // Transitioning Themes
@@ -966,7 +947,16 @@ html.transition *,
 html.transition *:before,
 html.transition *:after {
   transition: all 750ms !important;
-  transition-delay: 0 !important;
+  transition-delay: 0s !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.transition,
+  html.transition *,
+  html.transition *:before,
+  html.transition *:after {
+    transition: none !important;
+  }
 }
 
 // Extra Markdown style (post Customization)
@@ -998,7 +988,7 @@ progress {
   /* Positioning */
   position: fixed;
   left: 0;
-  top: 56px;
+  top: $navbar-height;
   z-index: 10;
 
   /* Dimensions */
@@ -1006,17 +996,9 @@ progress {
   height: 1px;
 
   /* Reset the appearance */
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
-
-  /* Get rid of the default border in Firefox/Opera. */
   border: none;
-
-  /* Progress bar container for Firefox/IE10  */
   background-color: transparent;
-
-  /* Progress bar value for IE10  */
   color: var(--global-theme-color);
 }
 
@@ -1036,7 +1018,7 @@ progress::-moz-progress-bar {
   width: 100%;
   background-color: transparent;
   position: fixed;
-  top: 56px;
+  top: $navbar-height;
   left: 0;
   height: 5px;
   display: block;
@@ -1067,7 +1049,7 @@ progress::-moz-progress-bar {
   }
 
   &:active .copy,
-  &:focus .copy,
+  &:focus-within .copy,
   &:hover .copy {
     color: var(--global-hover-color);
     opacity: 1;
@@ -1077,7 +1059,6 @@ progress::-moz-progress-bar {
 .btn-group.dropdown {
   .btn {
     box-shadow: none;
-    -webkit-box-shadow: none;
   }
 
   .btn-secondary.dropdown-toggle {
@@ -1309,7 +1290,8 @@ ninja-keys::part(ninja-input-wrapper) {
   padding: 8px 12px;
 }
 
-.newsletter-form-input:focus {
+.newsletter-form-input:focus,
+.bibsearch-form-input:focus {
   border-color: var(--global-theme-color) !important;
 }
 
@@ -1436,7 +1418,7 @@ ninja-keys::part(ninja-input-wrapper) {
 // highlight-search-term
 ::highlight(search) {
   background-color: var(--global-theme-color);
-  color: var(--global-text-color);
+  color: var(--global-bg-color);
 }
 
 figure.cover {

@@ -89,7 +89,7 @@ html[data-theme="dark"] {
   // --global-hover-color: #{$cyan-color};
   --global-theme-color: #{$tech-red-light}; // 6.3:1 on the dark background
   --global-hover-color: #{$tech-red-light};
-  --global-hover-text-color: #{$white-color};
+  --global-hover-text-color: #{$grey-color-dark}; // 6.3:1 on the hover color
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
