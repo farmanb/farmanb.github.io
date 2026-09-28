@@ -1602,4 +1602,13 @@ h2.publication-section {
     color: var(--global-text-color-light);
     margin: 1rem 0 0;
   }
+
+  &.mathlib-panel-compact .mathlib-stats {
+    margin-bottom: 0.75rem;
+  }
+
+  .mathlib-more {
+    font-size: 0.9rem;
+    margin: 0;
+  }
 }

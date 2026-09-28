@@ -1,9 +1,16 @@
+{% comment %}
+  Contributions to mathlib, from _data/mathlib.yml (bin/mathlib-stats).
+    level:   heading level for the panel title, default 3
+    compact: true renders only the counts plus a link to the full panel
+{% endcomment %}
 {% assign m = site.data.mathlib %}
-<section class="mathlib-panel" aria-labelledby="mathlib-panel-heading">
-  <h3 id="mathlib-panel-heading" class="mathlib-panel-heading">
+{% assign lvl = include.level | default: 3 %}
+{% assign sub = lvl | plus: 1 %}
+<section id="mathlib" class="mathlib-panel{% if include.compact %} mathlib-panel-compact{% endif %}" aria-labelledby="mathlib-panel-heading">
+  <h{{ lvl }} id="mathlib-panel-heading" class="mathlib-panel-heading">
     Contributions to
     <a href="https://github.com/{{ m.repo }}">mathlib</a>
-  </h3>
+  </h{{ lvl }}>
 
   <ul class="mathlib-stats">
     <li><span class="mathlib-stat-value">{{ m.merged_count }}</span><span class="mathlib-stat-label">merged</span></li>
@@ -11,29 +18,35 @@
     <li><span class="mathlib-stat-value">{{ m.total_count }}</span><span class="mathlib-stat-label">total</span></li>
   </ul>
 
-  {% if m.open.size > 0 %}
-    <h4 class="mathlib-list-heading">Currently under review</h4>
-    <ul class="mathlib-list">
-      {% for pr in m.open %}
-        <li>
-          <a href="{{ pr.url }}">{{ pr.summary }}</a>
-          {% if pr.area %}<code class="mathlib-area">{{ pr.area }}</code>{% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
+  {% if include.compact %}
+    <p class="mathlib-more">
+      <a href="{{ '/research/' | relative_url }}#mathlib">See all contributions</a>
+    </p>
+  {% else %}
+    {% if m.open.size > 0 %}
+      <h{{ sub }} class="mathlib-list-heading">Currently under review</h{{ sub }}>
+      <ul class="mathlib-list">
+        {% for pr in m.open %}
+          <li>
+            <a href="{{ pr.url }}">{{ pr.summary }}</a>
+            {% if pr.area %}<code class="mathlib-area">{{ pr.area }}</code>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
 
-  {% if m.merged.size > 0 %}
-    <h4 class="mathlib-list-heading">Merged</h4>
-    <ul class="mathlib-list">
-      {% for pr in m.merged %}
-        <li>
-          <a href="{{ pr.url }}">{{ pr.summary }}</a>
-          {% if pr.area %}<code class="mathlib-area">{{ pr.area }}</code>{% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
+    {% if m.merged.size > 0 %}
+      <h{{ sub }} class="mathlib-list-heading">Merged</h{{ sub }}>
+      <ul class="mathlib-list">
+        {% for pr in m.merged %}
+          <li>
+            <a href="{{ pr.url }}">{{ pr.summary }}</a>
+            {% if pr.area %}<code class="mathlib-area">{{ pr.area }}</code>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
 
-  <p class="mathlib-updated">Updated {{ m.updated | date: "%-d %B %Y" }}.</p>
+    <p class="mathlib-updated">Updated {{ m.updated | date: "%-d %B %Y" }}.</p>
+  {% endif %}
 </section>

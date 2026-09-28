@@ -14,6 +14,8 @@ Recent developments in Artin-Zhang style noncommutative algebraic geometry lay t
 My work is focused on further developing the theory of derived categories for these noncommutative projective schemes via the framework of differential graded categories.
 
 
+{% include mathlib_contributions.liquid level=2 %}
+
 For more specific details, see my [Research Statement]({% link /assets/pdf/research-BFarman.pdf %}).
 
 My ORCID number is <a href="https://orcid.org/0000-0002-3624-837X" target="_blank" rel="noopener noreferrer">
