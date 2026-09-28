@@ -1,4 +1,11 @@
 ---
+- year: 2026
+  semester: 'Fall'
+  times:
+    - day: 'Monday/Wednesday/Friday'
+      hours:
+        - '1:00 PM - 2:00 PM'
+  location: 'Nethken Hall, Room 235'
 - year: 2025
   semester: 'Spring'
   times:

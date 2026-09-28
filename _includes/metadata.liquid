@@ -16,6 +16,23 @@
 
 {% capture author_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
 
+{% comment %}
+  Courses and sections have no `title` in their front matter, so Jekyll falls back
+  to the filename slug. Build a readable title from the fields they do carry.
+{% endcomment %}
+{% assign display_title = page.title %}
+{% if page.collection == 'courses' %}
+  {% assign display_title = page.name %}
+{% elsif page.collection == 'sections' %}
+  {% assign section_course = site.courses | where: 'course_id', page.course_id | first %}
+  {% if section_course.name %}
+    {% capture display_title %}{{ section_course.name }}, {{ page.section_name }} ({{ page.semester }} {{ page.year }}){% endcapture %}
+  {% else %}
+    {% capture display_title %}{{ page.section_name }} ({{ page.semester }} {{ page.year }}){% endcapture %}
+  {% endif %}
+{% endif %}
+{% assign display_title = display_title | strip_newlines | strip %}
+
 <!-- Standard metadata -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -28,11 +45,11 @@
   {% endif %}
   {% if page.url == '/blog/index.html' %}
     {{ page.title }} | {{ title }}
-  {% elsif page.title != 'blank' and page.url != '/' %}
-    {% if page.title == null or page.title == '' %}
+  {% elsif display_title != 'blank' and page.url != '/' %}
+    {% if display_title == null or display_title == '' %}
       {{ page.date | date: '%Y' }} | {{ title }}
     {% else %}
-      {{ page.title }} | {{ title }}
+      {{ display_title }} | {{ title }}
     {% endif %}
   {% else %}
     {{ title }}
@@ -55,7 +72,7 @@
   <!-- OpenGraph -->
   <meta property="og:site_name" content="{{ title }}">
   <meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}">
-  <meta property="og:title" content="{% if page.title %}{{ title }} | {{ page.title }}{% else %}{{ title }}{% endif %}">
+  <meta property="og:title" content="{% if display_title %}{{ title }} | {{ display_title }}{% else %}{{ title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | remove_first: 'index.html' }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   {% if page.og_image or site.og_image %}
@@ -65,7 +82,7 @@
 
   <!-- Twitter card -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
+  <meta name="twitter:title" content="{% if display_title %}{{ display_title }}{% else %}{{ title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   {% if page.og_image or site.og_image %}
     <meta name="twitter:image" content="{% if page.og_image %}{{ page.og_image }}{% else %}{{ site.og_image }}{% endif %}">
@@ -238,8 +255,8 @@
     {% assign schema_description = site.description %}
   {% endif %}
   {% assign schema_description = schema_description | strip_newlines | strip %}
-  {% if page.title %}
-    {% assign schema_headline = page.title %}
+  {% if display_title %}
+    {% assign schema_headline = display_title %}
   {% else %}
     {% assign schema_headline = title %}
   {% endif %}
