@@ -1,12 +1,4 @@
 ---
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Blake A. Farman
-    - name: Languages
-      value: English
-
 - title: Research Interests
   type: list
   contents:
