@@ -23,8 +23,11 @@ nav_order: 3
 
 {% bibliography --query @*[status=merged] --group_by none %}
 
+{% capture open_prs %}{% bibliography --query @*[status=open] --group_by none %}{% endcapture %}
+{% if open_prs contains '<li' %}
 <h2 class="publication-section">Formalization: open pull requests</h2>
 
-{% bibliography --query @*[status=open] --group_by none %}
+{{ open_prs }}
+{% endif %}
 
 </div>

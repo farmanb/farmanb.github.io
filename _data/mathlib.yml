@@ -3,8 +3,8 @@
 updated: 2026-10-20
 repo: leanprover-community/mathlib4
 merged_count: 9
-open_count: 1
-total_count: 10
+open_count: 0
+total_count: 9
 merged:
   - number: 44229
     area: "Algebra/Homology/ShortComplex"
@@ -51,9 +51,4 @@ merged:
     summary: "Add ideal filters and Gabriel filters"
     url: https://github.com/leanprover-community/mathlib4/pull/33021
     date: 2025-12-18
-open:
-  - number: 44223
-    area: "CategoryTheory/Subobject"
-    summary: "Kernels of pullbacks of subobjects"
-    url: https://github.com/leanprover-community/mathlib4/pull/44223
-    date: 2026-09-26
+open: []
