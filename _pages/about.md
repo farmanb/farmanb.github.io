@@ -51,13 +51,15 @@ More general information about me can be found on my [Curriculum Vitae]({% link 
 ## Research
 Algebraic geometry is a discipline that utilizes tools from many different areas of mathematics that form the basis for our understanding of a vast array of applications: the study of elliptic curves has produced modern cryptographic methods; methods from homological algebra provide data scientists with cutting edge tools for understanding the shape of data; the study of derived categories provides a link to string theory by way of Kontsevich's homological mirror symmetry.
 
-My own work concerns the derived categories of noncommutative projective schemes, and increasingly I approach them through formalization.
-Behind the Lean work is one question with a long ladder underneath it.
-In algebraic geometry the derived category of a space carries much of its geometry, and theorems of Töen, Orlov and Lunts–Orlov show that equivalences between such categories are always geometric: each comes from a single object, a kernel, on the product of the two spaces.
-The same holds, under some hypotheses, for the noncommutative projective schemes of Artin and Zhang, and the aim of the formalization program is to make that statement, and everything under it, checkable in [mathlib](https://github.com/leanprover-community/mathlib4), the mathematics library of the Lean theorem prover.
-Those schemes are Grothendieck categories built by localizing modules at a torsion theory, so the bottom rungs are Gabriel topologies, torsion theories, and Stenström's classification of such localizations, which is where the work stands today.
-Next comes the injective model structure on complexes in a Grothendieck category, which builds its derived category.
-Above that are dg-categories and their derived categories, where "geometric" can be stated at all, and the subject of a project supported by Anthropic's AI for Science program.
+My research lies in noncommutative algebraic geometry, where I study the derived categories of noncommutative projective schemes via the framework of differential graded categories.
+In algebraic geometry, the derived category of a space carries much of its geometry, and theorems of Toën, Orlov, and Lunts–Orlov show that equivalences between such categories are always geometric, in the sense that each arises from a single object, called a kernel, on the product of the two spaces.
+Under some hypotheses, the same holds for the noncommutative projective schemes of Artin and Zhang.
+
+More recently, my work has been concerned with formalizing this theory in [mathlib](https://github.com/leanprover-community/mathlib4), the mathematics library of the Lean theorem prover, so that this statement and everything on which it depends can be checked by computer.
+Noncommutative projective schemes are Grothendieck categories obtained by localizing modules at a torsion theory.
+As a result, the formalization begins with Gabriel topologies, torsion theories, and Stenström's classification of such localizations, which is the current state of the work.
+The next step is the injective model structure on complexes in a Grothendieck category, which is used to construct its derived category.
+Finally, the notion of a geometric equivalence can only be stated in the language of dg-categories and their derived categories, which are the subject of a project supported by Anthropic's AI for Science program.
 
 For more specific information about my research program, take a look at my [Research Page]({% link _pages/research.md %}).
 
