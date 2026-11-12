@@ -14,14 +14,14 @@ related_posts: false
   <em>College of Engineering and Science Education Award</em>
 </p>
 
-**Blake Farman and [Ann Clifton](https://annclifton.phd)** were awarded the **College of Engineering and Science Education Award** in recognition of their collaborative work advancing student-centered, interdisciplinary learning initiatives.
+[Ann Clifton](https://annclifton.phd) and I were awarded the College of Engineering and Science Education Award in recognition of our collaborative work on student-centered, interdisciplinary learning initiatives.
 
 ---
 
 ### Why this award
-The award specifically acknowledges their successful [Departmental Enhancement Grant]({% link _news/axiom.md %}), which established the **Applied eXploration in Open Mathematics (AXIOM) Lab**, as well as their role in facilitating the [Construction Zone Compound]({% link _news/construction_zone_compound.md %}), a mathematics art installation featured at the First-Year Projects Showcase.
+The award acknowledges our [Departmental Enhancement Grant]({% link _news/axiom.md %}), which established the Applied eXploration in Open Mathematics (AXIOM) Lab, as well as our role in facilitating the [Construction Zone Compound]({% link _news/construction_zone_compound.md %}), a mathematics art installation featured at the First-Year Projects Showcase.
 
-Together, these projects reflect a shared commitment to creating accessible, hands-on learning environments that connect mathematical thinking with broader creative, engineering, and community contexts.
+Both projects provide students with accessible, hands-on experiences that connect mathematics to engineering, art, and the community.
 
 ---
 
